@@ -5,6 +5,7 @@
 .metadata
 build.properties
 config
+.sfdx/
 
 # Apex Log as optional
 apex-scripts/log
