@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FinServ__AccountAndRelatedAccountCannotBeSame</fullName>
+    <active>true</active>
+    <errorConditionFormula>FinServ__Account__c = FinServ__RelatedAccount__c</errorConditionFormula>
+    <errorMessage>Account and Related Account must be different entities.</errorMessage>
+</ValidationRule>

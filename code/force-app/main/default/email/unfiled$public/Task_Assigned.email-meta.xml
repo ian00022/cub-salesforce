@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Task: New Task Assigned</name>
+    <style>none</style>
+    <subject>您被指派新的工作項目</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

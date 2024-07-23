@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CUB_OnlyGroupOwnerTeamCanCreateGroupRel</fullName>
+    <active>true</active>
+    <description>因為System Admin profile疑似無法透過Profile.Name或Profile.Id來抓，所以作為備用以Profile.Description來判斷</description>
+    <errorConditionFormula>AND(
+  RecordType.DeveloperName = &quot;Group&quot;, 
+  $Profile.Name != &quot;System Administrator&quot;,
+  $Profile.Id != &quot;00eH3000000eiNeIAI&quot;,
+  $Profile.Description != &quot;System Administrator&quot;,
+  NOT(AND(ISNEW(), Automatic_Created__c = TRUE)),
+  NOT(
+    OR(
+      TEXT($User.Unit__c) = IF(FinServ__Account__r.RecordType.DeveloperName = &quot;Group&quot;, TEXT(FinServ__Account__r.Unit__c), &quot;&quot;), 
+      TEXT($User.Unit__c) = IF(FinServ__RelatedAccount__r.RecordType.DeveloperName = &quot;Group&quot;, TEXT(FinServ__RelatedAccount__r.Unit__c), &quot;&quot;)
+    )
+  )
+)</errorConditionFormula>
+    <errorMessage>僅集團虛擬戶所屬單位可建立/維護集團關係</errorMessage>
+</ValidationRule>

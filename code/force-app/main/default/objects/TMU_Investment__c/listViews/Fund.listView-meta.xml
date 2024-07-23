@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fund</fullName>
+    <columns>NAME</columns>
+    <columns>Account__c</columns>
+    <columns>CURRENCY_ISO_CODE</columns>
+    <columns>Amount__c</columns>
+    <columns>Present_Value__c</columns>
+    <columns>Account_Date_Opened__c</columns>
+    <columns>Account_Date_Closed__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>Type__c</field>
+        <operation>equals</operation>
+        <value>基金</value>
+    </filters>
+    <label>基金</label>
+</ListView>

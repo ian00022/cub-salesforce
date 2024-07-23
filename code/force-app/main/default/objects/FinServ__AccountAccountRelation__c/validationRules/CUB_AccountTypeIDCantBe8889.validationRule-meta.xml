@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CUB_AccountTypeIDCantBe8889</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+  OR(
+    RecordType.DeveloperName = &quot;RelatedParties&quot;, 
+    RecordType.DeveloperName = &quot;Affiliate&quot;, 
+    RecordType.DeveloperName = &quot;Group&quot;
+  ), 
+  OR(
+    ISPICKVAL(FinServ__Account__r.Identification_Type__c, &quot;88&quot;), 
+    ISPICKVAL(FinServ__Account__r.Identification_Type__c, &quot;89&quot;), 
+    ISPICKVAL(FinServ__RelatedAccount__r.Identification_Type__c, &quot;88&quot;), 
+    ISPICKVAL(FinServ__RelatedAccount__r.Identification_Type__c, &quot;89&quot;)
+  )
+)</errorConditionFormula>
+    <errorMessage>關係企業/關係人/集團關係不可選取「統編證件類型」為「88/89」的帳戶</errorMessage>
+</ValidationRule>

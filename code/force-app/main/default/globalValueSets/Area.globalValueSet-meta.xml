@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>北區</fullName>
+        <default>false</default>
+        <label>北區</label>
+    </customValue>
+    <customValue>
+        <fullName>桃竹</fullName>
+        <default>false</default>
+        <label>桃竹</label>
+    </customValue>
+    <customValue>
+        <fullName>中區</fullName>
+        <default>false</default>
+        <label>中區</label>
+    </customValue>
+    <customValue>
+        <fullName>南區</fullName>
+        <default>false</default>
+        <label>南區</label>
+    </customValue>
+    <masterLabel>地理區</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

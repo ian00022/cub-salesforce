@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(ISPICKVAL(Related_Campaign__r.Campaign_Type__c, &quot;Corporate Lead&quot;), &quot;企個名單&quot;, &quot;&quot;) &amp;
+IF(ISPICKVAL(Related_Campaign__r.Campaign_Type__c, &quot;Prospect Lead&quot;), &quot;拓客名單&quot;, &quot;&quot;) &amp;
+IF(ISPICKVAL(Related_Campaign__r.Campaign_Type__c, &quot;General Lead&quot;), &quot;一般名單&quot;, &quot;&quot;) &amp;
+IF(ISPICKVAL(Related_Campaign__r.Campaign_Type__c, &quot;Oversea TMRAC Campaign&quot;), &quot;Oversea TMRAC Campaign&quot;, &quot;&quot;) &amp;
+IF(ISPICKVAL(Related_Campaign__r.Campaign_Type__c, &quot;Oversea General Campaign&quot;), &quot;Oversea General Campaign&quot;, &quot;&quot;)</formula>
+    <label>名單類別</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

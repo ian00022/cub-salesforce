@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FinServ__IndividualCannotHaveMoreThanOneContact</fullName>
+    <active>false</active>
+    <description>Error message when adding more than one contact to an individual account</description>
+    <errorConditionFormula>1!=1</errorConditionFormula>
+    <errorMessage>The selected account has an Individual record type and can&apos;t have additional contacts associated with it</errorMessage>
+</ValidationRule>

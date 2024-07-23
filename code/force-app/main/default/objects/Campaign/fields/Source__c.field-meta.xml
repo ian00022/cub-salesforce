@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Source__c</fullName>
+    <label>名單來源</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>External Source</fullName>
+                <default>false</default>
+                <label>外部名單</label>
+            </value>
+            <value>
+                <fullName>Salesforce Account</fullName>
+                <default>false</default>
+                <label>Salesforce 產製名單</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

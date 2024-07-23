@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <label>類型</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>行內異常指標</fullName>
+                <default>false</default>
+                <label>行內異常指標</label>
+            </value>
+            <value>
+                <fullName>交易提醒</fullName>
+                <default>false</default>
+                <label>交易提醒</label>
+            </value>
+            <value>
+                <fullName>金流異動</fullName>
+                <default>false</default>
+                <label>金流異動</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

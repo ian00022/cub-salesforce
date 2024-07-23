@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Insurance</fullName>
+    <columns>NAME</columns>
+    <columns>Account__c</columns>
+    <columns>CURRENCY_ISO_CODE</columns>
+    <columns>Main_Premium_Amount__c</columns>
+    <columns>Sub_Premium_Amount__c</columns>
+    <columns>Paid_Premium_TWD__c</columns>
+    <columns>Policy_Effective_Date__c</columns>
+    <columns>Policy_Maturity_Date__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>Type__c</field>
+        <operation>equals</operation>
+        <value>保險</value>
+    </filters>
+    <label>保險</label>
+</ListView>

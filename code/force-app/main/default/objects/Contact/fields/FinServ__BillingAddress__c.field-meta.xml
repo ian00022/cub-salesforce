@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FinServ__BillingAddress__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Compound field for Billing Address.</description>
+    <externalId>false</externalId>
+    <formula>if( AND( ISPICKVAL($User.LanguageLocaleKey, &quot;ja&quot;) , NOT( ISBLANK(Account.BillingCountry )) ) , Account.BillingCountry &amp; br(), &quot;&quot; ) &amp;
+            if(ISBLANK(Account.BillingStreet), &quot;&quot; , Account.BillingStreet &amp; br()) &amp;
+            if(ISBLANK(Account.BillingCity), &quot;&quot; , Account.BillingCity&amp; &quot;, &quot;)&amp;
+            if(ISBLANK(Account.BillingState), &quot;&quot; , Account.BillingState&amp; &quot; &quot;)&amp;
+            if(ISBLANK(Account.BillingPostalCode), &quot;&quot; , Account.BillingPostalCode &amp; br()) &amp;
+            if( OR( ISPICKVAL($User.LanguageLocaleKey, &quot;ja&quot;) , ISBLANK(Account.BillingCountry) ) , &quot;&quot; , Account.BillingCountry )</formula>
+    <label>Billing Address</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

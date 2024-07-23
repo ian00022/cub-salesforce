@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Company</fullName>
+    <inlineHelpText>若此欄位留空，則轉換至帳戶時，將視此客戶為「自然人」</inlineHelpText>
+    <trackFeedHistory>false</trackFeedHistory>
+</CustomField>

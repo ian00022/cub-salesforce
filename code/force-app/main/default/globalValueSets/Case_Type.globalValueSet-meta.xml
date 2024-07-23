@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>1. 存款案件</fullName>
+        <default>false</default>
+        <label>1. 存款案件</label>
+    </customValue>
+    <customValue>
+        <fullName>2. 授信案件</fullName>
+        <default>false</default>
+        <label>2. 授信案件</label>
+    </customValue>
+    <masterLabel>本次申請案件類型</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

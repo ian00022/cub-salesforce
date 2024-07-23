@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ETF</fullName>
+    <columns>NAME</columns>
+    <columns>Account__c</columns>
+    <columns>CURRENCY_ISO_CODE</columns>
+    <columns>Trust_Principal_Original_Currency__c</columns>
+    <columns>Reference_Present_Value_TWD__c</columns>
+    <columns>Account_Date_Opened__c</columns>
+    <columns>Account_Date_Closed__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>Type__c</field>
+        <operation>equals</operation>
+        <value>ETF</value>
+    </filters>
+    <label>ETF</label>
+</ListView>

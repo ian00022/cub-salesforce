@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CUB_PaymentMethodReasonNoteIsRequired</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+  ISPICKVAL(Payment_Method__c, &quot;C4&quot;),
+  Other_Payment_Method__c = NULL
+)</errorConditionFormula>
+    <errorMessage>若「結帳方式」選擇「其他」，請先填寫「其他結帳方式說明」</errorMessage>
+</ValidationRule>

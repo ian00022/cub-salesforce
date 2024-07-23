@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Overseas_Other_Potential_Required</fullName>
+    <active>true</active>
+    <description>(海外適用)當&quot;產品潛力&quot;選擇&quot;其他潛力&quot;的選項時，須必填&quot;其他潛力&quot;的備註欄位</description>
+    <errorConditionFormula>$RecordType.DeveloperName = &quot;Corporate_KYC_Overseas&quot; &amp;&amp; INCLUDES(Product_Potential__c, &quot;8. 其他潛力&quot;) &amp;&amp; ISBLANK(Other_Potential__c)</errorConditionFormula>
+    <errorMessage>Please maintain &quot;Other Potential&quot; for supplement.</errorMessage>
+</ValidationRule>

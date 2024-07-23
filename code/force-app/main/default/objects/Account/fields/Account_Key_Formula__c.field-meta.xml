@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Key_Formula__c</fullName>
+    <externalId>false</externalId>
+    <formula>TEXT(Customer_Data_Country__c) &amp; TEXT(Identification_Type__c) &amp; Customer_ID__c</formula>
+    <label>帳戶Key值</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

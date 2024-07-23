@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FinServ__CannotHaveMoreThanOnePrimaryAddress</fullName>
+    <active>true</active>
+    <description>Only one address can be designated as the primary address.</description>
+    <errorConditionFormula>IF(IF(FinServ__PrimaryAddressIsMailing__c,1,0) + IF(FinServ__PrimaryAddressIsOther__c,1,0)+  IF(FinServ__PrimaryAddressIsBilling__c,1,0)+ IF(FinServ__PrimaryAddressIsShipping__c,1,0)&gt;1,true,false)</errorConditionFormula>
+    <errorMessage>Only one address can be designated as the primary address.</errorMessage>
+</ValidationRule>

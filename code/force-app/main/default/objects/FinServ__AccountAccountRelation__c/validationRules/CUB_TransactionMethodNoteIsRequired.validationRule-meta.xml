@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CUB_TransactionMethodNoteIsRequired</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+  ISPICKVAL(Transaction_Method__c, &quot;T5&quot;),
+  Other_Transaction_Method__c = NULL
+)</errorConditionFormula>
+    <errorMessage>若「交易方式」選擇「其他」，請先填寫「其他交易方式說明」</errorMessage>
+</ValidationRule>

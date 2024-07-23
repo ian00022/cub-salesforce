@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CUB_UserShouldBeTheSameTeamWithAcct</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+  RecordType.DeveloperName != &apos;Group&apos;,
+  $Profile.Name != &apos;CUB Operation Team&apos;,
+  $Profile.Name != &quot;System Administrator&quot;,
+  $Profile.Id != &quot;00eH3000000eiNeIAI&quot;,
+  $Profile.Description != &quot;System Administrator&quot;,
+  TEXT($User.Unit__c) != TEXT(FinServ__Account__r.Unit__c),
+  TEXT($User.Unit__c) != TEXT(FinServ__RelatedAccount__r.Unit__c)
+)</errorConditionFormula>
+    <errorMessage>需與兩帳戶任一「所屬單位」相同，才可建立/編輯此關係</errorMessage>
+</ValidationRule>

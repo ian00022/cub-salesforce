@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CUB_SupplyChainRelationAccountType</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+  RecordType.DeveloperName = &quot;SupplyChain&quot;, 
+  OR(
+    FinServ__Account__r.RecordType.DeveloperName != &quot;Company&quot;,
+    FinServ__RelatedAccount__r.RecordType.DeveloperName != &quot;Company&quot;
+  )
+)</errorConditionFormula>
+    <errorMessage>進銷貨關係為兩法人間的關係</errorMessage>
+</ValidationRule>

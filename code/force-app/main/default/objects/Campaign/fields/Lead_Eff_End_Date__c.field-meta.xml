@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_Eff_End_Date__c</fullName>
+    <formula>Campaign_End_Date__c + 365</formula>
+    <inlineHelpText>名單開發迄日 + 365日</inlineHelpText>
+    <label>名單實際有效迄日</label>
+    <required>false</required>
+    <type>Date</type>
+</CustomField>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_Follow_Up_Due_Date</fullName>
+    <active>true</active>
+    <description>User must fill in follow up date if the products needs to be checked by the manager</description>
+    <errorConditionFormula>Is_Follow_Up_Suggested__c &amp;&amp; ISNULL(Estimated_Date__c)</errorConditionFormula>
+    <errorDisplayField>Estimated_Date__c</errorDisplayField>
+    <errorMessage>請填寫預計時程</errorMessage>
+</ValidationRule>

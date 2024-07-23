@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bond_Purchase_Sell</fullName>
+    <columns>NAME</columns>
+    <columns>Account__c</columns>
+    <columns>Bond_Code_ISIN__c</columns>
+    <columns>Transaction_Date__c</columns>
+    <columns>Buy_Sell__c</columns>
+    <columns>CURRENCY_ISO_CODE</columns>
+    <columns>Bond_Face_Value__c</columns>
+    <columns>Transaction_Price_Ex_Coupon_Price__c</columns>
+    <columns>Buy_Sell_Amount__c</columns>
+    <columns>Accrued_Interest__c</columns>
+    <columns>Settlement_Amount__c</columns>
+    <columns>Settlement_Date__c</columns>
+    <columns>In_Transit_Note__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>Transaction_Date__c</field>
+        <operation>greaterThan</operation>
+        <value>6/30/2024</value>
+    </filters>
+    <filters>
+        <field>Transaction_Date__c</field>
+        <operation>lessThan</operation>
+        <value>7/2/2024</value>
+    </filters>
+    <label>自營債-買賣明細</label>
+</ListView>

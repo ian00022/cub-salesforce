@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CUB_GroupRelationAccountType</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+  RecordType.DeveloperName = &quot;Group&quot;, 
+  NOT(OR(
+    AND(FinServ__Account__r.RecordType.DeveloperName = &quot;Company&quot;, FinServ__RelatedAccount__r.RecordType.DeveloperName = &quot;Group&quot;), 
+    AND(FinServ__Account__r.RecordType.DeveloperName = &quot;Group&quot;, FinServ__RelatedAccount__r.RecordType.DeveloperName = &quot;Company&quot;)
+  ))
+)</errorConditionFormula>
+    <errorMessage>集團關係為集團戶與法人間的關係</errorMessage>
+</ValidationRule>

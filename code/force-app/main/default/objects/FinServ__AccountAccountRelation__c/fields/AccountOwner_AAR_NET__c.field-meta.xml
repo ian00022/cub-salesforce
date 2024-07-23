@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AccountOwner_AAR_NET__c</fullName>
+    <formula>TEXT(FinServ__Account__r.Unit__c) != TEXT(Record_Unit__c)</formula>
+    <label>帳戶所屬單位與關係所屬單位不同</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

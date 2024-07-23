@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Money_Change</fullName>
+    <columns>NAME</columns>
+    <columns>Account__c</columns>
+    <columns>Date__c</columns>
+    <columns>Type__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>Type__c</field>
+        <operation>equals</operation>
+        <value>金流異動</value>
+    </filters>
+    <label>金流異動</label>
+</ListView>

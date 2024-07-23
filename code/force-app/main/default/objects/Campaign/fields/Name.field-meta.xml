@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Name</fullName>
+    <inlineHelpText>建議名稱：名單類別/說明+西元年季/年月</inlineHelpText>
+    <trackFeedHistory>false</trackFeedHistory>
+</CustomField>

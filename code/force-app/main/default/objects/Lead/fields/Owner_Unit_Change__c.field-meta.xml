@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Owner_Unit_Change__c</fullName>
+    <formula>AND(
+  BEGINS(OwnerId, &quot;005&quot;), 
+  TEXT(Owner:User.Team__c) != TEXT(Lead_Team__c)
+)</formula>
+    <label>商機擁有者單位異動</label>
+    <type>Checkbox</type>
+</CustomField>

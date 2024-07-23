@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Basic_Information</fullName>
+        <categories>OmniScript</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Basic Information</shortDescription>
+        <value>Basic Information</value>
+    </labels>
+    <labels>
+        <fullName>Distribute_Confirm_Text</fullName>
+        <language>zh_TW</language>
+        <protected>false</protected>
+        <shortDescription>Distribute Confirm Text</shortDescription>
+        <value>是否確定重執行重分配?
+
+重分配後，原先預壓之派發RM可能會異動</value>
+    </labels>
+</CustomLabels>

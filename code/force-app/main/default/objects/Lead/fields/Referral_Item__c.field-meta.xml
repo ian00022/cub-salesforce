@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Referral_Item__c</fullName>
+    <label>轉介商品名稱</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>pd42</fullName>
+                <default>true</default>
+                <label>pd42: 複雜型法人授信</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

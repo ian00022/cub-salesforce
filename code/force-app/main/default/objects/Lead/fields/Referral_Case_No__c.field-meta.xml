@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Referral_Case_No__c</fullName>
+    <displayFormat>CUB_{YYYY}{MM}{DD}{00000}</displayFormat>
+    <externalId>false</externalId>
+    <label>Salesforce轉介單號</label>
+    <type>AutoNumber</type>
+</CustomField>

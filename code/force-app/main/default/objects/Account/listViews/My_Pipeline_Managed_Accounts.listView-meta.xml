@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Pipeline_Managed_Accounts</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Customer_ID__c</columns>
+    <columns>Identification_Type__c</columns>
+    <columns>Team__c</columns>
+    <columns>Management_Status__c</columns>
+    <columns>Responsible_RM__c</columns>
+    <columns>Managed_RM__c</columns>
+    <columns>ACCOUNT.RECORDTYPE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>ACCOUNT.CREATED_DATE</columns>
+    <columns>ACCOUNT.LAST_UPDATE</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>Management_Status__c</field>
+        <operation>notEqual</operation>
+        <value>無經管</value>
+    </filters>
+    <label>我的開發中或已經管帳戶清單</label>
+</ListView>

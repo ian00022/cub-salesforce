@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>是</fullName>
+        <default>false</default>
+        <label>是</label>
+    </customValue>
+    <customValue>
+        <fullName>否</fullName>
+        <default>false</default>
+        <label>否</label>
+    </customValue>
+    <customValue>
+        <fullName>不確定</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>不確定</label>
+    </customValue>
+    <masterLabel>是否</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

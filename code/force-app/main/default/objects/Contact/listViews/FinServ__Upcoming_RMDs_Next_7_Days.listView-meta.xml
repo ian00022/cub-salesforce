@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FinServ__Upcoming_RMDs_Next_7_Days</fullName>
+    <booleanFilter>1 AND 2 AND 3 AND 4 AND (5 OR 6)</booleanFilter>
+    <columns>FULL_NAME</columns>
+    <columns>FinServ__Age__c</columns>
+    <columns>CONTACT.BIRTHDATE</columns>
+    <columns>CONTACT.ADDRESS2_STREET</columns>
+    <columns>CONTACT.ADDRESS2_STATE</columns>
+    <columns>CONTACT.ADDRESS2_ZIP</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>FinServ__Age__c</field>
+        <operation>lessThan</operation>
+        <value>70.5</value>
+    </filters>
+    <filters>
+        <field>FinServ__Age__c</field>
+        <operation>greaterThan</operation>
+        <value>70</value>
+    </filters>
+    <filters>
+        <field>CONTACT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Contact.FinServ__IndustriesIndividual</value>
+    </filters>
+    <filters>
+        <field>CONTACT.BIRTHDATE</field>
+        <operation>equals</operation>
+        <value>LAST_N_DAYS:90</value>
+    </filters>
+    <filters>
+        <field>CONTACT.BIRTHDATE</field>
+        <operation>lessThan</operation>
+        <value>LAST_N_DAYS:82</value>
+    </filters>
+    <filters>
+        <field>CONTACT.BIRTHDATE</field>
+        <operation>greaterOrEqual</operation>
+        <value>NEXT_N_DAYS:275</value>
+    </filters>
+    <label>Upcoming RMDs (Next 7 Days)</label>
+    <language>en_US</language>
+</ListView>

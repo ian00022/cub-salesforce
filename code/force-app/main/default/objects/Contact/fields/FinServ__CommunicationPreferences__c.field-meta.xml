@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FinServ__CommunicationPreferences__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Communication Preferences</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Fraud:Phone</fullName>
+                <default>false</default>
+                <label>Fraud:Phone</label>
+            </value>
+            <value>
+                <fullName>Fraud:Email</fullName>
+                <default>false</default>
+                <label>Fraud:Email</label>
+            </value>
+            <value>
+                <fullName>Fraud:SMS</fullName>
+                <default>false</default>
+                <label>Fraud:SMS</label>
+            </value>
+            <value>
+                <fullName>Promotions:Phone</fullName>
+                <default>false</default>
+                <label>Promotions:Phone</label>
+            </value>
+            <value>
+                <fullName>Promotions:Email</fullName>
+                <default>false</default>
+                <label>Promotions:Email</label>
+            </value>
+            <value>
+                <fullName>Promotions:SMS</fullName>
+                <default>false</default>
+                <label>Promotions:SMS</label>
+            </value>
+            <value>
+                <fullName>Balance Activities:Phone</fullName>
+                <default>false</default>
+                <label>Balance Activities:Phone</label>
+            </value>
+            <value>
+                <fullName>Balance Activities:Email</fullName>
+                <default>false</default>
+                <label>Balance Activities:Email</label>
+            </value>
+            <value>
+                <fullName>Balance Activities:SMS</fullName>
+                <default>false</default>
+                <label>Balance Activities:SMS</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>6</visibleLines>
+</CustomField>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bank_Prof_Investor__c</fullName>
+    <formula>Account.PI__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>是否有本行專業投資人資格</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

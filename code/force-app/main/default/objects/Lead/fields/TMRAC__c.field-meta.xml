@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TMRAC__c</fullName>
+    <formula>IF(ISPICKVAL(Related_Campaign__r.Campaign_Type__c, &quot;Oversea TMRAC Campaign&quot;), TRUE, FALSE)</formula>
+    <label>TMRAC</label>
+    <type>Checkbox</type>
+</CustomField>

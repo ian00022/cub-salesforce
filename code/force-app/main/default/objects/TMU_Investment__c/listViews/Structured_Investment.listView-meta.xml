@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Structured_Investment</fullName>
+    <columns>NAME</columns>
+    <columns>Account__c</columns>
+    <columns>CURRENCY_ISO_CODE</columns>
+    <columns>Transaction_Amount__c</columns>
+    <columns>Market_Value_Assessment__c</columns>
+    <columns>Transaction_Date__c</columns>
+    <columns>Maturity_Date__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>Type__c</field>
+        <operation>equals</operation>
+        <value>組合式商品</value>
+    </filters>
+    <label>組合式商品</label>
+</ListView>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Relation_Record_Key__c</fullName>
+    <externalId>false</externalId>
+    <formula>RecordType.DeveloperName &amp;
+TEXT(FinServ__Account__r.Customer_Data_Country__c) &amp; 
+TEXT(FinServ__Account__r.Identification_Type__c) &amp; 
+FinServ__Account__r.Customer_ID__c &amp;
+TEXT(FinServ__RelatedAccount__r.Customer_Data_Country__c) &amp;
+TEXT(FinServ__RelatedAccount__r.Identification_Type__c) &amp;
+FinServ__RelatedAccount__r.Customer_ID__c &amp;
+IF(RecordType.DeveloperName = &quot;RelatedParties&quot;, TEXT(Parties_Code__c), &quot;&quot;) &amp; 
+IF(RecordType.DeveloperName = &quot;SupplyChain&quot;, TEXT(FinServ__Role__r.SupplyChain_Type__c), &quot;&quot;) &amp;
+IF(RecordType.DeveloperName = &quot;SupplyChain&quot;, Year__c, &quot;&quot;) &amp;
+IF(RecordType.DeveloperName = &quot;Affiliate&quot;, 
+  IF(INCLUDES(Affiliate_Code__c, &quot;A&quot;), &quot;A&quot;, &quot;&quot;) &amp;
+  IF(INCLUDES(Affiliate_Code__c, &quot;B&quot;), &quot;B&quot;, &quot;&quot;) &amp;
+  IF(INCLUDES(Affiliate_Code__c, &quot;C&quot;), &quot;C&quot;, &quot;&quot;) 
+, &quot;&quot;)</formula>
+    <label>關係Key值</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

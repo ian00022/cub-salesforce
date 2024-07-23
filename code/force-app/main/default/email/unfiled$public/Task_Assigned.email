@@ -1,0 +1,11 @@
+您好，
+
+您被指派以下的工作：
+主題：{!Task.Subject}
+相關資料：{!Task.What}
+到期日：{!Task.ActivityDate}
+連結：{!Task.Link}
+
+謝謝，
+
+Salesforce

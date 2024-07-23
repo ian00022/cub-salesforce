@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>VN Team</fullName>
+        <default>false</default>
+        <label>VN Team</label>
+    </customValue>
+    <customValue>
+        <fullName>ICC Team</fullName>
+        <default>false</default>
+        <label>ICC Team</label>
+    </customValue>
+    <masterLabel>VN Team</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

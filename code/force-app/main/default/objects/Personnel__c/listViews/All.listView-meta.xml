@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Name__c</columns>
+    <columns>Emp_No__c</columns>
+    <columns>Cust_Group__c</columns>
+    <columns>Geo_Area__c</columns>
+    <columns>Dept__c</columns>
+    <columns>First_Level_Approver__c</columns>
+    <columns>Second_Level_Approver__c</columns>
+    <columns>Prim_Corr_Branch__c</columns>
+    <columns>Sec_Corr_Branch__c</columns>
+    <columns>Active__c</columns>
+    <columns>Reserved_Amount__c</columns>
+    <columns>Account_Limit__c</columns>
+    <columns>Account_Remain_Quota__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Active__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>All</label>
+</ListView>

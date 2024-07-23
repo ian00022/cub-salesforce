@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FinServ__MailingAddress__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Compound field for Mailing Address.</description>
+    <externalId>false</externalId>
+    <formula>if(ISBLANK(MailingStreet),  &quot;&quot; , MailingStreet &amp; br()) &amp;
+if(ISBLANK(MailingCity),  &quot;&quot; , MailingCity&amp; &quot;, &quot; ) &amp;
+if(ISBLANK(MailingState),  &quot;&quot; , MailingState&amp; &quot; &quot; ) &amp;
+if(ISBLANK(MailingPostalCode),  &quot;&quot; , MailingPostalCode &amp; br()) &amp;
+if(ISBLANK(MailingCountry),  &quot;&quot; , MailingCountry)</formula>
+    <label>Mailing Address</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

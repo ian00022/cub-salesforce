@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CUB_InvalidReasonNoteIsRequired</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+  ISPICKVAL(Unqualified_Reason__c, &quot;D6&quot;), 
+  Unqualified_Reason_Remarks__c = NULL  
+)</errorConditionFormula>
+    <errorMessage>若「無效原因」選擇「其他」，請先填寫「無效原因說明」</errorMessage>
+</ValidationRule>

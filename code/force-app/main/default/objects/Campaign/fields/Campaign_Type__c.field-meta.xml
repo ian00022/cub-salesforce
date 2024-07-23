@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Campaign_Type__c</fullName>
+    <label>名單類別</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Corporate Lead</fullName>
+                <default>false</default>
+                <label>企個名單</label>
+            </value>
+            <value>
+                <fullName>Prospect Lead</fullName>
+                <default>false</default>
+                <label>拓客名單</label>
+            </value>
+            <value>
+                <fullName>General Lead</fullName>
+                <default>false</default>
+                <label>一般名單</label>
+            </value>
+            <value>
+                <fullName>Oversea TMRAC Campaign</fullName>
+                <default>false</default>
+                <label>Oversea TMRAC Campaign</label>
+            </value>
+            <value>
+                <fullName>Oversea General Campaign</fullName>
+                <default>false</default>
+                <label>Oversea General Campaign</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

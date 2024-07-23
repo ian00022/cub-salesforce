@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Current_Year</fullName>
+    <columns>Year__c</columns>
+    <columns>January_Current_Year__c</columns>
+    <columns>February_Current_Year__c</columns>
+    <columns>March_Current_Year__c</columns>
+    <columns>April_Current_Year__c</columns>
+    <columns>May_Current_Year__c</columns>
+    <columns>June_Current_Year__c</columns>
+    <columns>July_Current_Year__c</columns>
+    <columns>August_Current_Year__c</columns>
+    <columns>September_Current_Year__c</columns>
+    <columns>October_Current_Year__c</columns>
+    <columns>November_Current_Year__c</columns>
+    <columns>December_Current_Year__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>Year__c</field>
+        <operation>equals</operation>
+        <value>2024</value>
+    </filters>
+    <label>今年</label>
+</ListView>

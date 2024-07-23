@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Parties_Code__c</fullName>
+    <label>關係代號</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>8001</fullName>
+                <default>false</default>
+                <label>8001 父</label>
+            </value>
+            <value>
+                <fullName>8002</fullName>
+                <default>false</default>
+                <label>8002 母</label>
+            </value>
+            <value>
+                <fullName>8003</fullName>
+                <default>false</default>
+                <label>8003 子</label>
+            </value>
+            <value>
+                <fullName>8004</fullName>
+                <default>false</default>
+                <label>8004 女兒</label>
+            </value>
+            <value>
+                <fullName>8005</fullName>
+                <default>false</default>
+                <label>8005 祖父</label>
+            </value>
+            <value>
+                <fullName>8006</fullName>
+                <default>false</default>
+                <label>8006 祖母</label>
+            </value>
+            <value>
+                <fullName>8007</fullName>
+                <default>false</default>
+                <label>8007 外祖父</label>
+            </value>
+            <value>
+                <fullName>8008</fullName>
+                <default>false</default>
+                <label>8008 外祖母</label>
+            </value>
+            <value>
+                <fullName>8009</fullName>
+                <default>false</default>
+                <label>8009 兄弟</label>
+            </value>
+            <value>
+                <fullName>8010</fullName>
+                <default>false</default>
+                <label>8010 姊妹</label>
+            </value>
+            <value>
+                <fullName>8011</fullName>
+                <default>false</default>
+                <label>8011 孫</label>
+            </value>
+            <value>
+                <fullName>8012</fullName>
+                <default>false</default>
+                <label>8012 孫女</label>
+            </value>
+            <value>
+                <fullName>8013</fullName>
+                <default>false</default>
+                <label>8013 外孫</label>
+            </value>
+            <value>
+                <fullName>8014</fullName>
+                <default>false</default>
+                <label>8014 外孫女</label>
+            </value>
+            <value>
+                <fullName>8031</fullName>
+                <default>false</default>
+                <label>8031 配偶</label>
+            </value>
+            <value>
+                <fullName>8201</fullName>
+                <default>false</default>
+                <label>8201 董事長</label>
+            </value>
+            <value>
+                <fullName>8202</fullName>
+                <default>false</default>
+                <label>8202 副董事長</label>
+            </value>
+            <value>
+                <fullName>8203</fullName>
+                <default>false</default>
+                <label>8203 總經理</label>
+            </value>
+            <value>
+                <fullName>8204</fullName>
+                <default>false</default>
+                <label>8204 副總經理</label>
+            </value>
+            <value>
+                <fullName>8253</fullName>
+                <default>false</default>
+                <label>8253 獨資行號負責人</label>
+            </value>
+            <value>
+                <fullName>8264</fullName>
+                <default>false</default>
+                <label>8264 名譽董事長</label>
+            </value>
+            <value>
+                <fullName>8265</fullName>
+                <default>false</default>
+                <label>8265 董事</label>
+            </value>
+            <value>
+                <fullName>8267</fullName>
+                <default>false</default>
+                <label>8267 常務董事</label>
+            </value>
+            <value>
+                <fullName>8268</fullName>
+                <default>false</default>
+                <label>8268 常駐監察人</label>
+            </value>
+            <value>
+                <fullName>8269</fullName>
+                <default>false</default>
+                <label>8269 監察人</label>
+            </value>
+            <value>
+                <fullName>8280</fullName>
+                <default>false</default>
+                <label>8280 局長</label>
+            </value>
+            <value>
+                <fullName>8282</fullName>
+                <default>false</default>
+                <label>8282 理事主席</label>
+            </value>
+            <value>
+                <fullName>8283</fullName>
+                <default>false</default>
+                <label>8283 合夥人</label>
+            </value>
+            <value>
+                <fullName>8284</fullName>
+                <default>false</default>
+                <label>8284 清算人</label>
+            </value>
+            <value>
+                <fullName>8285</fullName>
+                <default>false</default>
+                <label>8285 監事</label>
+            </value>
+            <value>
+                <fullName>8286</fullName>
+                <default>false</default>
+                <label>8286 代表</label>
+            </value>
+            <value>
+                <fullName>8315</fullName>
+                <default>false</default>
+                <label>8315 法人代表</label>
+            </value>
+            <value>
+                <fullName>8316</fullName>
+                <default>false</default>
+                <label>8316 法人股東之負責人</label>
+            </value>
+            <value>
+                <fullName>8318</fullName>
+                <default>false</default>
+                <label>8318 代表公司之股東</label>
+            </value>
+            <value>
+                <fullName>8319</fullName>
+                <default>false</default>
+                <label>8319 (股)公司之發起人</label>
+            </value>
+            <value>
+                <fullName>8320</fullName>
+                <default>false</default>
+                <label>8320 (股)公司之檢查人</label>
+            </value>
+            <value>
+                <fullName>8321</fullName>
+                <default>false</default>
+                <label>8321 (股)公司之重整人</label>
+            </value>
+            <value>
+                <fullName>8322</fullName>
+                <default>false</default>
+                <label>8322 (股)公司重整監督人</label>
+            </value>
+            <value>
+                <fullName>8323</fullName>
+                <default>false</default>
+                <label>8323 非公司組織之負責人</label>
+            </value>
+            <value>
+                <fullName>8324</fullName>
+                <default>false</default>
+                <label>8324 法人股東(董監事)</label>
+            </value>
+            <value>
+                <fullName>8382</fullName>
+                <default>false</default>
+                <label>8382 配偶為董監事或總經理</label>
+            </value>
+            <value>
+                <fullName>8392</fullName>
+                <default>false</default>
+                <label>8392 公司實際經營者</label>
+            </value>
+            <value>
+                <fullName>8403</fullName>
+                <default>false</default>
+                <label>8403 訴訟代理人</label>
+            </value>
+            <value>
+                <fullName>8404</fullName>
+                <default>false</default>
+                <label>8404 經理人</label>
+            </value>
+            <value>
+                <fullName>8405</fullName>
+                <default>false</default>
+                <label>8405 獨立董事</label>
+            </value>
+            <value>
+                <fullName>8406</fullName>
+                <default>false</default>
+                <label>8406 執行業務股東</label>
+            </value>
+            <value>
+                <fullName>8407</fullName>
+                <default>false</default>
+                <label>8407 股東(單獨或關係人合計持股達10%)</label>
+            </value>
+            <value>
+                <fullName>8408</fullName>
+                <default>false</default>
+                <label>8408 執行長</label>
+            </value>
+            <value>
+                <fullName>2100</fullName>
+                <default>false</default>
+                <label>2100 集團對子公司</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>LC</fullName>
+        <default>false</default>
+        <label>LC</label>
+    </customValue>
+    <customValue>
+        <fullName>DA/DP</fullName>
+        <default>false</default>
+        <label>DA/DP</label>
+    </customValue>
+    <customValue>
+        <fullName>TT</fullName>
+        <default>false</default>
+        <label>TT</label>
+    </customValue>
+    <masterLabel>外購付款方式</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

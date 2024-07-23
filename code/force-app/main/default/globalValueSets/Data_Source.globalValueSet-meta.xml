@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Salesforce</fullName>
+        <default>false</default>
+        <label>Salesforce</label>
+    </customValue>
+    <customValue>
+        <fullName>客登</fullName>
+        <default>false</default>
+        <label>客登</label>
+    </customValue>
+    <customValue>
+        <fullName>CreditLens</fullName>
+        <default>false</default>
+        <label>CreditLens</label>
+    </customValue>
+    <customValue>
+        <fullName>TEJ</fullName>
+        <default>false</default>
+        <label>TEJ</label>
+    </customValue>
+    <customValue>
+        <fullName>Bancs</fullName>
+        <default>false</default>
+        <label>Bancs</label>
+    </customValue>
+    <masterLabel>資料來源</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

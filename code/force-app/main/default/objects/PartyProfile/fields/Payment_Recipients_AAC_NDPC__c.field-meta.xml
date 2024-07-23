@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Payment_Recipients_AAC_NDPC__c</fullName>
+    <label>收款對象眾多且有自動銷帳或多元化收款通路需求</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>是</fullName>
+                <default>false</default>
+                <label>是</label>
+            </value>
+            <value>
+                <fullName>否</fullName>
+                <default>false</default>
+                <label>否</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

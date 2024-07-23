@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Hong_Kong</fullName>
+    <columns>Country__c</columns>
+    <columns>NAME</columns>
+    <columns>Major_Industry_Group__c</columns>
+    <columns>Tranche_Type__c</columns>
+    <columns>Active_Date__c</columns>
+    <columns>Maturity_Date__c</columns>
+    <columns>Primary_Purpose__c</columns>
+    <columns>CURRENCY_ISO_CODE</columns>
+    <columns>Amount_MN__c</columns>
+    <columns>Base_Rate_Margin_BPS__c</columns>
+    <columns>Top_Tier_Arranger__c</columns>
+    <columns>Sponsor__c</columns>
+    <columns>Guarantor__c</columns>
+    <columns>Secured__c</columns>
+    <columns>Repayment_Type__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>Country__c</field>
+        <operation>equals</operation>
+        <value>Hong Kong</value>
+    </filters>
+    <label>Hong Kong</label>
+</ListView>

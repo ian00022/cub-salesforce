@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FinServ__LastFourDigitSSN__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Last 4-Digits of SSN or Tax ID</description>
+    <externalId>false</externalId>
+    <label>SSN/Tax ID (Last Four Digits)</label>
+    <length>4</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_Owner__c</fullName>
+    <description>Used in Lightning Page to check if the current user is the owner of the current Account record</description>
+    <formula>$User.Id =  OwnerId</formula>
+    <label>是否擁有者</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

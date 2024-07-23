@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Accounts</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Customer_ID__c</columns>
+    <columns>Identification_Type__c</columns>
+    <columns>Team__c</columns>
+    <columns>Customer_Data_Country__c</columns>
+    <columns>Orig_Data_Source__c</columns>
+    <columns>Management_Status__c</columns>
+    <columns>Responsible_RM__c</columns>
+    <columns>Managed_RM__c</columns>
+    <columns>ACCOUNT.RECORDTYPE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>ACCOUNT.CREATED_DATE</columns>
+    <columns>ACCOUNT.LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.Company,PersonAccount.Person,Account.Group</value>
+    </filters>
+    <label>所有帳戶</label>
+</ListView>

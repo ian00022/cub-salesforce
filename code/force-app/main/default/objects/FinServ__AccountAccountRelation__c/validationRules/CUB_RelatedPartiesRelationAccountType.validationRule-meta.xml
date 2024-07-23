@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CUB_RelatedPartiesRelationAccountType</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+  RecordType.DeveloperName = &quot;RelatedParties&quot;, 
+  OR(
+    FinServ__Account__r.RecordType.DeveloperName = &quot;Group&quot;,
+    FinServ__RelatedAccount__r.RecordType.DeveloperName = &quot;Group&quot;
+  )
+)</errorConditionFormula>
+    <errorMessage>關係人為「自然人/法人」與「自然人/法人」間的關係</errorMessage>
+</ValidationRule>

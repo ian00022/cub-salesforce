@@ -5,7 +5,7 @@
       "default": true
     }
   ],
-  "name": "code",
+  "name": "CUB V2.1",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
   "sourceApiVersion": "61.0"

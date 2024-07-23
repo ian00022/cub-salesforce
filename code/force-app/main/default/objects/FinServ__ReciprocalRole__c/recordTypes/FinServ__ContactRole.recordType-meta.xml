@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FinServ__ContactRole</fullName>
+    <active>true</active>
+    <description>Roles associated with Contact-Contact Relationships</description>
+    <label>Contact Role</label>
+    <picklistValues>
+        <picklist>FinServ__RelationshipType__c</picklist>
+        <values>
+            <fullName>Contact Contact Relation</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SupplyChain_Type__c</picklist>
+        <values>
+            <fullName>Buyer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seller</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

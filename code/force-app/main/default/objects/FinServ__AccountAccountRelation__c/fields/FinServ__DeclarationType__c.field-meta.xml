@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FinServ__DeclarationType__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Declaration Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Self declaration</fullName>
+                <default>false</default>
+                <label>Self declaration</label>
+            </value>
+            <value>
+                <fullName>Official Register</fullName>
+                <default>false</default>
+                <label>Official Register</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

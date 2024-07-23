@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>裝載CUB所需的FSC相關功能權限</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>CUB FSC License Group</label>
+    <permissionSets>CUB_FSC_License</permissionSets>
+    <permissionSets>FinServ__FinancialServicesCloudBasic</permissionSets>
+    <permissionSets>FinServ__FinancialServicesCloudStandard</permissionSets>
+    <permissionSets>force__FinancialServicesCloudExtension</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

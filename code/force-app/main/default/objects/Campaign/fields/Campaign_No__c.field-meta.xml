@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Campaign_No__c</fullName>
+    <externalId>false</externalId>
+    <formula>&quot;CUB_&quot; &amp; 
+IF(ISPICKVAL(Campaign_Type__c, &quot;Corporate Lead&quot;), &quot;企個名單&quot;, &quot;&quot;) &amp;
+IF(ISPICKVAL(Campaign_Type__c, &quot;Prospect Lead&quot;), &quot;拓客名單&quot;, &quot;&quot;) &amp;
+IF(ISPICKVAL(Campaign_Type__c, &quot;General Lead&quot;), &quot;一般名單&quot;, &quot;&quot;) &amp;
+IF(ISPICKVAL(Campaign_Type__c, &quot;Oversea TMRAC Campaign&quot;), &quot;Oversea TMRAC Campaign&quot;, &quot;&quot;) &amp;
+IF(ISPICKVAL(Campaign_Type__c, &quot;Oversea General Campaign&quot;), &quot;Oversea General Campaign&quot;, &quot;&quot;) &amp;
+ &quot;_&quot; &amp;
+RIGHT(LEFT(TEXT(DATEVALUE(CreatedDate)), 4), 2) &amp; RIGHT(LEFT(TEXT(DATEVALUE(CreatedDate)), 7), 2)</formula>
+    <label>行銷活動編號</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

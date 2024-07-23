@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Invalid_Reason__c</fullName>
+    <label>失效原因</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>重分配後剩餘</fullName>
+                <default>false</default>
+                <label>重分配後剩餘</label>
+            </value>
+            <value>
+                <fullName>名單到期</fullName>
+                <default>false</default>
+                <label>名單到期</label>
+            </value>
+            <value>
+                <fullName>重複排除</fullName>
+                <default>false</default>
+                <label>重複排除</label>
+            </value>
+            <value>
+                <fullName>派發失敗</fullName>
+                <default>false</default>
+                <label>派發失敗</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>人員設定檔資料自動建立失敗時寄送的Email內容</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Create Personnel Error Message</name>
+    <style>none</style>
+    <subject>[Salesforce錯誤通知] 請手動建立人員設定檔資料</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

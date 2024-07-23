@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>有財簽</fullName>
+        <default>false</default>
+        <label>有財簽</label>
+    </customValue>
+    <customValue>
+        <fullName>潛力戶</fullName>
+        <default>false</default>
+        <label>潛力戶</label>
+    </customValue>
+    <customValue>
+        <fullName>欲開發</fullName>
+        <default>false</default>
+        <label>欲開發</label>
+    </customValue>
+    <customValue>
+        <fullName>開發中</fullName>
+        <default>false</default>
+        <label>開發中</label>
+    </customValue>
+    <customValue>
+        <fullName>已開發</fullName>
+        <default>false</default>
+        <label>已開發</label>
+    </customValue>
+    <masterLabel>PI開戶</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

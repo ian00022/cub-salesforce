@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FinServ__Age__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>if(And(Month(Today())&gt;= month(Birthdate), Day(Today()) &gt;=  Day(Birthdate)),
+Year(Today())- Year(Birthdate) +
+(Month(Today())-Month(Birthdate))/12,
+if(And(month(Today())&lt; month(Birthdate), Day(Today())&gt;= Day(Birthdate)),
+Year(Today())-Year(Birthdate)-1 +
+(12 - Month(Birthdate)+month(Today()))/12,
+if(And( month(Today())&lt; month(Birthdate), Day(Today())&lt; Day(Birthdate)),
+(Year(Today())-Year(Birthdate)-1) + 
+((12 - Month(Birthdate)+month(Today())-1))/12,
+if(And( month(Today())= month(Birthdate), Day(Today())&lt; Day(Birthdate)),
+(Year(Today())- Year(Birthdate)-1) + (11/12),
+(Year(Today())- Year(Birthdate)) + 
+(Month(Today())-Month(Birthdate)-1)/12))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Age</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>1</scale>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

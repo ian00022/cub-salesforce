@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>None</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>ARM_北二SME2</name>
+    <opportunityAccessLevel>None</opportunityAccessLevel>
+    <parentRole>Team_Head_721_SME2</parentRole>
+</Role>

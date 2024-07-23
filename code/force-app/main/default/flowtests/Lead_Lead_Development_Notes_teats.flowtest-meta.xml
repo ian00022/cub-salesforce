@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowTest xmlns="http://soap.sforce.com/2006/04/metadata">
+    <flowApiName>Lead_Lead_Development_Notes</flowApiName>
+    <label>teats</label>
+    <testPoints>
+        <elementApiName>Start</elementApiName>
+        <parameters>
+            <leftValueReference>$Record</leftValueReference>
+            <type>InputTriggeringRecordInitial</type>
+            <value>
+                <sobjectValue>{&quot;Company&quot;:&quot;TW0&quot;,&quot;CurrencyIsoCode&quot;:&quot;TWD&quot;,&quot;Customer_Id__c&quot;:&quot;02345678&quot;,&quot;Distribute_Division__c&quot;:&quot;737&quot;,&quot;DoNotCall&quot;:false,&quot;FinServ__CreatedFromLead__c&quot;:true,&quot;HasOptedOutOfEmail&quot;:false,&quot;HasOptedOutOfFax&quot;:false,&quot;IsUnreadByOwner&quot;:true,&quot;LastName&quot;:&quot;test0&quot;,&quot;OwnerId&quot;:&quot;00GH3000000fvELMAY&quot;,&quot;RecordTypeId&quot;:&quot;012H3000000ovxfIAA&quot;,&quot;Referral_Item__c&quot;:&quot;pd42&quot;,&quot;Referral_Status__c&quot;:&quot;R1&quot;,&quot;Related_Campaign__c&quot;:&quot;701H30000004x8fIAA&quot;,&quot;Staging_Lead_Id__c&quot;:&quot;a0vH3000000Xyg4IAC&quot;,&quot;Status&quot;:&quot;A0&quot;,&quot;X1st_Called__c&quot;:false}</sobjectValue>
+            </value>
+        </parameters>
+    </testPoints>
+    <testPoints>
+        <assertions>
+            <conditions>
+                <leftValueReference>Is_TW</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+        </assertions>
+        <elementApiName>Finish</elementApiName>
+    </testPoints>
+</FlowTest>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cannot_Choose_Earlier_Date</fullName>
+    <active>true</active>
+    <description>不讓使用者選已過的日期</description>
+    <errorConditionFormula>Estimated_Date__c &lt;= TODAY()</errorConditionFormula>
+    <errorDisplayField>Estimated_Date__c</errorDisplayField>
+    <errorMessage>請選擇未來的日期</errorMessage>
+</ValidationRule>

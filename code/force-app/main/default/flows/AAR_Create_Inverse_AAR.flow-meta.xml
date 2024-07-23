@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>61.0</apiVersion>
+    <decisions>
+        <name>Decision_1</name>
+        <label>Is Inverse Record Null?</label>
+        <locationX>182</locationX>
+        <locationY>431</locationY>
+        <defaultConnector>
+            <targetReference>Create_Inverse_Record</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Outcome_1_of_Decision_1</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Inverse_Record</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Trigger_AAR</targetReference>
+            </connector>
+            <label>Null</label>
+        </rules>
+    </decisions>
+    <description>修該 InverseFormula Key 的判斷 移除&apos;D&apos;</description>
+    <environments>Default</environments>
+    <formulas>
+        <name>InverseFormula</name>
+        <dataType>String</dataType>
+        <expression>{!$Record.RecordType.DeveloperName} &amp;
+TEXT({!$Record.FinServ__RelatedAccount__r.Customer_Data_Country__c}) &amp;
+TEXT({!$Record.FinServ__RelatedAccount__r.Identification_Type__c})&amp;
+{!$Record.FinServ__RelatedAccount__r.Customer_ID__c} &amp;
+TEXT({!$Record.FinServ__Account__r.Customer_Data_Country__c}) &amp;
+TEXT({!$Record.FinServ__Account__r.Identification_Type__c})&amp;
+{!$Record.FinServ__Account__r.Customer_ID__c} &amp;
+IF({!$Record.RecordType.DeveloperName} = &quot;RelatedParties&quot;, TEXT({!$Record.Parties_Code__c}), &apos;&apos;) &amp;
+IF({!$Record.RecordType.DeveloperName} = &quot;SupplyChain&quot;, TEXT({!$Record.FinServ__Role__r.SupplyChain_Type__c}), &quot;&quot;) &amp;
+IF({!$Record.RecordType.DeveloperName} = &quot;SupplyChain&quot;, {!$Record.Year__c}, &quot;&quot;) &amp;
+IF({!$Record.RecordType.DeveloperName} = &quot;Affiliate&quot;,
+IF(INCLUDES({!$Record.Affiliate_Code__c}, &quot;A&quot;), &quot;A&quot;, &quot;&quot;) &amp;
+IF(INCLUDES({!$Record.Affiliate_Code__c}, &quot;B&quot;), &quot;B&quot;, &quot;&quot;) &amp;
+IF(INCLUDES({!$Record.Affiliate_Code__c}, &quot;C&quot;), &quot;C&quot;, &quot;&quot;) 
+, &quot;&quot;)</expression>
+    </formulas>
+    <formulas>
+        <name>InverseRole</name>
+        <dataType>String</dataType>
+        <expression>IF(ISBLANK($Record.FinServ__Role__r.FinServ__InverseRole__c), $Record.FinServ__Role__c, $Record.FinServ__Role__r.FinServ__InverseRole__c)</expression>
+    </formulas>
+    <interviewLabel>Account {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>AAR : Create Inverse AAR</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordCreates>
+        <name>Create_Inverse_Record</name>
+        <label>Create Inverse Record</label>
+        <locationX>314</locationX>
+        <locationY>539</locationY>
+        <assignRecordIdToReference>InverseRecordID</assignRecordIdToReference>
+        <connector>
+            <targetReference>Copy_1_of_Update_Trigger_AAR</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>CUB_External_Id__c</field>
+            <value>
+                <elementReference>InverseFormula</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>FinServ__Account__c</field>
+            <value>
+                <elementReference>$Record.FinServ__RelatedAccount__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>FinServ__InverseRelationship__c</field>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>FinServ__RelatedAccount__c</field>
+            <value>
+                <elementReference>$Record.FinServ__Account__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>FinServ__Role__c</field>
+            <value>
+                <elementReference>InverseRole</elementReference>
+            </value>
+        </inputAssignments>
+        <object>FinServ__AccountAccountRelation__c</object>
+    </recordCreates>
+    <recordLookups>
+        <name>Get_Inverse_Record</name>
+        <label>Get Inverse Record</label>
+        <locationX>182</locationX>
+        <locationY>323</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Decision_1</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>CUB_External_Id__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>InverseFormula</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>FinServ__AccountAccountRelation__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <name>Copy_1_of_Update_Trigger_AAR</name>
+        <label>Copy 1 of Update Trigger AAR</label>
+        <locationX>314</locationX>
+        <locationY>647</locationY>
+        <inputAssignments>
+            <field>FinServ__InverseRelationship__c</field>
+            <value>
+                <elementReference>InverseRecordID</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Trigger_AAR</name>
+        <label>Update Trigger AAR</label>
+        <locationX>50</locationX>
+        <locationY>539</locationY>
+        <inputAssignments>
+            <field>FinServ__InverseRelationship__c</field>
+            <value>
+                <elementReference>Get_Inverse_Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>56</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Get_Inverse_Record</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>FinServ__InverseRelationship__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>a00H3000001FtK5IAK</stringValue>
+            </value>
+        </filters>
+        <object>FinServ__AccountAccountRelation__c</object>
+        <recordTriggerType>Create</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>InverseRecordID</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CUB_AffiliateRelationAccountType</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+  RecordType.DeveloperName = &quot;Affiliate&quot;, 
+  OR(
+    FinServ__Account__r.RecordType.DeveloperName != &quot;Company&quot;,
+    FinServ__RelatedAccount__r.RecordType.DeveloperName != &quot;Company&quot;
+  )
+)</errorConditionFormula>
+    <errorMessage>關係企業為兩法人間的關係</errorMessage>
+</ValidationRule>

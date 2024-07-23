@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FinServ__NextLifeEvent__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Next Life Event</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Higher Education</fullName>
+                <default>false</default>
+                <label>Higher Education</label>
+            </value>
+            <value>
+                <fullName>Enter Workforce</fullName>
+                <default>false</default>
+                <label>Enter Workforce</label>
+            </value>
+            <value>
+                <fullName>Returning to Workforce</fullName>
+                <default>false</default>
+                <label>Returning to Workforce</label>
+            </value>
+            <value>
+                <fullName>First Home Purchase</fullName>
+                <default>false</default>
+                <label>First Home Purchase</label>
+            </value>
+            <value>
+                <fullName>Children</fullName>
+                <default>false</default>
+                <label>Children</label>
+            </value>
+            <value>
+                <fullName>Renovations</fullName>
+                <default>false</default>
+                <label>Renovations</label>
+            </value>
+            <value>
+                <fullName>Moving</fullName>
+                <default>false</default>
+                <label>Moving</label>
+            </value>
+            <value>
+                <fullName>Critical Family Event</fullName>
+                <default>false</default>
+                <label>Critical Family Event</label>
+            </value>
+            <value>
+                <fullName>Promotion</fullName>
+                <default>false</default>
+                <label>Promotion</label>
+            </value>
+            <value>
+                <fullName>Retirement</fullName>
+                <default>false</default>
+                <label>Retirement</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

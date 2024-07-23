@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FinServ__AgeAsText__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>IF(
+    ISBLANK(Birthdate),
+    
+    &apos;&apos;,
+
+    IF(
+        And(
+            Month(Today()) &gt;= Month(Birthdate),
+            Day(Today()) &gt;=  Day(Birthdate)
+        ),
+
+        TEXT(Year(Today())- Year(Birthdate)) &amp; &quot; &quot; &amp; &quot;years&quot; &amp; &quot; &quot; &amp; TEXT(Month(Today())-Month(Birthdate)) &amp; &quot; &quot; &amp; &quot;months&quot; &amp; &quot; &quot; &amp; TEXT(Day(Today())-Day(Birthdate)),
+    
+        IF(
+            And(month(Today())&lt; month(Birthdate), Day(Today())&gt;= Day(Birthdate)),
+        
+            TEXT(Year(Today())-Year(Birthdate)-1) &amp; &quot; &quot; &amp; &quot;years&quot; &amp; &quot; &quot; &amp; TEXT(12 - Month(Birthdate)+month(Today())) &amp; &quot; &quot; &amp; &quot;months&quot; &amp; &quot; &quot; &amp; TEXT(Day(Today())-Day(Birthdate)),
+    
+            if(
+                And( month(Today())&lt; month(Birthdate), Day(Today())&lt; Day(Birthdate)),
+
+                (TEXT( (Year(Today())-Year(Birthdate)-1)) &amp; &quot; &quot; &amp; &quot;years&quot; &amp; &quot; &quot; &amp; TEXT((12 - Month(Birthdate)+month(Today())-1)) &amp; &quot; &quot; &amp; &quot;months&quot; ) &amp; &quot; &quot; &amp;
+                    CASE(month(Birthdate),
+                        2, TEXT( (28 - Day(Birthdate))+ Day(Today())),
+                        4, TEXT( (30 - Day(Birthdate))+ Day(Today())),
+                        6, TEXT( (30 - Day(Birthdate))+ Day(Today())),
+                        9, TEXT( (30 - Day(Birthdate))+ Day(Today())),
+                        11, TEXT( (30 - Day(Birthdate))+ Day(Today())),
+                        TEXT( (31 - Day(Birthdate))+ Day(Today()))
+                    ),
+                if(
+                    And( month(Today())= month(Birthdate), Day(Today())&lt; Day(Birthdate)),
+                
+                    (TEXT(Year(Today())- Year(Birthdate)-1)) &amp; &quot; &quot; &amp; &quot;years&quot; &amp; &quot; &quot; &amp; &quot;11&quot; &amp; &quot; &quot; &amp; &quot;months&quot; &amp; &quot; &quot; &amp;
+                    CASE(month(Birthdate),
+                        2, TEXT( (28 - Day(Birthdate))+ Day(Today())),
+                        4, TEXT( (30 - Day(Birthdate))+ Day(Today())),
+                        6, TEXT( (30 - Day(Birthdate))+ Day(Today())),
+                        9, TEXT( (30 - Day(Birthdate))+ Day(Today())),
+                        11, TEXT( (30 - Day(Birthdate))+ Day(Today())),
+                        TEXT( (31 - Day(Birthdate))+ Day(Today()))
+                    ),
+                    (TEXT(Year(Today())- Year(Birthdate))) &amp; &quot; &quot; &amp; &quot;years&quot; &amp; &quot; &quot; &amp; TEXT(Month(Today())-Month(Birthdate)-1) &amp; &quot; &quot; &amp; &quot;months&quot; &amp; &quot; &quot; &amp;
+                    CASE(month(Birthdate),
+                        2, TEXT( (28 - Day(Birthdate))+ Day(Today())),
+                        4, TEXT( (30 - Day(Birthdate))+ Day(Today())),
+                        6, TEXT( (30 - Day(Birthdate))+ Day(Today())),
+                        9, TEXT( (30 - Day(Birthdate))+ Day(Today())),
+                        11, TEXT( (30 - Day(Birthdate))+ Day(Today())),
+                        TEXT( (31 - Day(Birthdate))+ Day(Today()))
+                    )
+                )
+            )
+        )
+    ) &amp; &quot; &quot; &amp; &quot;days&quot;
+)</formula>
+    <label>Age As Text</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_Distrib_Logic__c</fullName>
+    <label>名單派發邏輯</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ToQueue</fullName>
+                <default>false</default>
+                <label>派發給有權人員</label>
+            </value>
+            <value>
+                <fullName>ToPerson</fullName>
+                <default>false</default>
+                <label>直接派發給RM或指定人員</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

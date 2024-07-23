@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FinServ__AccountCannotBeAnIndividual</fullName>
+    <active>false</active>
+    <description>Error message when any selected account is part of an individual in an AAR.</description>
+    <errorConditionFormula>OR(ISPICKVAL(FinServ__Account__r.FinServ__IndividualType__c,&apos;Individual&apos;),ISPICKVAL( FinServ__RelatedAccount__r.FinServ__IndividualType__c, &apos;Individual&apos;))</errorConditionFormula>
+    <errorMessage>Account can&apos;t be a part of an individual.</errorMessage>
+</ValidationRule>

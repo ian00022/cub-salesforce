@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bond_Interest</fullName>
+    <columns>NAME</columns>
+    <columns>Account__c</columns>
+    <columns>Bond_Code_ISIN__c</columns>
+    <columns>Issue_Date__c</columns>
+    <columns>CURRENCY_ISO_CODE</columns>
+    <columns>Amount__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>Type__c</field>
+        <operation>equals</operation>
+        <value>配息</value>
+    </filters>
+    <label>自營債-配息明細</label>
+</ListView>

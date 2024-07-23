@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>61.0</apiVersion>
+    <description>修改邏輯：人員設定檔從抓前一預佔者改為抓prior 開發中 RM
+業務意義：讓一個 RM 不可對一個 account 預佔太久</description>
+    <environments>Default</environments>
+    <formulas>
+        <name>OccupyNum_1</name>
+        <dataType>Number</dataType>
+        <expression>{!Get_CurrentUser_Personnel.Reserved_Amount__c}-1</expression>
+        <scale>0</scale>
+    </formulas>
+    <interviewLabel>Account: Update Fields When ResRM Is Blank {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Account: Update Fields When ResRM Is Blank</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Get_CurrentUser_Personnel</name>
+        <label>Get CurrentUser Personnel</label>
+        <locationX>176</locationX>
+        <locationY>323</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Update_Personnel</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Name__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record__Prior.Responsible_RM__c</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Personnel__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <name>Update_Account</name>
+        <label>Update Account</label>
+        <locationX>176</locationX>
+        <locationY>539</locationY>
+        <inputAssignments>
+            <field>PreOccupy_End_Date__c</field>
+        </inputAssignments>
+        <inputAssignments>
+            <field>PreOccupy_Start_Date__c</field>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Request_Release__c</field>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Personnel</name>
+        <label>Update Personnel</label>
+        <locationX>176</locationX>
+        <locationY>431</locationY>
+        <connector>
+            <targetReference>Update_Account</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Get_CurrentUser_Personnel.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Reserved_Amount__c</field>
+            <value>
+                <elementReference>OccupyNum_1</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Personnel__c</object>
+    </recordUpdates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Get_CurrentUser_Personnel</targetReference>
+        </connector>
+        <filterFormula>{!$Record.Responsible_RM__c} &lt;&gt; {!$Record__Prior.Responsible_RM__c} &amp;&amp;  ISBLANK({!$Record.Responsible_RM__c} )</filterFormula>
+        <object>Account</object>
+        <recordTriggerType>Update</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>
