@@ -250,6 +250,14 @@
                 <field>RecordTypeId</field>
             </layoutItems>
             <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Account_Key_Id_KYC__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Check_Account_Key_Id__c</field>
+            </layoutItems>
+            <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>CreatedById</field>
             </layoutItems>
@@ -331,13 +339,6 @@
         <fields>RequestCompletionDate</fields>
         <fields>Status</fields>
         <relatedList>RelatedPScreeningSummary</relatedList>
-    </relatedLists>
-    <relatedLists>
-        <fields>Name</fields>
-        <fields>FullName</fields>
-        <fields>NextProfileReviewDate</fields>
-        <fields>LastProfileReviewDate</fields>
-        <relatedList>RelatedPartyProfiles</relatedList>
     </relatedLists>
     <relatedLists>
         <fields>Name</fields>

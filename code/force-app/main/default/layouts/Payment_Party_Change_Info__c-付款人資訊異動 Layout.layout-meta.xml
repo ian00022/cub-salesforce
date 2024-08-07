@@ -28,7 +28,7 @@
                 <field>Time__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
+                <behavior>Required</behavior>
                 <field>Account__c</field>
             </layoutItems>
             <layoutItems>

@@ -19,14 +19,6 @@
                 <field>Account_Unit_Difference__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>Account_Key_Formula__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>CUB_External_Id__c</field>
-            </layoutItems>
-            <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Data_From_Non_SF__c</field>
             </layoutItems>

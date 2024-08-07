@@ -7,7 +7,7 @@
     <columns>Issue_Date__c</columns>
     <columns>CURRENCY_ISO_CODE</columns>
     <columns>Amount__c</columns>
-    <filterScope>Mine</filterScope>
+    <filterScope>Everything</filterScope>
     <filters>
         <field>Type__c</field>
         <operation>equals</operation>

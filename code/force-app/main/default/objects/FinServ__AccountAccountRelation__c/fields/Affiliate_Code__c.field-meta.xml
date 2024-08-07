@@ -7,6 +7,8 @@ C. 董事長 (或代表公司董事、執行業務股東) 或總經理與他公�
 D. 其他</inlineHelpText>
     <label>關係企業代號</label>
     <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
     <type>MultiselectPicklist</type>
     <valueSet>

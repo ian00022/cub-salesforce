@@ -133,9 +133,21 @@
             </value>
         </inputAssignments>
         <inputAssignments>
+            <field>Account_Key_Id_KYC__c</field>
+            <value>
+                <elementReference>$Record.Account_Key_Id__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
             <field>Name</field>
             <value>
                 <elementReference>Account_Name_KYC</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>OwnerId</field>
+            <value>
+                <elementReference>$Record.OwnerId</elementReference>
             </value>
         </inputAssignments>
         <inputAssignments>
@@ -159,9 +171,21 @@
             </value>
         </inputAssignments>
         <inputAssignments>
+            <field>Account_Key_Id_KYC__c</field>
+            <value>
+                <elementReference>$Record.Account_Key_Id__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
             <field>Name</field>
             <value>
                 <elementReference>Person_Account_Name_KYC</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>OwnerId</field>
+            <value>
+                <elementReference>$Record.OwnerId</elementReference>
             </value>
         </inputAssignments>
         <inputAssignments>
@@ -182,6 +206,12 @@
             <field>AccountId</field>
             <value>
                 <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Account_Key_Id_KYC__c</field>
+            <value>
+                <elementReference>$Record.Account_Key_Id__c</elementReference>
             </value>
         </inputAssignments>
         <inputAssignments>
@@ -211,9 +241,21 @@
             </value>
         </inputAssignments>
         <inputAssignments>
+            <field>Account_Key_Id_KYC__c</field>
+            <value>
+                <elementReference>$Record.Account_Key_Id__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
             <field>Name</field>
             <value>
                 <elementReference>Person_Account_Name_KYC</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>OwnerId</field>
+            <value>
+                <elementReference>$Record.OwnerId</elementReference>
             </value>
         </inputAssignments>
         <inputAssignments>
@@ -293,15 +335,4 @@
         <isViewedAsPlainText>true</isViewedAsPlainText>
         <text>KYC-{!$Record.FirstName}{!$Record.LastName}</text>
     </textTemplates>
-    <variables>
-        <name>New_Account_KYC</name>
-        <dataType>Number</dataType>
-        <isCollection>false</isCollection>
-        <isInput>false</isInput>
-        <isOutput>false</isOutput>
-        <scale>0</scale>
-        <value>
-            <elementReference>$Record.Check_KYC__c</elementReference>
-        </value>
-    </variables>
 </Flow>

@@ -551,8 +551,6 @@
     <tabs>External_Contact__c</tabs>
     <tabs>TMU_Investment__c</tabs>
     <tabs>Foreign_Exchange__c</tabs>
-    <tabs>Customer_ID_Type_Mapping__c</tabs>
-    <tabs>Customer_ID_Code__c</tabs>
     <tabs>Loan_Trend__c</tabs>
     <tabs>Import_Export_Trend__c</tabs>
     <uiType>Lightning</uiType>

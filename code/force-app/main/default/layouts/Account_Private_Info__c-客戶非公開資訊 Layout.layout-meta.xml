@@ -16,7 +16,7 @@
                 <field>Account__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
+                <behavior>Required</behavior>
                 <field>Account_Private_Info_External_Id__c</field>
             </layoutItems>
             <layoutItems>
@@ -146,6 +146,30 @@
     <relatedLists>
         <fields>NAME</fields>
         <relatedList>Bond_Transaction__c.Account_Private_Info__c</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>NAME</fields>
+        <relatedList>Negotiation_Detail__c.Account_Private_Info__c</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>NAME</fields>
+        <relatedList>Deposit_Trend__c.Account_Private_Info__c</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>NAME</fields>
+        <relatedList>Loan_Trend__c.Account_Private_Info__c</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>NAME</fields>
+        <relatedList>Import_Export_Trend__c.Account_Private_Info__c</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>NAME</fields>
+        <relatedList>Private_Risk_Event__c.Account_Private_Info__c</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>NAME</fields>
+        <relatedList>Payment_Party_Change_Info__c.Account_Private_Info__c</relatedList>
     </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showHighlightsPanel>false</showHighlightsPanel>

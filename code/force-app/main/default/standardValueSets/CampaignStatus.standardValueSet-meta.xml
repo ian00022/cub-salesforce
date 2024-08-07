@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Not Distributed</fullName>
+        <default>false</default>
+        <label>尚未審核</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Under Review</fullName>
+        <default>false</default>
+        <label>審核中</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Rejected</fullName>
+        <default>false</default>
+        <label>退回</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Approved</fullName>
+        <default>false</default>
+        <label>已審核</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Distributed</fullName>
+        <default>false</default>
+        <label>總行已派發</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Recall After Distributed</fullName>
+        <default>false</default>
+        <label>派發後撤回</label>
+    </standardValue>
+</StandardValueSet>

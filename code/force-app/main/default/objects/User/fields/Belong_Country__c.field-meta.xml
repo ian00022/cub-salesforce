@@ -7,6 +7,6 @@
     <type>Picklist</type>
     <valueSet>
         <restricted>true</restricted>
-        <valueSetName>Employee_Country</valueSetName>
+        <valueSetName>CUB_Country</valueSetName>
     </valueSet>
 </CustomField>

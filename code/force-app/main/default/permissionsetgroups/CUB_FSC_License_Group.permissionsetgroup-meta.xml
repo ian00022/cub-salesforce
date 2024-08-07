@@ -6,6 +6,5 @@
     <permissionSets>CUB_FSC_License</permissionSets>
     <permissionSets>FinServ__FinancialServicesCloudBasic</permissionSets>
     <permissionSets>FinServ__FinancialServicesCloudStandard</permissionSets>
-    <permissionSets>force__FinancialServicesCloudExtension</permissionSets>
     <status>Updated</status>
 </PermissionSetGroup>

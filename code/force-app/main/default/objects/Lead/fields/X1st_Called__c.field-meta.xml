@@ -3,6 +3,6 @@
     <fullName>X1st_Called__c</fullName>
     <defaultValue>false</defaultValue>
     <label>已初次電訪</label>
-    <trackFeedHistory>false</trackFeedHistory>
+    <trackFeedHistory>true</trackFeedHistory>
     <type>Checkbox</type>
 </CustomField>

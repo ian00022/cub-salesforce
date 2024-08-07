@@ -140,13 +140,6 @@
     </relatedLists>
     <relatedLists>
         <fields>Name</fields>
-        <fields>FullName</fields>
-        <fields>NextProfileReviewDate</fields>
-        <fields>LastProfileReviewDate</fields>
-        <relatedList>RelatedPartyProfiles</relatedList>
-    </relatedLists>
-    <relatedLists>
-        <fields>Name</fields>
         <fields>IdDocumentType</fields>
         <fields>IssueDate</fields>
         <fields>ExpirationDate</fields>

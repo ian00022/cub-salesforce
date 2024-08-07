@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Duplicate_Lead_Exists__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>當此欄位被勾起時，表示此商機可能有其他人正進行開發</inlineHelpText>
+    <label>有重複商機存在</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

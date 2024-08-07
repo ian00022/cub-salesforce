@@ -231,178 +231,10 @@
         <label>ICC Team2</label>
     </customValue>
     <customValue>
-        <fullName>722_Div2_Sec3</fullName>
+        <fullName>734_S_K_Area_SME1</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>722_Div2_Sec3</label>
-    </customValue>
-    <customValue>
-        <fullName>604_ICC_Team2</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>604_ICC_Team2</label>
-    </customValue>
-    <customValue>
-        <fullName>725_Div3_Sec2</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>725_Div3_Sec2</label>
-    </customValue>
-    <customValue>
-        <fullName>725_Divi3_Sec3</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>725_Divi3_Sec3</label>
-    </customValue>
-    <customValue>
-        <fullName>737_FS_Div_Sec1</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>737_FS_Div_Sec1</label>
-    </customValue>
-    <customValue>
-        <fullName>737_FS_Div_Sec2</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>737_FS_Div_Sec2</label>
-    </customValue>
-    <customValue>
-        <fullName>737_FS_Div_Sec3</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>737_FS_Div_Sec3</label>
-    </customValue>
-    <customValue>
-        <fullName>777_N_Area1_SME1</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>777_N_Area1_SME1</label>
-    </customValue>
-    <customValue>
-        <fullName>777_N_Area1_SME2</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>777_N_Area1_SME2</label>
-    </customValue>
-    <customValue>
-        <fullName>777_N_Area1_MM1</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>777_N_Area1_MM1</label>
-    </customValue>
-    <customValue>
-        <fullName>721_N_Area2_SME1</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>721_N_Area2_SME1</label>
-    </customValue>
-    <customValue>
-        <fullName>721_N_Area2_SME2</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>721_N_Area2_SME2</label>
-    </customValue>
-    <customValue>
-        <fullName>721_N_Area2_MM1</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>721_N_Area2_MM1</label>
-    </customValue>
-    <customValue>
-        <fullName>721_N_Area2_MM2</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>721_N_Area2_MM2</label>
-    </customValue>
-    <customValue>
-        <fullName>726_N_Area3_SME1</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>726_N_Area3_SME1</label>
-    </customValue>
-    <customValue>
-        <fullName>726_N_Area3_SME2</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>726_N_Area3_SME2</label>
-    </customValue>
-    <customValue>
-        <fullName>735_N_Area4_SME1</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>735_N_Area4_SME1</label>
-    </customValue>
-    <customValue>
-        <fullName>735_N_Area4_SME2</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>735_N_Area4_SME2</label>
-    </customValue>
-    <customValue>
-        <fullName>735_N_Area4_SME3</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>735_N_Area4_SME3</label>
-    </customValue>
-    <customValue>
-        <fullName>735_N_Area4_MM1</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>735_N_Area4_MM1</label>
-    </customValue>
-    <customValue>
-        <fullName>735_N_Area4_MM2</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>735_N_Area4_MM2</label>
-    </customValue>
-    <customValue>
-        <fullName>735_N_Area4_MM3</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>735_N_Area4_MM3</label>
-    </customValue>
-    <customValue>
-        <fullName>729_TC_Area_SME1</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>729_TC_Area_SME1</label>
-    </customValue>
-    <customValue>
-        <fullName>729_TC_Area_MM1</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>729_TC_Area_MM1</label>
-    </customValue>
-    <customValue>
-        <fullName>731_M_Area1_SME1</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>731_M_Area1_SME1</label>
-    </customValue>
-    <customValue>
-        <fullName>731_M_Area1_SME2</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>731_M_Area1_SME2</label>
-    </customValue>
-    <customValue>
-        <fullName>731_M_Area1_MM1</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>731_M_Area1_MM1</label>
-    </customValue>
-    <customValue>
-        <fullName>779_M_Area2_SME1</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>779_M_Area2_SME1</label>
-    </customValue>
-    <customValue>
-        <fullName>779_M_Area2_SME2</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>779_M_Area2_SME2</label>
+        <label>734_S_K_Area_SME1</label>
     </customValue>
     <customValue>
         <fullName>779_M_Area2_MM1</fullName>
@@ -411,46 +243,184 @@
         <label>779_M_Area2_MM1</label>
     </customValue>
     <customValue>
-        <fullName>734_S_K_Area_SME1</fullName>
+        <fullName>779_M_Area2_SME2</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>734_S_K_Area_SME1</label>
+        <label>779_M_Area2_SME2</label>
     </customValue>
     <customValue>
-        <fullName>734_S_K_Area_MM1</fullName>
+        <fullName>779_M_Area2_SME1</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>734_S_K_Area_MM1</label>
+        <label>779_M_Area2_SME1</label>
     </customValue>
     <customValue>
-        <fullName>734_S_K_Area_MM2</fullName>
+        <fullName>731_M_Area1_MM1</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>734_S_K_Area_MM2</label>
+        <label>731_M_Area1_MM1</label>
     </customValue>
     <customValue>
-        <fullName>733_S_T_Area_SME2</fullName>
+        <fullName>731_M_Area1_SME2</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>733_S_T_Area_SME2</label>
+        <label>731_M_Area1_SME2</label>
     </customValue>
     <customValue>
-        <fullName>733_S_T_Area_SME3</fullName>
+        <fullName>731_M_Area1_SME1</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>733_S_T_Area_SME3</label>
+        <label>731_M_Area1_SME1</label>
     </customValue>
     <customValue>
-        <fullName>733_S_T_Area_MM3</fullName>
+        <fullName>729_TC_Area_MM1</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>733_S_T_Area_MM3</label>
+        <label>729_TC_Area_MM1</label>
+    </customValue>
+    <customValue>
+        <fullName>729_TC_Area_SME1</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>729_TC_Area_SME1</label>
+    </customValue>
+    <customValue>
+        <fullName>735_N_Area4_MM3</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>735_N_Area4_MM3</label>
+    </customValue>
+    <customValue>
+        <fullName>735_N_Area4_MM2</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>735_N_Area4_MM2</label>
+    </customValue>
+    <customValue>
+        <fullName>735_N_Area4_MM1</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>735_N_Area4_MM1</label>
+    </customValue>
+    <customValue>
+        <fullName>735_N_Area4_SME3</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>735_N_Area4_SME3</label>
+    </customValue>
+    <customValue>
+        <fullName>735_N_Area4_SME2</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>735_N_Area4_SME2</label>
+    </customValue>
+    <customValue>
+        <fullName>735_N_Area4_SME1</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>735_N_Area4_SME1</label>
+    </customValue>
+    <customValue>
+        <fullName>726_N_Area3_SME2</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>726_N_Area3_SME2</label>
+    </customValue>
+    <customValue>
+        <fullName>726_N_Area3_SME1</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>726_N_Area3_SME1</label>
+    </customValue>
+    <customValue>
+        <fullName>721_N_Area2_MM2</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>721_N_Area2_MM2</label>
+    </customValue>
+    <customValue>
+        <fullName>721_N_Area2_MM1</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>721_N_Area2_MM1</label>
+    </customValue>
+    <customValue>
+        <fullName>721_N_Area2_SME2</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>721_N_Area2_SME2</label>
+    </customValue>
+    <customValue>
+        <fullName>721_N_Area2_SME1</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>721_N_Area2_SME1</label>
     </customValue>
     <customValue>
         <fullName>604_VN_Team1</fullName>
         <default>false</default>
         <isActive>false</isActive>
         <label>604_VN_Team1</label>
+    </customValue>
+    <customValue>
+        <fullName>777_N_Area1_SME2</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>777_N_Area1_SME2</label>
+    </customValue>
+    <customValue>
+        <fullName>777_N_Area1_SME1</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>777_N_Area1_SME1</label>
+    </customValue>
+    <customValue>
+        <fullName>737_FS_Div_Sec3</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>737_FS_Div_Sec3</label>
+    </customValue>
+    <customValue>
+        <fullName>737_FS_Div_Sec2</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>737_FS_Div_Sec2</label>
+    </customValue>
+    <customValue>
+        <fullName>737_FS_Div_Sec1</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>737_FS_Div_Sec1</label>
+    </customValue>
+    <customValue>
+        <fullName>725_Divi3_Sec3</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>725_Divi3_Sec3</label>
+    </customValue>
+    <customValue>
+        <fullName>725_Div3_Sec2</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>725_Div3_Sec2</label>
+    </customValue>
+    <customValue>
+        <fullName>604_ICC_Team2</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>604_ICC_Team2</label>
+    </customValue>
+    <customValue>
+        <fullName>722_Div2_Sec3</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>722_Div2_Sec3</label>
+    </customValue>
+    <customValue>
+        <fullName>777_N_Area1_MM1</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>777_N_Area1_MM1</label>
     </customValue>
     <customValue>
         <fullName>604_VN_Team2</fullName>
@@ -475,6 +445,36 @@
         <default>false</default>
         <isActive>false</isActive>
         <label>725_Div3_Sec1</label>
+    </customValue>
+    <customValue>
+        <fullName>733_S_T_Area_MM3</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>733_S_T_Area_MM3</label>
+    </customValue>
+    <customValue>
+        <fullName>733_S_T_Area_SME3</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>733_S_T_Area_SME3</label>
+    </customValue>
+    <customValue>
+        <fullName>733_S_T_Area_SME2</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>733_S_T_Area_SME2</label>
+    </customValue>
+    <customValue>
+        <fullName>734_S_K_Area_MM2</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>734_S_K_Area_MM2</label>
+    </customValue>
+    <customValue>
+        <fullName>734_S_K_Area_MM1</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>734_S_K_Area_MM1</label>
     </customValue>
     <masterLabel>科別</masterLabel>
     <sorted>false</sorted>

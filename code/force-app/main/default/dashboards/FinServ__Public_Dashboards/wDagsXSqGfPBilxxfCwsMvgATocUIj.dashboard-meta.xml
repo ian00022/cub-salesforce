@@ -111,8 +111,8 @@
     </dashboardGridLayout>
     <dashboardType>SpecifiedUser</dashboardType>
     <isGridLayout>true</isGridLayout>
-    <owner>cub_ibm1_laguna-saltedcaramel-8550@tw.ibm.com</owner>
-    <runningUser>cub_ibm1_laguna-saltedcaramel-8550@tw.ibm.com</runningUser>
+    <owner>ianpychen@cub</owner>
+    <runningUser>ianpychen@cub</runningUser>
     <textColor>#000000</textColor>
     <title>Interest Rate 12M</title>
     <titleColor>#000000</titleColor>

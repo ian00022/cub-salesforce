@@ -3,4 +3,28 @@
     <fullName>FinServ__Lead Process</fullName>
     <description>Consumer lead</description>
     <isActive>true</isActive>
+    <values>
+        <fullName>商機已轉換</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>客戶已被開發</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>尚未聯繫</fullName>
+        <default>true</default>
+    </values>
+    <values>
+        <fullName>已電訪</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>有效商機</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>轉介商機不承接</fullName>
+        <default>false</default>
+    </values>
 </BusinessProcess>

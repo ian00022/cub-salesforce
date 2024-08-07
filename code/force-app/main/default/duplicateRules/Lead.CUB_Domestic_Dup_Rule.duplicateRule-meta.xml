@@ -4,19 +4,10 @@
     <actionOnUpdate>Allow</actionOnUpdate>
     <alertText>提醒：此客戶有其他重複商機正開發中</alertText>
     <description xsi:nil="true"/>
-    <duplicateRuleFilter>
-        <booleanFilter xsi:nil="true"/>
-        <duplicateRuleFilterItems>
-            <field>Customer_Data_Country__c</field>
-            <operation>equals</operation>
-            <value>TW</value>
-            <sortOrder>1</sortOrder>
-            <table>Lead</table>
-        </duplicateRuleFilterItems>
-    </duplicateRuleFilter>
+    <duplicateRuleFilter xsi:nil="true"/>
     <duplicateRuleMatchRules>
         <matchRuleSObjectType>Lead</matchRuleSObjectType>
-        <matchingRule>Standard_Lead_Match_Rule_v1_0</matchingRule>
+        <matchingRule>Lead_Domestic_Match</matchingRule>
         <objectMapping xsi:nil="true"/>
     </duplicateRuleMatchRules>
     <isActive>false</isActive>

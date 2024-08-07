@@ -14,7 +14,7 @@
     <columns>Settlement_Amount__c</columns>
     <columns>Settlement_Date__c</columns>
     <columns>In_Transit_Note__c</columns>
-    <filterScope>Mine</filterScope>
+    <filterScope>Everything</filterScope>
     <filters>
         <field>Transaction_Date__c</field>
         <operation>greaterThan</operation>
