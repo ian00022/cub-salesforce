@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Overseas_Product_List</fullName>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>PRODUCT2.DESCRIPTION</columns>
+    <columns>PRODUCT2.FAMILY</columns>
+    <columns>PRODUCT2.ACTIVE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>PRODUCT2.RECORD_TYPE</field>
+        <operation>equals</operation>
+        <value>Product2.Overseas</value>
+    </filters>
+    <label>Overseas Product List</label>
+</ListView>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>FTP_OBU</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>FTP OBU</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>OBU_BU_Head_OS</roleAndSubordinatesInternal>
+        </sharedTo>
+        <criteriaItems>
+            <field>Country__c</field>
+            <operation>equals</operation>
+            <value>Taiwan</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>FTP_Overseas_Management</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>FTP 國管</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>OP_Senior_VP_OS</roleAndSubordinatesInternal>
+        </sharedTo>
+        <criteriaItems>
+            <field>Country__c</field>
+            <operation>notEqual</operation>
+            <value>Taiwan</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>FTP_TW</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>FTP TW</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Cheif_Of_Channel</roleAndSubordinatesInternal>
+        </sharedTo>
+        <criteriaItems>
+            <field>Country__c</field>
+            <operation>equals</operation>
+            <value>Taiwan</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>FTP_VN</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>FTP VN</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>VN_BU_Head_OS</roleAndSubordinatesInternal>
+        </sharedTo>
+        <criteriaItems>
+            <field>CurrencyIsoCode</field>
+            <operation>equals</operation>
+            <value>Vientiane</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+</SharingRules>

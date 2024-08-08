@@ -1,37 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Report xmlns="http://soap.sforce.com/2006/04/metadata">
     <columns>
-        <field>Campaign$Id</field>
-    </columns>
-    <columns>
-        <field>Campaign.SL_Related_Campaign__r$RecordType</field>
-    </columns>
-    <columns>
         <field>Campaign.SL_Related_Campaign__r$Customer_Id__c</field>
     </columns>
     <columns>
         <field>Campaign.SL_Related_Campaign__r$Company__c</field>
     </columns>
     <columns>
+        <field>Campaign.SL_Related_Campaign__r$Dist_User__c</field>
+    </columns>
+    <columns>
+        <field>Campaign.SL_Related_Campaign__r$Distribute_Bsn_District__c</field>
+    </columns>
+    <columns>
+        <field>Campaign.SL_Related_Campaign__r$Distribute_Division__c</field>
+    </columns>
+    <columns>
+        <field>Campaign.SL_Related_Campaign__r$Distribute_Team_Cbsm__c</field>
+    </columns>
+    <columns>
+        <field>Campaign.SL_Related_Campaign__r$Suggest_Disp_Branch__c</field>
+    </columns>
+    <columns>
         <field>Campaign.SL_Related_Campaign__r$Contact__c</field>
     </columns>
     <columns>
         <field>Campaign.SL_Related_Campaign__r$Person_In_Charge__c</field>
-    </columns>
-    <columns>
-        <field>Campaign.SL_Related_Campaign__r$Address__CountryCode__s</field>
-    </columns>
-    <columns>
-        <field>Campaign.SL_Related_Campaign__r$Address__StateCode__s</field>
-    </columns>
-    <columns>
-        <field>Campaign.SL_Related_Campaign__r$Address__PostalCode__s</field>
-    </columns>
-    <columns>
-        <field>Campaign.SL_Related_Campaign__r$Address__City__s</field>
-    </columns>
-    <columns>
-        <field>Campaign.SL_Related_Campaign__r$Address__Street__s</field>
     </columns>
     <columns>
         <field>Campaign.SL_Related_Campaign__r$Phone__c</field>
@@ -41,35 +35,159 @@
         <field>Campaign.SL_Related_Campaign__r$Total_Capital_Amt__c</field>
     </columns>
     <columns>
-        <field>Campaign.SL_Related_Campaign__r$Email__c</field>
+        <field>Campaign.SL_Related_Campaign__r$Total_Export_Value_LY__c</field>
     </columns>
     <columns>
-        <field>Campaign.SL_Related_Campaign__r$Distribute_Division__c</field>
+        <field>Campaign.SL_Related_Campaign__r$Total_Import_Value_LY__c</field>
     </columns>
     <columns>
-        <field>Campaign.SL_Related_Campaign__r$Dist_User_Emp_No__c</field>
+        <field>Campaign.SL_Related_Campaign__r$Total_Export_Value__c</field>
     </columns>
     <columns>
-        <field>Campaign.SL_Related_Campaign__r$Dist_User_Segment__c</field>
-    </columns>
-    <columns>
-        <field>Campaign.SL_Related_Campaign__r$Dist_User_Division__c</field>
-    </columns>
-    <columns>
-        <field>Campaign.SL_Related_Campaign__r$Dist_User_Department__c</field>
-    </columns>
-    <columns>
-        <field>Campaign.SL_Related_Campaign__r$Dist_User__c</field>
-    </columns>
-    <columns>
-        <field>Campaign.SL_Related_Campaign__r$Distribute_Bsn_District__c</field>
-    </columns>
-    <columns>
-        <field>Campaign.SL_Related_Campaign__r$Suggest_Disp_Branch__c</field>
+        <field>Campaign.SL_Related_Campaign__r$Total_Import_Value__c</field>
     </columns>
     <columns>
         <aggregateTypes>Sum</aggregateTypes>
-        <field>Campaign.SL_Related_Campaign__r$Customer_Developing__c</field>
+        <field>Campaign.SL_Related_Campaign__r$Special_List_Order__c</field>
+    </columns>
+    <columns>
+        <field>Campaign.SL_Related_Campaign__r$Establish_Date__c</field>
+    </columns>
+    <columns>
+        <field>Campaign.SL_Related_Campaign__r$Account_Status__c</field>
+    </columns>
+    <columns>
+        <field>Campaign.SL_Related_Campaign__r$Rel_Desc__c</field>
+    </columns>
+    <columns>
+        <field>Campaign.SL_Related_Campaign__r$Rel_Customer_Name__c</field>
+    </columns>
+    <columns>
+        <field>Campaign.SL_Related_Campaign__r$Competitor_Id__c</field>
+    </columns>
+    <columns>
+        <field>Campaign.SL_Related_Campaign__r$Competitor_Name__c</field>
+    </columns>
+    <columns>
+        <field>Campaign.SL_Related_Campaign__r$Email__c</field>
+    </columns>
+    <columns>
+        <field>Campaign.SL_Related_Campaign__r$Other__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Campaign.SL_Related_Campaign__r$Deposit_Foreign__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Campaign.SL_Related_Campaign__r$Deposit_NTD__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Campaign.SL_Related_Campaign__r$Deposit_Avg__c</field>
+    </columns>
+    <columns>
+        <field>Campaign.SL_Related_Campaign__r$Dp_M_Branch_Name__c</field>
+    </columns>
+    <columns>
+        <field>Campaign.SL_Related_Campaign__r$Dp_M_Bsn__c</field>
+    </columns>
+    <columns>
+        <field>Campaign.SL_Related_Campaign__r$Credit_Card_VIP__c</field>
+    </columns>
+    <columns>
+        <field>Campaign.SL_Related_Campaign__r$Luxury_Residence__c</field>
+    </columns>
+    <columns>
+        <field>Campaign.SL_Related_Campaign__r$PI_Specialist__c</field>
+    </columns>
+    <columns>
+        <field>Campaign.SL_Related_Campaign__r$High_Tax_Amount__c</field>
+    </columns>
+    <columns>
+        <field>Campaign.SL_Related_Campaign__r$Trade_Potential__c</field>
+    </columns>
+    <columns>
+        <field>Campaign.SL_Related_Campaign__r$Investment_Potential__c</field>
+    </columns>
+    <columns>
+        <field>Campaign.SL_Related_Campaign__r$Hedging_Potential__c</field>
+    </columns>
+    <columns>
+        <field>Campaign.SL_Related_Campaign__r$Key_Industry__c</field>
+    </columns>
+    <columns>
+        <field>Campaign.SL_Related_Campaign__r$Bond_Potential__c</field>
+    </columns>
+    <columns>
+        <field>Campaign.SL_Related_Campaign__r$Salary_Transfer_Potential__c</field>
+    </columns>
+    <columns>
+        <field>Campaign.SL_Related_Campaign__r$Good_Physique__c</field>
+    </columns>
+    <columns>
+        <field>Campaign.SL_Related_Campaign__r$Risk_Concern__c</field>
+    </columns>
+    <columns>
+        <field>Campaign.SL_Related_Campaign__r$Customer_Mask_Id__c</field>
+    </columns>
+    <columns>
+        <field>Campaign.SL_Related_Campaign__r$Data_Date__c</field>
+    </columns>
+    <columns>
+        <field>Campaign.SL_Related_Campaign__r$Customer_Segment__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Campaign.SL_Related_Campaign__r$Tier__c</field>
+    </columns>
+    <columns>
+        <field>Campaign.SL_Related_Campaign__r$Nearest_Branch_Name__c</field>
+    </columns>
+    <columns>
+        <field>Campaign.SL_Related_Campaign__r$Nearest_Bsn__c</field>
+    </columns>
+    <columns>
+        <field>Campaign.SL_Related_Campaign__r$Same_Area__c</field>
+    </columns>
+    <columns>
+        <field>Campaign.SL_Related_Campaign__r$Potential_Type__c</field>
+    </columns>
+    <columns>
+        <field>Campaign.SL_Related_Campaign__r$Note1__c</field>
+    </columns>
+    <columns>
+        <field>Campaign.SL_Related_Campaign__r$Note2__c</field>
+    </columns>
+    <columns>
+        <field>Campaign.SL_Related_Campaign__r$Note3__c</field>
+    </columns>
+    <columns>
+        <field>Campaign.SL_Related_Campaign__r$Note4__c</field>
+    </columns>
+    <columns>
+        <field>Campaign.SL_Related_Campaign__r$Note5__c</field>
+    </columns>
+    <columns>
+        <field>Campaign.SL_Related_Campaign__r$Bsn_Cbsm_P__c</field>
+    </columns>
+    <columns>
+        <field>Campaign.SL_Related_Campaign__r$Fm_Branch_Name__c</field>
+    </columns>
+    <columns>
+        <field>Campaign.SL_Related_Campaign__r$Fm_Name__c</field>
+    </columns>
+    <columns>
+        <field>Campaign.SL_Related_Campaign__r$Fm_Emp_Code__c</field>
+    </columns>
+    <columns>
+        <field>Campaign.SL_Related_Campaign__r$Manager_Division__c</field>
+    </columns>
+    <columns>
+        <field>Campaign.SL_Related_Campaign__r$Fm_Status__c</field>
+    </columns>
+    <columns>
+        <field>Campaign.SL_Related_Campaign__r$Address__Street__s</field>
     </columns>
     <currency>TWD</currency>
     <description>請從行銷活動上之按鈕點擊進入，或在篩選條件「行銷活動ID」中輸入行銷活動的ID值</description>
@@ -79,11 +197,16 @@
             <columnToColumn>false</columnToColumn>
             <isUnlocked>true</isUnlocked>
             <operator>equals</operator>
-            <value>701H30000004xez</value>
+            <value></value>
         </criteriaItems>
         <language>en_US</language>
     </filter>
-    <format>Tabular</format>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Campaign$Id</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
     <name>國內名單上傳Template</name>
     <params>
         <name>scopeid</name>
@@ -96,8 +219,8 @@
     <reportType>Campaign_Upload__c</reportType>
     <scope>organization</scope>
     <showDetails>true</showDetails>
-    <showGrandTotal>true</showGrandTotal>
-    <showSubTotals>true</showSubTotals>
+    <showGrandTotal>false</showGrandTotal>
+    <showSubTotals>false</showSubTotals>
     <timeFrameFilter>
         <dateColumn>Campaign$CreatedDate</dateColumn>
         <interval>INTERVAL_CUSTOM</interval>

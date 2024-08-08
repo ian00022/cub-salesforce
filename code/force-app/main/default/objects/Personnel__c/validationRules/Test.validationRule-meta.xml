@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Test</fullName>
+    <active>false</active>
+    <errorConditionFormula>Account_Remain_Quota__c &lt;=  Account_Limit__c &amp;&amp;  Reserved_Amount__c &gt;0</errorConditionFormula>
+    <errorMessage>人員設定檔預佔數量異常</errorMessage>
+</ValidationRule>

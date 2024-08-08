@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>None</fullName>
+        <default>false</default>
+        <label>None</label>
+    </standardValue>
+    <standardValue>
+        <fullName>金流 (CS輔銷)</fullName>
+        <default>false</default>
+        <label>金流 (CS輔銷)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>企業理財 (TMO輔銷)</fullName>
+        <default>false</default>
+        <label>企業理財 (TMO輔銷)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>企業理財 (轉介理專)</fullName>
+        <default>false</default>
+        <label>企業理財 (轉介理專)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>法金轉介</fullName>
+        <default>false</default>
+        <label>法金轉介</label>
+    </standardValue>
+    <standardValue>
+        <fullName>授信-非貿融</fullName>
+        <default>false</default>
+        <label>授信-非貿融</label>
+    </standardValue>
+    <standardValue>
+        <fullName>貿融</fullName>
+        <default>false</default>
+        <label>貿融</label>
+    </standardValue>
+    <standardValue>
+        <fullName>TMU (金交額度)</fullName>
+        <default>false</default>
+        <label>TMU (金交額度)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>聯貸</fullName>
+        <default>false</default>
+        <label>聯貸</label>
+    </standardValue>
+    <standardValue>
+        <fullName>政策性專案產品</fullName>
+        <default>false</default>
+        <label>政策性專案產品</label>
+    </standardValue>
+</StandardValueSet>

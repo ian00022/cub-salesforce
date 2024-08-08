@@ -257,8 +257,18 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.Sub_Industry__c</fieldItem>
-                <identifier>RecordSub_Industry__cField</identifier>
+                <fieldItem>Record.CBC_Industry__c</fieldItem>
+                <identifier>RecordCBC_Industry__cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.FinServ__PrimaryLanguage__pc</fieldItem>
+                <identifier>RecordFinServ_PrimaryLanguage_pcField</identifier>
             </fieldInstance>
         </itemInstances>
         <name>Facet-9ca4c441-385d-4e2c-92b2-00d4484cd77c</name>
@@ -511,6 +521,16 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
+                <fieldItem>Record.Currency__c</fieldItem>
+                <identifier>RecordCurrency_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
                 <fieldItem>Record.Risk_Classification__c</fieldItem>
                 <identifier>RecordRisk_Classification_cField</identifier>
             </fieldInstance>
@@ -519,6 +539,16 @@
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Risk_Country__c</fieldItem>
+                <identifier>RecordRisk_Country_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
         <name>Facet-bb961bb2-87da-418a-902e-b1692f4679b7</name>
         <type>Facet</type>
     </flexiPageRegions>

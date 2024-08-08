@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CUB_RejectedReasonIsRequired</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+  ISPICKVAL(Status, &apos;E0&apos;),
+  ISPICKVAL(Rejected_Reason__c, &apos;&apos;)
+)</errorConditionFormula>
+    <errorMessage>若「開發狀態」選擇「拒絕」，請先填寫「拒絕原因」</errorMessage>
+</ValidationRule>

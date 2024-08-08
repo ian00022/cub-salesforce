@@ -341,11 +341,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>PartyProfile.Field1__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>PartyProfile.FirstName</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -532,6 +527,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>PartyProfile.Outsourcing_Ratio__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>PartyProfile.Own_Factory_Include_Affiliates__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

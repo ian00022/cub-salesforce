@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CUB_User_List</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Employee_No__c</columns>
+    <columns>Belong_Country__c</columns>
+    <columns>Unit__c</columns>
+    <columns>Team__c</columns>
+    <columns>CORE.USER_ROLE.NAME</columns>
+    <columns>CORE.PROFILE.NAME</columns>
+    <columns>CORE.USERS.USERNAME</columns>
+    <columns>CORE.USERS.ACTIVE</columns>
+    <filterScope>Everything</filterScope>
+    <label>CUB User List</label>
+    <language>en_US</language>
+</ListView>

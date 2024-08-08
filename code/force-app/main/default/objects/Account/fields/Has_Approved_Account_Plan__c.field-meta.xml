@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Has_Approved_Account_Plan__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>至少填過一份年度經營計劃</description>
+    <label>有過覆核經營計畫</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

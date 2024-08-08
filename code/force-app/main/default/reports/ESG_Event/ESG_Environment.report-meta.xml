@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Environment_Risk_Event__c.Penalty_Time__c</field>
+    </columns>
+    <columns>
+        <field>Environment_Risk_Event__c.Violation_Time__c</field>
+    </columns>
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>Environment_Risk_Event__c.Legal_Provision__c</field>
+    </columns>
+    <columns>
+        <field>Environment_Risk_Event__c.Penalty_Reason__c</field>
+    </columns>
+    <currency>TWD</currency>
+    <format>Tabular</format>
+    <name>環境風險事件</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Environment_Risk_Event__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>false</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Environment_Risk_Event__c.Penalty_Time__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

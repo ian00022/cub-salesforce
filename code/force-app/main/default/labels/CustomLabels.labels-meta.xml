@@ -17,4 +17,41 @@
 
 重分配後，原先預壓之派發RM可能會異動</value>
     </labels>
+    <labels>
+        <fullName>FirstAccountPlanDescription</fullName>
+        <categories>Task</categories>
+        <language>zh_TW</language>
+        <protected>false</protected>
+        <shortDescription>首次填寫經營計劃 - 工作描述</shortDescription>
+        <value>溫柔提醒您，
+
+本客戶還沒填過年度經營計劃問卷。
+
+謝謝！</value>
+    </labels>
+    <labels>
+        <fullName>FirstAccountPlanSubject</fullName>
+        <categories>Task</categories>
+        <language>zh_TW</language>
+        <protected>false</protected>
+        <shortDescription>首次填寫經營計劃 - 工作主題</shortDescription>
+        <value>請填寫客戶的年度經營計劃問卷</value>
+    </labels>
+    <labels>
+        <fullName>OccupyAccount_Released</fullName>
+        <language>zh_TW</language>
+        <protected>false</protected>
+        <shortDescription>每日預佔釋出時，發送此封郵件</shortDescription>
+        <value>您好,
+
+您預佔的客戶已到期釋出
+點擊以下連結即可查看詳細資訊，謝謝！！</value>
+    </labels>
+    <labels>
+        <fullName>Released_Notification</fullName>
+        <language>zh_TW</language>
+        <protected>false</protected>
+        <shortDescription>occupy account has been released</shortDescription>
+        <value>預佔客戶已到期釋出</value>
+    </labels>
 </CustomLabels>

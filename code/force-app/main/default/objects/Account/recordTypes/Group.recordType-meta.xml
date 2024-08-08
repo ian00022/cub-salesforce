@@ -110,6 +110,101 @@
         </values>
     </picklistValues>
     <picklistValues>
+        <picklist>CBC_Industry__c</picklist>
+        <values>
+            <fullName>030100</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>030200</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>040000</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>050000</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>060000</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>070200</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>070400</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>070500</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>070600</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>070800</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>070900</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>080000</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>090000</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>100000</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>110000</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>120000</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>130100</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>130200</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>130300</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>130400</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>960210</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>960220</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>999999</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>Currency__c</picklist>
         <values>
             <fullName>AED</fullName>
@@ -1394,7 +1489,7 @@
     <picklistValues>
         <picklist>Industry__c</picklist>
         <values>
-            <fullName>礦業及土石採取業</fullName>
+            <fullName>010111</fullName>
             <default>false</default>
         </values>
         <values>
@@ -5325,21 +5420,6 @@
         </values>
         <values>
             <fullName>ZW-Zimbabwe</fullName>
-            <default>false</default>
-        </values>
-    </picklistValues>
-    <picklistValues>
-        <picklist>Sub_Industry__c</picklist>
-        <values>
-            <fullName>林業</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>農%E3%80%81牧業</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>電腦%E3%80%81電子產品及光學製品製造業</fullName>
             <default>false</default>
         </values>
     </picklistValues>

@@ -5,7 +5,7 @@
         <name>Who</name>
         <label>Who Has A Group Relationship?</label>
         <locationX>314</locationX>
-        <locationY>323</locationY>
+        <locationY>431</locationY>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
             <name>Account_Has</name>
@@ -79,7 +79,7 @@
         <name>Create_Another_AAR1</name>
         <label>Create Another AAR1</label>
         <locationX>50</locationX>
-        <locationY>431</locationY>
+        <locationY>539</locationY>
         <inputAssignments>
             <field>FinServ__Account__c</field>
             <value>
@@ -107,7 +107,7 @@
         <inputAssignments>
             <field>RecordTypeId</field>
             <value>
-                <stringValue>012H3000000oqvZIAQ</stringValue>
+                <elementReference>Get_Group_RecorTypeId.Id</elementReference>
             </value>
         </inputAssignments>
         <object>FinServ__AccountAccountRelation__c</object>
@@ -117,7 +117,7 @@
         <name>Create_Another_AAR2</name>
         <label>Create Another AAR2</label>
         <locationX>314</locationX>
-        <locationY>431</locationY>
+        <locationY>539</locationY>
         <inputAssignments>
             <field>FinServ__Account__c</field>
             <value>
@@ -145,17 +145,45 @@
         <inputAssignments>
             <field>RecordTypeId</field>
             <value>
-                <stringValue>012H3000000oqvZIAQ</stringValue>
+                <elementReference>Get_Group_RecorTypeId.Id</elementReference>
             </value>
         </inputAssignments>
         <object>FinServ__AccountAccountRelation__c</object>
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordCreates>
+    <recordLookups>
+        <name>Get_Group_RecorTypeId</name>
+        <label>Get Group RecorTypeId</label>
+        <locationX>314</locationX>
+        <locationY>323</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Who</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>SobjectType</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>FinServ__AccountAccountRelation__c</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>DeveloperName</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Group</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>RecordType</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
     <start>
         <locationX>188</locationX>
         <locationY>0</locationY>
         <connector>
-            <targetReference>Who</targetReference>
+            <targetReference>Get_Group_RecorTypeId</targetReference>
         </connector>
         <filterFormula>{!$Record.RecordType.DeveloperName} = &apos;Affiliate&apos;</filterFormula>
         <object>FinServ__AccountAccountRelation__c</object>

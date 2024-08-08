@@ -3,6 +3,9 @@
     <fullName>Restrict_StagingLead_Upload</fullName>
     <active>true</active>
     <description>僅當行銷活動 (Campaign) 之「狀態」=「尚未審核」，才可建立屬於此Campaign的名單上傳 (Staging Lead) record</description>
-    <errorConditionFormula>NOT(ISPICKVAL(Related_Campaign__r.Status, &quot;Not Distributed&quot;))</errorConditionFormula>
-    <errorMessage>僅當行銷活動狀態處於「尚未審核」階段，才可上傳/編輯相關名單</errorMessage>
+    <errorConditionFormula>AND(
+  NOT(ISPICKVAL(Related_Campaign__r.Status, &apos;Not Distributed&apos;)),
+  NOT(ISPICKVAL(Related_Campaign__r.Status, &apos;Rejected&apos;))
+)</errorConditionFormula>
+    <errorMessage>僅當行銷活動狀態處於「尚未審核」或「退回」階段，才可上傳/編輯相關名單</errorMessage>
 </ValidationRule>

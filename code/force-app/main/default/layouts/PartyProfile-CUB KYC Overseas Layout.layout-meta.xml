@@ -60,11 +60,15 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
+                <field>Contact_Level__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
                 <field>Aerial_Map_Target_Customer__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Field1__c</field>
+                <field>Own_Factory_Include_Affiliates__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
@@ -77,10 +81,6 @@
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>Industry__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>Sub_Industry__c</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>
@@ -283,7 +283,7 @@
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
     <summaryLayout>
-        <masterLabel>00hH30000017Q8Y</masterLabel>
+        <masterLabel>00hH3000001Avb0</masterLabel>
         <sizeX>4</sizeX>
         <sizeY>0</sizeY>
         <summaryLayoutStyle>Default</summaryLayoutStyle>

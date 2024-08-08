@@ -33,7 +33,7 @@
                 <field>Source__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Required</behavior>
+                <behavior>Readonly</behavior>
                 <field>Distribute_Country__c</field>
             </layoutItems>
         </layoutColumns>
@@ -103,6 +103,29 @@
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>Approved_Date__c</field>
+            </layoutItems>
+        </layoutColumns>
+        <style>TwoColumnsLeftToRight</style>
+    </layoutSections>
+    <layoutSections>
+        <customLabel>true</customLabel>
+        <detailHeading>true</detailHeading>
+        <editHeading>true</editHeading>
+        <label>名單匯總</label>
+        <layoutColumns>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Roll_up_summary_All_Staging_Lead_Count__c</field>
+            </layoutItems>
+        </layoutColumns>
+        <layoutColumns>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Roll_up_summary_ToPerson__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Roll_up_summary_ToQueue__c</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>
@@ -226,17 +249,18 @@
     </relatedContent>
     <relatedLists>
         <customButtons>Domestic_StagingLead_Template</customButtons>
+        <customButtons>Upload</customButtons>
         <excludeButtons>MassChangeOwner</excludeButtons>
         <fields>NAME</fields>
-        <fields>Customer_Segment__c</fields>
         <fields>Dist_User__c</fields>
+        <fields>Distribute_Division__c</fields>
         <fields>Distribute_Team_Cbsm__c</fields>
+        <fields>Suggest_Disp_Branch__c</fields>
         <fields>Company__c</fields>
         <fields>Customer_Id__c</fields>
         <fields>Customer_Developing__c</fields>
         <fields>Reallocated__c</fields>
         <fields>Lead_Invalid__c</fields>
-        <fields>Invalid_Reason__c</fields>
         <relatedList>Staging_Lead__c.Related_Campaign__c</relatedList>
     </relatedLists>
     <relatedLists>
@@ -251,6 +275,8 @@
         <relatedList>RelatedAttachmentList</relatedList>
     </relatedLists>
     <relatedLists>
+        <excludeButtons>MassChangeOwner</excludeButtons>
+        <excludeButtons>New</excludeButtons>
         <fields>FULL_NAME</fields>
         <fields>LEAD.COMPANY</fields>
         <fields>CORE.USERS.ALIAS</fields>
@@ -263,7 +289,7 @@
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
     <summaryLayout>
-        <masterLabel>00hH30000017Q8Q</masterLabel>
+        <masterLabel>00hH3000001Avak</masterLabel>
         <sizeX>4</sizeX>
         <sizeY>0</sizeY>
         <summaryLayoutStyle>Default</summaryLayoutStyle>

@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
     <apiVersion>61.0</apiVersion>
+    <assignments>
+        <name>Assignment_1</name>
+        <label>Assignment 1</label>
+        <locationX>50</locationX>
+        <locationY>503</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Invalid_Reason__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>重複排除</stringValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>$Record.Lead_Invalid__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </assignmentItems>
+    </assignments>
     <decisions>
         <name>Is_Old_Staging_Lead_Repeat</name>
         <label>Is Old Staging Lead Repeat</label>
@@ -18,12 +38,12 @@
                 </rightValue>
             </conditions>
             <connector>
-                <targetReference>Update_New_Staging_Lead</targetReference>
+                <targetReference>Assignment_1</targetReference>
             </connector>
             <label>Repeat</label>
         </rules>
     </decisions>
-    <description>新增 客戶ID 不可以為null</description>
+    <description>修改get record條件</description>
     <environments>Default</environments>
     <interviewLabel>Staging Lead : {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Staging Lead : Duplicate Exclusion</label>
@@ -57,7 +77,7 @@
         </connector>
         <filterLogic>and</filterLogic>
         <filters>
-            <field>Lead_Expired__c</field>
+            <field>Lead_Invalid__c</field>
             <operator>EqualTo</operator>
             <value>
                 <booleanValue>false</booleanValue>
@@ -78,32 +98,14 @@
         <object>Staging_Lead__c</object>
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
-    <recordUpdates>
-        <name>Update_New_Staging_Lead</name>
-        <label>Update New Staging Lead</label>
-        <locationX>50</locationX>
-        <locationY>503</locationY>
-        <inputAssignments>
-            <field>Invalid_Reason__c</field>
-            <value>
-                <stringValue>重複排除</stringValue>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <field>Lead_Invalid__c</field>
-            <value>
-                <booleanValue>true</booleanValue>
-            </value>
-        </inputAssignments>
-        <inputReference>$Record</inputReference>
-    </recordUpdates>
     <start>
         <locationX>56</locationX>
         <locationY>0</locationY>
         <connector>
             <targetReference>Confirm_Staging_Lead</targetReference>
         </connector>
-        <filterFormula>ISPICKVAL({!$Record.Related_Campaign__r.Distribute_Country__c}, &apos;TW&apos;)</filterFormula>
+        <filterFormula>AND({!$Record.Customer_Id__c} != NULL, 
+ISPICKVAL({!$Record.Related_Campaign__r.Distribute_Country__c}, &apos;TW&apos;))</filterFormula>
         <object>Staging_Lead__c</object>
         <recordTriggerType>Create</recordTriggerType>
         <triggerType>RecordBeforeSave</triggerType>

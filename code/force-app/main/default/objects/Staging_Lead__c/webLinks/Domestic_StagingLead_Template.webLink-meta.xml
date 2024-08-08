@@ -10,5 +10,5 @@
     <openType>sidebar</openType>
     <protected>false</protected>
     <requireRowSelection>true</requireRowSelection>
-    <url>/lightning/r/Report/00OH3000000QSTFMA4/view?queryScope=userFolders&amp;fv0={!Campaign.Id}</url>
+    <url>/lightning/r/Report/00OH3000000QZjAMAW/view?queryScope=userFolders&amp;fv0={!Campaign.Id}</url>
 </WebLink>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Policy_Oriented_Project</fullName>
+    <active>true</active>
+    <description>CUB 政策性專案產品</description>
+    <label>政策性專案產品</label>
+    <picklistValues>
+        <picklist>Family</picklist>
+        <values>
+            <fullName>政策性專案產品</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>QuantityUnitOfMeasure</picklist>
+        <values>
+            <fullName>Each</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

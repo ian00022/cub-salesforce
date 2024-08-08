@@ -169,6 +169,10 @@
         <customTabListAdditionalFields>CAMPAIGN.NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>CAMPAIGN.STATUS</customTabListAdditionalFields>
         <customTabListAdditionalFields>CAMPAIGN.START_DATE</customTabListAdditionalFields>
+        <excludedStandardButtons>OpenListInQuip</excludedStandardButtons>
+        <excludedStandardButtons>MassAssignRecordLabel</excludedStandardButtons>
+        <excludedStandardButtons>PrintableListView</excludedStandardButtons>
+        <excludedStandardButtons>NewFromDocument</excludedStandardButtons>
         <lookupDialogsAdditionalFields>CAMPAIGN.NAME</lookupDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>CAMPAIGN.NAME</lookupPhoneDialogsAdditionalFields>
         <searchResultsAdditionalFields>CAMPAIGN.NAME</searchResultsAdditionalFields>

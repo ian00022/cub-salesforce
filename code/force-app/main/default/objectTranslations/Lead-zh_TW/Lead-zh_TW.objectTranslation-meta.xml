@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label></label>
+        <name>FSC_Business_Referrals_Made</name>
+    </fieldSets>
+    <fieldSets>
+        <label></label>
+        <name>FSC_Referral_Form</name>
+    </fieldSets>
+    <fieldSets>
+        <label></label>
+        <name>FSC_Referrals_Expressed_Interest</name>
+    </fieldSets>
+    <fieldSets>
+        <label></label>
+        <name>FSC_Referrals_Made</name>
+    </fieldSets>
+    <fieldSets>
+        <label></label>
+        <name>FSC_Referrals_Made_Community</name>
+    </fieldSets>
+    <layouts>
+        <layout>CUB Domestic Campaign</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>備註</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>客戶資訊</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>帳戶必要資訊 (若轉換至「新」帳戶，則轉換前需填寫)</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>底層資料參考</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>本行往來資訊</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>法金客群標籤</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>派發資訊</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>系統資訊</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>辨識欄位</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>開發狀態</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CUB Domestic Self Development</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>客戶資訊</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>帳戶必要資訊 (若轉換至「新」帳戶，則轉換前需填寫)</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>系統資訊</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>開發狀態</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CUB Oversea Campaign</layout>
+        <sections>
+            <label></label>
+            <section>Account Required Fields (Fill in Before Converting to &quot;New&quot; Account))</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Client Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Develop Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Distribute Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CUB Oversea Self Development</layout>
+        <sections>
+            <label></label>
+            <section>Account Required Fields (Fill in Before Converting to &quot;New&quot; Account))</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Client Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Develop Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Lead (General) Layout</layout>
+        <sections>
+            <label>自訂連結</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>轉介資訊</label>
+            <section>Referral Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Lead (Referral) Layout</layout>
+        <sections>
+            <label>轉介資訊</label>
+            <section>Referral Information</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label></label>
+        <name>CUB_Domestic_Campaign</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>CUB_Domestic_Self_Development</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>CUB_Oversea_Campaign</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>CUB_Oversea_Self_Development</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>CUB_Referral_Domestic_Branch</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>CUB_Referral_Domestic_Company</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>CUB_Referral_Domestic_Individual</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>CUB_Transnational_Referral</name>
+    </recordTypes>
+    <recordTypes>
+        <description></description>
+        <label></label>
+        <name>FinServ__BusinessReferral</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>FinServ__General</name>
+    </recordTypes>
+    <recordTypes>
+        <description></description>
+        <label></label>
+        <name>FinServ__Referral</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>FinServ__RetirementPlanning</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>CUB_InvalidReasonIsRequired</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>CUB_InvalidReasonNoteIsRequired</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>CUB_RejectedReasonIsRequired</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>FinServ__NonPortalUserReferrer</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>FinServ__SingleReferredByEntryByRecord</name>
+    </validationRules>
+</CustomObjectTranslation>

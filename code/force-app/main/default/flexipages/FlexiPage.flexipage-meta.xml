@@ -4,47 +4,91 @@
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
-                    <name>dashboardName</name>
-                    <value>MVJixfIKjfgOzmwweZobJKNpbmehHV</value>
+                    <name>enableInlineEdit</name>
+                    <value>false</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
-                    <name>height</name>
-                    <value>985</value>
+                    <name>entityName</name>
+                    <value>Interest_Rate__c</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
-                    <name>hideOnError</name>
+                    <name>filterName</name>
+                    <value>Today</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>hideActionBar</name>
                     <value>true</value>
                 </componentInstanceProperties>
-                <componentName>desktopDashboards:embeddedDashboard</componentName>
-                <identifier>desktopDashboards_embeddedDashboard</identifier>
+                <componentInstanceProperties>
+                    <name>hideSearchBar</name>
+                    <value>false</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>pageSize</name>
+                    <value>20</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:filterListCard</componentName>
+                <identifier>flexipage_filterListCard</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
-                    <name>dashboardName</name>
-                    <value>zxRPIYXGtPjMfjjecqiIvwKxFfRcgl</value>
+                    <name>enableInlineEdit</name>
+                    <value>false</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
-                    <name>hideOnError</name>
+                    <name>entityName</name>
+                    <value>FTP__c</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>filterName</name>
+                    <value>Today</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>hideActionBar</name>
                     <value>true</value>
                 </componentInstanceProperties>
-                <componentName>desktopDashboards:embeddedDashboard</componentName>
-                <identifier>desktopDashboards_embeddedDashboard10</identifier>
+                <componentInstanceProperties>
+                    <name>hideSearchBar</name>
+                    <value>false</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>pageSize</name>
+                    <value>20</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:filterListCard</componentName>
+                <identifier>flexipage_filterListCard2</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
-                    <name>dashboardName</name>
-                    <value>QnmVLVJFBERchZPUOgdqJjAbjuaKuj</value>
+                    <name>enableInlineEdit</name>
+                    <value>false</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
-                    <name>hideOnError</name>
+                    <name>entityName</name>
+                    <value>Foreign_Exchange__c</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>filterName</name>
+                    <value>Today</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>hideActionBar</name>
                     <value>true</value>
                 </componentInstanceProperties>
-                <componentName>desktopDashboards:embeddedDashboard</componentName>
-                <identifier>desktopDashboards_embeddedDashboard15</identifier>
+                <componentInstanceProperties>
+                    <name>hideSearchBar</name>
+                    <value>false</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>pageSize</name>
+                    <value>20</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:filterListCard</componentName>
+                <identifier>flexipage_filterListCard3</identifier>
             </componentInstance>
         </itemInstances>
         <name>column1</name>
@@ -54,37 +98,37 @@
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
-                    <name>dashboardName</name>
-                    <value>VPfoFoeDbRrbYsBTEjEVZLrTpldBdh</value>
+                    <name>cacheAge</name>
+                    <value>1440</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
-                    <name>height</name>
-                    <value>915</value>
+                    <name>reportName</name>
+                    <value>Interest_Rate_1M_Report</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
-                    <name>hideOnError</name>
+                    <name>showRefreshButton</name>
                     <value>true</value>
                 </componentInstanceProperties>
-                <componentName>desktopDashboards:embeddedDashboard</componentName>
-                <identifier>desktopDashboards_embeddedDashboard2</identifier>
+                <componentName>flexipage:reportChart</componentName>
+                <identifier>flexipage_reportChart</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
-                    <name>dashboardName</name>
-                    <value>vLfsnQMdJnIIchnolVzOmKalvhWsfI</value>
+                    <name>cacheAge</name>
+                    <value>1440</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
-                    <name>height</name>
-                    <value>1005</value>
+                    <name>reportName</name>
+                    <value>FTP_1M_Report</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
-                    <name>hideOnError</name>
+                    <name>showRefreshButton</name>
                     <value>true</value>
                 </componentInstanceProperties>
-                <componentName>desktopDashboards:embeddedDashboard</componentName>
-                <identifier>desktopDashboards_embeddedDashboard11</identifier>
+                <componentName>flexipage:reportChart</componentName>
+                <identifier>flexipage_reportChart2</identifier>
             </componentInstance>
         </itemInstances>
         <name>Facet-2f3fc735-43bf-4317-a5b2-93c6019f6e5f</name>
@@ -94,37 +138,37 @@
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
-                    <name>dashboardName</name>
-                    <value>ZxlhsjTsNbMLPXfNMWkKgugAfUNuvU</value>
+                    <name>cacheAge</name>
+                    <value>1440</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
-                    <name>height</name>
-                    <value>915</value>
+                    <name>reportName</name>
+                    <value>Interest_Rate_3M_Report</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
-                    <name>hideOnError</name>
+                    <name>showRefreshButton</name>
                     <value>true</value>
                 </componentInstanceProperties>
-                <componentName>desktopDashboards:embeddedDashboard</componentName>
-                <identifier>desktopDashboards_embeddedDashboard3</identifier>
+                <componentName>flexipage:reportChart</componentName>
+                <identifier>flexipage_reportChart3</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
-                    <name>dashboardName</name>
-                    <value>qELWpSIGjvdkjTJHsMcVqIShuecuUs</value>
+                    <name>cacheAge</name>
+                    <value>1440</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
-                    <name>height</name>
-                    <value>1005</value>
+                    <name>reportName</name>
+                    <value>FTP_3M_Report</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
-                    <name>hideOnError</name>
+                    <name>showRefreshButton</name>
                     <value>true</value>
                 </componentInstanceProperties>
-                <componentName>desktopDashboards:embeddedDashboard</componentName>
-                <identifier>desktopDashboards_embeddedDashboard12</identifier>
+                <componentName>flexipage:reportChart</componentName>
+                <identifier>flexipage_reportChart4</identifier>
             </componentInstance>
         </itemInstances>
         <name>Facet-hgdfv3p5pvj</name>
@@ -134,37 +178,37 @@
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
-                    <name>dashboardName</name>
-                    <value>ivOvKpWdvGcEekUgDrYkqIENSGYEAU</value>
+                    <name>cacheAge</name>
+                    <value>1440</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
-                    <name>height</name>
-                    <value>915</value>
+                    <name>reportName</name>
+                    <value>Interest_Rate_6M_Report</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
-                    <name>hideOnError</name>
+                    <name>showRefreshButton</name>
                     <value>true</value>
                 </componentInstanceProperties>
-                <componentName>desktopDashboards:embeddedDashboard</componentName>
-                <identifier>desktopDashboards_embeddedDashboard4</identifier>
+                <componentName>flexipage:reportChart</componentName>
+                <identifier>flexipage_reportChart5</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
-                    <name>dashboardName</name>
-                    <value>KxrWVsKElSNDgwjTaYHGpYnGEsPlBm</value>
+                    <name>cacheAge</name>
+                    <value>1440</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
-                    <name>height</name>
-                    <value>1005</value>
+                    <name>reportName</name>
+                    <value>FTP_6M_Report</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
-                    <name>hideOnError</name>
+                    <name>showRefreshButton</name>
                     <value>true</value>
                 </componentInstanceProperties>
-                <componentName>desktopDashboards:embeddedDashboard</componentName>
-                <identifier>desktopDashboards_embeddedDashboard13</identifier>
+                <componentName>flexipage:reportChart</componentName>
+                <identifier>flexipage_reportChart6</identifier>
             </componentInstance>
         </itemInstances>
         <name>Facet-4e4d29ed-45e7-4414-9e68-6203108bc4d3</name>
@@ -174,37 +218,37 @@
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
-                    <name>dashboardName</name>
-                    <value>wDagsXSqGfPBilxxfCwsMvgATocUIj</value>
+                    <name>cacheAge</name>
+                    <value>1440</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
-                    <name>height</name>
-                    <value>915</value>
+                    <name>reportName</name>
+                    <value>Interest_Rate_12M_Report</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
-                    <name>hideOnError</name>
+                    <name>showRefreshButton</name>
                     <value>true</value>
                 </componentInstanceProperties>
-                <componentName>desktopDashboards:embeddedDashboard</componentName>
-                <identifier>desktopDashboards_embeddedDashboard5</identifier>
+                <componentName>flexipage:reportChart</componentName>
+                <identifier>flexipage_reportChart7</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
-                    <name>dashboardName</name>
-                    <value>LQRlaGIrqiYGEzmPllDQLHOYwhfBqX</value>
+                    <name>cacheAge</name>
+                    <value>1440</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
-                    <name>height</name>
-                    <value>1005</value>
+                    <name>reportName</name>
+                    <value>FTP_12M_Report</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
-                    <name>hideOnError</name>
+                    <name>showRefreshButton</name>
                     <value>true</value>
                 </componentInstanceProperties>
-                <componentName>desktopDashboards:embeddedDashboard</componentName>
-                <identifier>desktopDashboards_embeddedDashboard14</identifier>
+                <componentName>flexipage:reportChart</componentName>
+                <identifier>flexipage_reportChart8</identifier>
             </componentInstance>
         </itemInstances>
         <name>Facet-66a1bbf8-784f-4ebd-9902-d6c3b240c4d0</name>
@@ -214,73 +258,73 @@
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
-                    <name>dashboardName</name>
-                    <value>VPfoFoeDbRrbYsBTEjEVZLrTpldBdh</value>
+                    <name>cacheAge</name>
+                    <value>1440</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
-                    <name>height</name>
-                    <value>460</value>
+                    <name>reportName</name>
+                    <value>Interest_Rate_1M_Report</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
-                    <name>hideOnError</name>
+                    <name>showRefreshButton</name>
                     <value>true</value>
                 </componentInstanceProperties>
-                <componentName>desktopDashboards:embeddedDashboard</componentName>
-                <identifier>desktopDashboards_embeddedDashboard6</identifier>
+                <componentName>flexipage:reportChart</componentName>
+                <identifier>flexipage_reportChart9</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
-                    <name>dashboardName</name>
-                    <value>ZxlhsjTsNbMLPXfNMWkKgugAfUNuvU</value>
+                    <name>cacheAge</name>
+                    <value>1440</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
-                    <name>height</name>
-                    <value>460</value>
+                    <name>reportName</name>
+                    <value>Interest_Rate_3M_Report</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
-                    <name>hideOnError</name>
+                    <name>showRefreshButton</name>
                     <value>true</value>
                 </componentInstanceProperties>
-                <componentName>desktopDashboards:embeddedDashboard</componentName>
-                <identifier>desktopDashboards_embeddedDashboard7</identifier>
+                <componentName>flexipage:reportChart</componentName>
+                <identifier>flexipage_reportChart10</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
-                    <name>dashboardName</name>
-                    <value>ivOvKpWdvGcEekUgDrYkqIENSGYEAU</value>
+                    <name>cacheAge</name>
+                    <value>1440</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
-                    <name>height</name>
-                    <value>460</value>
+                    <name>reportName</name>
+                    <value>Interest_Rate_6M_Report</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
-                    <name>hideOnError</name>
+                    <name>showRefreshButton</name>
                     <value>true</value>
                 </componentInstanceProperties>
-                <componentName>desktopDashboards:embeddedDashboard</componentName>
-                <identifier>desktopDashboards_embeddedDashboard8</identifier>
+                <componentName>flexipage:reportChart</componentName>
+                <identifier>flexipage_reportChart11</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
-                    <name>dashboardName</name>
-                    <value>wDagsXSqGfPBilxxfCwsMvgATocUIj</value>
+                    <name>cacheAge</name>
+                    <value>1440</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
-                    <name>height</name>
-                    <value>510</value>
+                    <name>reportName</name>
+                    <value>Interest_Rate_12M_Report</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
-                    <name>hideOnError</name>
+                    <name>showRefreshButton</name>
                     <value>true</value>
                 </componentInstanceProperties>
-                <componentName>desktopDashboards:embeddedDashboard</componentName>
-                <identifier>desktopDashboards_embeddedDashboard9</identifier>
+                <componentName>flexipage:reportChart</componentName>
+                <identifier>flexipage_reportChart12</identifier>
             </componentInstance>
         </itemInstances>
         <name>Facet-1497fc45-fedb-4222-81ae-329c50af41a0</name>
@@ -290,73 +334,76 @@
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
-                    <name>dashboardName</name>
-                    <value>vLfsnQMdJnIIchnolVzOmKalvhWsfI</value>
+                    <name>cacheAge</name>
+                    <value>1440</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
-                    <name>height</name>
-                    <value>460</value>
+                    <name>reportName</name>
+                    <value>FTP_1M_Report</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
-                    <name>hideOnError</name>
+                    <name>showRefreshButton</name>
                     <value>true</value>
                 </componentInstanceProperties>
-                <componentName>desktopDashboards:embeddedDashboard</componentName>
-                <identifier>desktopDashboards_embeddedDashboard17</identifier>
+                <componentName>flexipage:reportChart</componentName>
+                <identifier>flexipage_reportChart13</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
-                    <name>dashboardName</name>
-                    <value>qELWpSIGjvdkjTJHsMcVqIShuecuUs</value>
+                    <name>cacheAge</name>
+                    <value>1440</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
-                    <name>height</name>
-                    <value>460</value>
+                    <name>reportName</name>
+                    <value>FTP_3M_Report</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
-                    <name>hideOnError</name>
+                    <name>showRefreshButton</name>
                     <value>true</value>
                 </componentInstanceProperties>
-                <componentName>desktopDashboards:embeddedDashboard</componentName>
-                <identifier>desktopDashboards_embeddedDashboard18</identifier>
+                <componentName>flexipage:reportChart</componentName>
+                <identifier>flexipage_reportChart14</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
-                    <name>dashboardName</name>
-                    <value>KxrWVsKElSNDgwjTaYHGpYnGEsPlBm</value>
+                    <name>cacheAge</name>
+                    <value>1440</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
-                    <name>height</name>
-                    <value>460</value>
+                    <name>reportName</name>
+                    <value>FTP_6M_Report</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
-                    <name>hideOnError</name>
+                    <name>showRefreshButton</name>
                     <value>true</value>
                 </componentInstanceProperties>
-                <componentName>desktopDashboards:embeddedDashboard</componentName>
-                <identifier>desktopDashboards_embeddedDashboard19</identifier>
+                <componentName>flexipage:reportChart</componentName>
+                <identifier>flexipage_reportChart15</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
-                    <name>dashboardName</name>
-                    <value>LQRlaGIrqiYGEzmPllDQLHOYwhfBqX</value>
+                    <name>cacheAge</name>
+                    <value>1440</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
-                    <name>height</name>
-                    <value>510</value>
+                    <name>label</name>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
-                    <name>hideOnError</name>
+                    <name>reportName</name>
+                    <value>FTP_12M_Report</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>showRefreshButton</name>
                     <value>true</value>
                 </componentInstanceProperties>
-                <componentName>desktopDashboards:embeddedDashboard</componentName>
-                <identifier>desktopDashboards_embeddedDashboard20</identifier>
+                <componentName>flexipage:reportChart</componentName>
+                <identifier>flexipage_reportChart16</identifier>
             </componentInstance>
         </itemInstances>
         <name>Facet-c43a87cc-1d65-4daa-bf3c-6911a960818e</name>
@@ -464,19 +511,22 @@
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
-                    <name>dashboardName</name>
-                    <value>mhHyEekZhWwsORpFLHpetVJluawgmc</value>
+                    <name>cacheAge</name>
+                    <value>1440</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
-                    <name>height</name>
-                    <value>1200</value>
+                    <name>label</name>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
-                    <name>hideOnError</name>
+                    <name>reportName</name>
+                    <value>Exchange_Rate_Report</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>showRefreshButton</name>
                     <value>true</value>
                 </componentInstanceProperties>
-                <componentName>desktopDashboards:embeddedDashboard</componentName>
-                <identifier>desktopDashboards_embeddedDashboard16</identifier>
+                <componentName>flexipage:reportChart</componentName>
+                <identifier>flexipage_reportChart17</identifier>
             </componentInstance>
         </itemInstances>
         <name>column2</name>

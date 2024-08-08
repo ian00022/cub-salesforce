@@ -190,17 +190,6 @@
         </values>
     </picklistValues>
     <picklistValues>
-        <picklist>Field1__c</picklist>
-        <values>
-            <fullName>否</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>是</fullName>
-            <default>false</default>
-        </values>
-    </picklistValues>
-    <picklistValues>
         <picklist>FundSource</picklist>
         <values>
             <fullName>Business Income</fullName>
@@ -342,6 +331,17 @@
         </values>
         <values>
             <fullName>TT</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Own_Factory_Include_Affiliates__c</picklist>
+        <values>
+            <fullName>否</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>是</fullName>
             <default>false</default>
         </values>
     </picklistValues>

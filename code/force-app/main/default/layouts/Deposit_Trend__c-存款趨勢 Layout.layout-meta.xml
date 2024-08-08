@@ -167,10 +167,6 @@
                 <behavior>Required</behavior>
                 <field>Account_Private_Info__c</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Required</behavior>
-                <field>Deposit_Trend_External_Id__c</field>
-            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

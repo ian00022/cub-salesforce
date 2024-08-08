@@ -1817,6 +1817,27 @@
         <name>FinServ__Wizard_Step_Relationship_Group_Details</name>
     </customLabels>
     <customLabels>
+        <label><!-- 首次填寫經營計劃 - 工作描述 --></label>
+        <name>FirstAccountPlanDescription</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- 首次填寫經營計劃 - 工作主題 --></label>
+        <name>FirstAccountPlanSubject</name>
+    </customLabels>
+    <customLabels>
+        <label>Hi,
+
+You&apos;re occupy account has expired and is now released.
+Click the link below to view the detailed information.
+
+Thank you!!</label>
+        <name>OccupyAccount_Released</name>
+    </customLabels>
+    <customLabels>
+        <label>occupy account has expired and is now released</label>
+        <name>Released_Notification</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Cancel --></label>
         <name>ers_CancelButton</name>
     </customLabels>
@@ -18633,6 +18654,10 @@
         <fullName>AAR_Update_Lead_Owner_Team</fullName>
     </flowDefinitions>
     <flowDefinitions>
+        <flows/>
+        <fullName>Account_Change_Key_Value</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
         <flows>
             <textTemplates>
                 <name>Account_Name_KYC</name>
@@ -18705,6 +18730,12 @@
             </screens>
             <screens>
                 <fields>
+                    <name>OccupyAccountText</name>
+                </fields>
+                <name>OccupyAccount</name>
+            </screens>
+            <screens>
+                <fields>
                     <name>Copy_1_of_Cannot_Occupy</name>
                 </fields>
                 <name>OccupySuccess</name>
@@ -18755,6 +18786,10 @@
             </screens>
         </flows>
         <fullName>Account_Plan_Submit_for_Approval</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Account_Private_Info_Create_Account_Private_Info_When_Account_Created</fullName>
     </flowDefinitions>
     <flowDefinitions>
         <flows>
@@ -18833,6 +18868,10 @@
     <flowDefinitions>
         <flows/>
         <fullName>Account_Update_AccountOwner_When_RM_Changed</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Account_Update_Account_Key_when_Id_Changed</fullName>
     </flowDefinitions>
     <flowDefinitions>
         <flows/>
@@ -20966,6 +21005,17 @@
         <fullName>Lead_Change_Lead_Status_To_Expired</fullName>
     </flowDefinitions>
     <flowDefinitions>
+        <flows>
+            <textTemplates>
+                <name>Notify_Body</name>
+            </textTemplates>
+            <textTemplates>
+                <name>Notify_Title</name>
+            </textTemplates>
+        </flows>
+        <fullName>Lead_Due_Alert</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
         <flows/>
         <fullName>Lead_Fill_in_Fields_for_Converted_Account</fullName>
     </flowDefinitions>
@@ -20984,6 +21034,22 @@
             </customErrorMessages>
         </flows>
         <fullName>Personnel_Unique_User</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Personnel_Update_Owner_To_The_Referred_Employee</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Product_PriceBookEntryGeneration</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Product_PriceBookEntryGeneration_Domestic</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Product_PriceBookEntryGeneration_overseas</fullName>
     </flowDefinitions>
     <flowDefinitions>
         <flows>
@@ -21385,8 +21451,16 @@
         <label><!-- Clients --></label>
         <name>Clients</name>
         <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
             <label><!-- Clients --></label>
             <name>Clients</name>
+        </sections>
+        <sections>
+            <label><!-- 帳戶 --></label>
+            <name>帳戶</name>
         </sections>
     </reportTypes>
     <reportTypes>
@@ -21394,8 +21468,16 @@
         <label><!-- Clients - Dashboards --></label>
         <name>Clients_Dashboards</name>
         <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
             <label><!-- Clients --></label>
             <name>Clients</name>
+        </sections>
+        <sections>
+            <label><!-- 帳戶 --></label>
+            <name>帳戶</name>
         </sections>
     </reportTypes>
     <reportTypes>
@@ -21412,8 +21494,16 @@
         <label><!-- Households --></label>
         <name>Households</name>
         <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
             <label><!-- Households --></label>
             <name>Households</name>
+        </sections>
+        <sections>
+            <label><!-- 帳戶 --></label>
+            <name>帳戶</name>
         </sections>
     </reportTypes>
     <reportTypes>
@@ -21421,8 +21511,16 @@
         <label><!-- Households - Dashboards --></label>
         <name>Households_Dashboards</name>
         <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
             <label><!-- Households --></label>
             <name>Households</name>
+        </sections>
+        <sections>
+            <label><!-- 帳戶 --></label>
+            <name>帳戶</name>
         </sections>
     </reportTypes>
     <reportTypes>

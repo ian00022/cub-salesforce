@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Relation_Record_Key__c</fullName>
     <externalId>false</externalId>
-    <formula>RecordType.DeveloperName &amp;
+    <formula>RecordType_Code__c &amp;
 TEXT(FinServ__Account__r.Customer_Data_Country__c) &amp; 
 TEXT(FinServ__Account__r.Identification_Type__c) &amp; 
 FinServ__Account__r.Customer_ID__c &amp;

@@ -17,10 +17,6 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Currency__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
                 <field>Value__c</field>
             </layoutItems>
             <layoutItems>
@@ -34,6 +30,18 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Percent_Change__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>CURRENCY_CODE__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>TFR_CURRENCY_CODE__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Currency_Pair__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>

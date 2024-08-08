@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>Unqualified_Reason__c</name>
+    <picklistValues>
+        <masterLabel>先前具客訴紀錄</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>其他 (請填寫無效原因備註)</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>年營收規模小於5,000萬</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>曾有案件未過審記錄</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>無法聯繫上客戶</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>財報或營收結構不佳</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

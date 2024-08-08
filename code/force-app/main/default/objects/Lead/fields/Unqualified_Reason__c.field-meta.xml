@@ -37,7 +37,7 @@
             <value>
                 <fullName>D6</fullName>
                 <default>false</default>
-                <label>其他</label>
+                <label>其他 (請填寫無效原因備註)</label>
             </value>
         </valueSetDefinition>
     </valueSet>
