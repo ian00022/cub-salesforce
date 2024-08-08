@@ -5,7 +5,7 @@
     <columns>Account__c</columns>
     <columns>Date__c</columns>
     <columns>Remark__c</columns>
-    <filterScope>Everything</filterScope>
+    <filterScope>Mine</filterScope>
     <filters>
         <field>NAME</field>
         <operation>notEqual</operation>

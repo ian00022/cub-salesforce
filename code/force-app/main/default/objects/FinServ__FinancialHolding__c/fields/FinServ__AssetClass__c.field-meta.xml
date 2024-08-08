@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FinServ__AssetClass__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Major category of asset type.</description>
+    <label>Asset Class</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Equities</fullName>
+                <default>false</default>
+                <label>Equities</label>
+            </value>
+            <value>
+                <fullName>Fixed Income</fullName>
+                <default>false</default>
+                <label>Fixed Income</label>
+            </value>
+            <value>
+                <fullName>Cash Equivalents</fullName>
+                <default>false</default>
+                <label>Cash Equivalents</label>
+            </value>
+            <value>
+                <fullName>Alternative Investments</fullName>
+                <default>false</default>
+                <label>Alternative Investments</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

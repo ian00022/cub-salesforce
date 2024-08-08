@@ -10,6 +10,10 @@
             <fullName>Other</fullName>
             <default>false</default>
         </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
     </picklistValues>
     <picklistValues>
         <picklist>Account_Develop_Source__c</picklist>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FinServ__AccountNameFormat__c</fullName>
+    <defaultValue>&quot;{firstname} {lastname}&quot;</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Define an individual&apos;s account name format</description>
+    <externalId>false</externalId>
+    <inlineHelpText>By default, account names are displayed: {firstname} {lastname}. To change the order, enter: {lastname} {firstname}</inlineHelpText>
+    <label>Account Name Format</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

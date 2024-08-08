@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FinServ__Type__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Retirement</fullName>
+                <default>false</default>
+                <label>Retirement</label>
+            </value>
+            <value>
+                <fullName>Home Purchase</fullName>
+                <default>false</default>
+                <label>Home Purchase</label>
+            </value>
+            <value>
+                <fullName>Education</fullName>
+                <default>false</default>
+                <label>Education</label>
+            </value>
+            <value>
+                <fullName>New Business Acquisition</fullName>
+                <default>false</default>
+                <label>New Business Acquisition</label>
+            </value>
+            <value>
+                <fullName>New Customer Acquisition</fullName>
+                <default>false</default>
+                <label>New Customer Acquisition</label>
+            </value>
+            <value>
+                <fullName>New Services</fullName>
+                <default>false</default>
+                <label>New Services</label>
+            </value>
+            <value>
+                <fullName>Large Purchase</fullName>
+                <default>false</default>
+                <label>Large Purchase</label>
+            </value>
+            <value>
+                <fullName>Investment</fullName>
+                <default>false</default>
+                <label>Investment</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

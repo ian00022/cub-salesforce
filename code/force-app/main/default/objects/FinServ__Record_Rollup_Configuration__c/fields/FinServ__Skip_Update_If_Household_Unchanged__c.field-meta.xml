@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FinServ__Skip_Update_If_Household_Unchanged__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Skip updates to records where the Household field hasn&apos;t changed. Record Rollup Optimization (Beta) must be enabled.</description>
+    <label>Skip Unchanged Household Updates</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -347,6 +347,10 @@
             <fullName>Other</fullName>
             <default>false</default>
         </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
     </picklistValues>
     <picklistValues>
         <picklist>Lead_Team__c</picklist>

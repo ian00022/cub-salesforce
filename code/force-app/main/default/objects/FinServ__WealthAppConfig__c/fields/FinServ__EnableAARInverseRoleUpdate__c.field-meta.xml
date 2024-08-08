@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FinServ__EnableAARInverseRoleUpdate__c</fullName>
+    <defaultValue>true</defaultValue>
+    <deprecated>false</deprecated>
+    <description>When you update the Related Role field on an account-account relationship record, the Related Role field on the related account-account relationship record is updated.</description>
+    <inlineHelpText>When you update the Related Role field on an account-account relationship record, the Related Role field on the related account-account relationship record is updated.</inlineHelpText>
+    <label>Update Related Role on associated record</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

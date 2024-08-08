@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FinServ__TransactionSubtype__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Transaction Sub-type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>FinServ__TransactionType__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cash Deposit</fullName>
+                <default>false</default>
+                <label>Cash Deposit</label>
+            </value>
+            <value>
+                <fullName>On-Us Check Deposit</fullName>
+                <default>false</default>
+                <label>On-Us Check Deposit</label>
+            </value>
+            <value>
+                <fullName>Transit Check Deposit</fullName>
+                <default>false</default>
+                <label>Transit Check Deposit</label>
+            </value>
+            <value>
+                <fullName>Foreign Cash Deposit</fullName>
+                <default>false</default>
+                <label>Foreign Cash Deposit</label>
+            </value>
+            <value>
+                <fullName>Bill Payment</fullName>
+                <default>false</default>
+                <label>Bill Payment</label>
+            </value>
+            <value>
+                <fullName>EFT</fullName>
+                <default>false</default>
+                <label>EFT</label>
+            </value>
+            <value>
+                <fullName>ATM Deposit</fullName>
+                <default>false</default>
+                <label>ATM Deposit</label>
+            </value>
+            <value>
+                <fullName>ATM Withdrawal</fullName>
+                <default>false</default>
+                <label>ATM Withdrawal</label>
+            </value>
+            <value>
+                <fullName>POS withdrawal</fullName>
+                <default>false</default>
+                <label>POS withdrawal</label>
+            </value>
+            <value>
+                <fullName>Misc. Credit</fullName>
+                <default>false</default>
+                <label>Misc. Credit</label>
+            </value>
+            <value>
+                <fullName>Misc. Debit</fullName>
+                <default>false</default>
+                <label>Misc. Debit</label>
+            </value>
+            <value>
+                <fullName>Loan Payment</fullName>
+                <default>false</default>
+                <label>Loan Payment</label>
+            </value>
+            <value>
+                <fullName>Mortgage Payment</fullName>
+                <default>false</default>
+                <label>Mortgage Payment</label>
+            </value>
+            <value>
+                <fullName>Credit Card Payment</fullName>
+                <default>false</default>
+                <label>Credit Card Payment</label>
+            </value>
+            <value>
+                <fullName>Credit Card Cash Advance</fullName>
+                <default>false</default>
+                <label>Credit Card Cash Advance</label>
+            </value>
+            <value>
+                <fullName>Internal Funds Transfer</fullName>
+                <default>false</default>
+                <label>Internal Funds Transfer</label>
+            </value>
+            <value>
+                <fullName>Reversal</fullName>
+                <default>false</default>
+                <label>Reversal</label>
+            </value>
+            <value>
+                <fullName>Interest Earned</fullName>
+                <default>false</default>
+                <label>Interest Earned</label>
+            </value>
+            <value>
+                <fullName>Fee</fullName>
+                <default>false</default>
+                <label>Fee</label>
+            </value>
+            <value>
+                <fullName>Merchant Charge</fullName>
+                <default>false</default>
+                <label>Merchant Charge</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Credit</controllingFieldValue>
+            <valueName>Cash Deposit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credit</controllingFieldValue>
+            <valueName>On-Us Check Deposit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credit</controllingFieldValue>
+            <valueName>Transit Check Deposit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credit</controllingFieldValue>
+            <valueName>Foreign Cash Deposit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credit</controllingFieldValue>
+            <valueName>Bill Payment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credit</controllingFieldValue>
+            <controllingFieldValue>Debit</controllingFieldValue>
+            <valueName>EFT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credit</controllingFieldValue>
+            <valueName>ATM Deposit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credit</controllingFieldValue>
+            <valueName>Misc. Credit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credit</controllingFieldValue>
+            <controllingFieldValue>Debit</controllingFieldValue>
+            <valueName>Loan Payment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credit</controllingFieldValue>
+            <controllingFieldValue>Debit</controllingFieldValue>
+            <valueName>Mortgage Payment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credit</controllingFieldValue>
+            <valueName>Credit Card Payment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credit</controllingFieldValue>
+            <controllingFieldValue>Debit</controllingFieldValue>
+            <valueName>Internal Funds Transfer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credit</controllingFieldValue>
+            <valueName>Interest Earned</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credit</controllingFieldValue>
+            <controllingFieldValue>Debit</controllingFieldValue>
+            <valueName>Merchant Charge</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Debit</controllingFieldValue>
+            <valueName>ATM Withdrawal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Debit</controllingFieldValue>
+            <valueName>POS withdrawal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Debit</controllingFieldValue>
+            <valueName>Misc. Debit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Debit</controllingFieldValue>
+            <valueName>Credit Card Cash Advance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Debit</controllingFieldValue>
+            <valueName>Reversal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Debit</controllingFieldValue>
+            <valueName>Fee</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

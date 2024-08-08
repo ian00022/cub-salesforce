@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FinServ__GoalType__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Goal Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>FinServ__EventType__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Saving for College</fullName>
+                <default>false</default>
+                <label>Saving for College</label>
+            </value>
+            <value>
+                <fullName>Saving for Retirement</fullName>
+                <default>false</default>
+                <label>Saving for Retirement</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>New Baby</controllingFieldValue>
+            <controllingFieldValue>New Job</controllingFieldValue>
+            <controllingFieldValue>New Home</controllingFieldValue>
+            <controllingFieldValue>College</controllingFieldValue>
+            <controllingFieldValue>New Business</controllingFieldValue>
+            <valueName>Saving for College</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New Baby</controllingFieldValue>
+            <controllingFieldValue>New Job</controllingFieldValue>
+            <controllingFieldValue>New Home</controllingFieldValue>
+            <controllingFieldValue>New Business</controllingFieldValue>
+            <controllingFieldValue>Retirement</controllingFieldValue>
+            <valueName>Saving for Retirement</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

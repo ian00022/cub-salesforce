@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FinServ__Record_Rollup_Start_Date__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Limit the number of records in the batch job to those modified between rollup start and end dates for improved performance. If you don’t specify a start date, all records modified before the rollup end date are processed.</description>
+    <label>Rollup Start Date</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

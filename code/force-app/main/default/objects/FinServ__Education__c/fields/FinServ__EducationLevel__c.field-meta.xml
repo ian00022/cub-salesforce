@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FinServ__EducationLevel__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Education Level</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>High School</fullName>
+                <default>false</default>
+                <label>High School</label>
+            </value>
+            <value>
+                <fullName>Graduate</fullName>
+                <default>false</default>
+                <label>Graduate</label>
+            </value>
+            <value>
+                <fullName>Post Graduate</fullName>
+                <default>false</default>
+                <label>Post Graduate</label>
+            </value>
+            <value>
+                <fullName>Decline to Comment</fullName>
+                <default>false</default>
+                <label>Decline to Comment</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

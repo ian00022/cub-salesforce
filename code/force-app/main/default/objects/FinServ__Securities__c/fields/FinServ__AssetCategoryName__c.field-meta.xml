@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FinServ__AssetCategoryName__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Market capitalization and investing style</description>
+    <label>Asset Category Name</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Large Growth</fullName>
+                <default>false</default>
+                <label>Large Growth</label>
+            </value>
+            <value>
+                <fullName>Large Value</fullName>
+                <default>false</default>
+                <label>Large Value</label>
+            </value>
+            <value>
+                <fullName>Large Blend</fullName>
+                <default>false</default>
+                <label>Large Blend</label>
+            </value>
+            <value>
+                <fullName>Small Growth</fullName>
+                <default>false</default>
+                <label>Small Growth</label>
+            </value>
+            <value>
+                <fullName>Small Value</fullName>
+                <default>false</default>
+                <label>Small Value</label>
+            </value>
+            <value>
+                <fullName>Small Blend</fullName>
+                <default>false</default>
+                <label>Small Blend</label>
+            </value>
+            <value>
+                <fullName>Mid-Cap Growth</fullName>
+                <default>false</default>
+                <label>Mid-Cap Growth</label>
+            </value>
+            <value>
+                <fullName>Mid-Cap Value</fullName>
+                <default>false</default>
+                <label>Mid-Cap Value</label>
+            </value>
+            <value>
+                <fullName>Mid-Cap Blend</fullName>
+                <default>false</default>
+                <label>Mid-Cap Blend</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

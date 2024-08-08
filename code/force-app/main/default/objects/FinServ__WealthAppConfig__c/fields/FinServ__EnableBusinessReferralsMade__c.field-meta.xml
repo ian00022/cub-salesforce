@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FinServ__EnableBusinessReferralsMade__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Enable Business Referrals Made List and Referrals Made Summary component.</description>
+    <inlineHelpText>Enable Business Referrals Made List and Referrals Made Summary component.</inlineHelpText>
+    <label>Enable Business Referrals Made</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

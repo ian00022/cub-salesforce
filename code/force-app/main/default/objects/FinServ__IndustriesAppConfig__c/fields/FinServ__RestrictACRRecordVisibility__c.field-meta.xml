@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FinServ__RestrictACRRecordVisibility__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Restrict Visibility on ACR Records.</description>
+    <inlineHelpText>Only users with at least read access to the account and contact in an account-contact relationship record can see the record in relationship components.</inlineHelpText>
+    <label>Restrict ACR Record Visibility</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>
