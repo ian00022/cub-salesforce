@@ -412,10 +412,6 @@
                 <field>Lead_Team__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Lead_Unit__c</field>
-            </layoutItems>
-            <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>Rejected_Reason_No__c</field>
             </layoutItems>

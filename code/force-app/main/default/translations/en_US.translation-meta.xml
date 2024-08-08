@@ -18601,6 +18601,10 @@
         <name>OmniScriptWorkbench</name>
     </customTabs>
     <customTabs>
+        <label><!-- Financial Market --></label>
+        <name>Tab</name>
+    </customTabs>
+    <customTabs>
         <label><!-- OmniStudio DocuSign Setup --></label>
         <name>VlocityDocuSignSetup</name>
     </customTabs>
@@ -18614,7 +18618,258 @@
     </customTabs>
     <flowDefinitions>
         <flows/>
+        <fullName>AAR_Create_Group_Relationship_AAR_When_AAR_Create</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>AAR_Create_Inverse_AAR</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>AAR_Update_Fields_When_AAR_Is_Created</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>AAR_Update_Lead_Owner_Team</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <textTemplates>
+                <name>Account_Name_KYC</name>
+            </textTemplates>
+            <textTemplates>
+                <name>Person_Account_Name_KYC</name>
+            </textTemplates>
+        </flows>
+        <fullName>Account_Create_KYC_when_Account_Create</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Account_Create_Reminder_for_Next_Review</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Account_Default_Account_Values_when_Create_on_SF</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Account_Lead_Development_Notes</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <textTemplates>
+                <name>AlertNotificationBody_10</name>
+            </textTemplates>
+        </flows>
+        <fullName>Account_Notify_RM_When_Occupy_Account_Remain_10_Days</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <textTemplates>
+                <name>AlertNotificationBody_30</name>
+            </textTemplates>
+        </flows>
+        <fullName>Account_Notify_RM_When_Occupy_Account_Remain_30_Days</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <name>Cannot_Occupy</name>
+                </fields>
+                <name>CannotOccupy</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>InvalidContinuous_Text</name>
+                </fields>
+                <name>InvalidContinuousText</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>InvalidCountry_Text</name>
+                </fields>
+                <name>InvalidCountryText</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>NoQuota_Text</name>
+                </fields>
+                <name>NoQuotaText</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>NotRM_Text</name>
+                </fields>
+                <name>NotRMText</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>Copy_1_of_Cannot_Occupy</name>
+                </fields>
+                <name>OccupySuccess</name>
+            </screens>
+        </flows>
+        <fullName>Account_Occupy_Button</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
         <fullName>Account_Plan_Create_Recommended_Products</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Account_Plan_Generate_Follow_up_Tasks</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Account_Plan_Send_data_to_related_KYC</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <name>Copy_1_of_Copy_1_of_Submit_Header</name>
+                </fields>
+                <name>Approval_Failed</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>ApprovalSubmitted</name>
+                </fields>
+                <name>Approval_Submitted</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>NotFoundWarning</name>
+                </fields>
+                <name>Approver_Not_Found</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>Approval_Comments</name>
+                </fields>
+                <fields>
+                    <name>Submit_Header</name>
+                </fields>
+                <name>Submit_for_Approval</name>
+            </screens>
+        </flows>
+        <fullName>Account_Plan_Submit_for_Approval</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <name>ReleasedText</name>
+                </fields>
+                <name>Released</name>
+            </screens>
+        </flows>
+        <fullName>Account_Release_Button</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <name>Copy_1_of_Copy_1_of_Submit_Header</name>
+                </fields>
+                <name>Approval_Failed</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>ApprovalSubmitted</name>
+                </fields>
+                <name>Approval_Submitted</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>NotFoundWarning</name>
+                </fields>
+                <name>Approver_Not_Found</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>Approval_Comments</name>
+                </fields>
+                <fields>
+                    <name>Submit_Header</name>
+                </fields>
+                <name>Submit_for_Approval</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>UnabletoRequestText</name>
+                </fields>
+                <name>UnabletoRequest</name>
+            </screens>
+        </flows>
+        <fullName>Account_Request_Manage_Button</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <textTemplates>
+                <name>Body</name>
+            </textTemplates>
+        </flows>
+        <fullName>Account_Sent_PreOccupy_Remain_65_Days_Email</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <name>Customer_ID</name>
+                </fields>
+                <fields>
+                    <name>Customer_Name</name>
+                </fields>
+                <fields>
+                    <name>ID_Type</name>
+                </fields>
+                <name>Create_Account</name>
+            </screens>
+        </flows>
+        <fullName>Account_Test_Create_Account_on_List_View</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Account_Update_AccountOwner_When_RM_Changed</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Account_Update_Fields_When_ResRM_Is_Blank</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Account_Update_Group_When_AAR_Create</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Account_Update_Group_When_AAR_Delete</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Account_Update_Management_Status_When_RM_Changed</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Account_Update_Occupy_Related_Field_When_ResRM_Changed</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <name>Confirm_Text</name>
+                </fields>
+                <name>Confirm_Screen</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>Success_Text</name>
+                </fields>
+                <name>Success</name>
+            </screens>
+        </flows>
+        <fullName>Campaign_Delete_Lead</fullName>
     </flowDefinitions>
     <flowDefinitions>
         <flows>
@@ -18632,9 +18887,9 @@
             </screens>
             <screens>
                 <fields>
-                    <name>Error_Text</name>
+                    <name>Distribute_Country_Null</name>
                 </fields>
-                <name>Error_Screen</name>
+                <name>Distribute_Country_Is_Null</name>
             </screens>
             <screens>
                 <fields>
@@ -18647,6 +18902,12 @@
                     <name>Lead_Distrib_Logic_IsNull</name>
                 </fields>
                 <name>Lead_Distrib_Logic_Null</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>Staging_Lead_Null_Alert_Text</name>
+                </fields>
+                <name>Staging_Lead_Null_Alert</name>
             </screens>
         </flows>
         <fullName>Campaign_Distribute_Lead</fullName>
@@ -19057,10 +19318,6 @@
             </screens>
         </flows>
         <fullName>Datatable_Configuration_Wizard5</fullName>
-    </flowDefinitions>
-    <flowDefinitions>
-        <flows/>
-        <fullName>Duplicate_Exclusion</fullName>
     </flowDefinitions>
     <flowDefinitions>
         <flows>
@@ -20686,15 +20943,39 @@
         <fullName>FinServFlowsExt__Waive_Fees</fullName>
     </flowDefinitions>
     <flowDefinitions>
+        <flows/>
+        <fullName>Lead_Alert_for_Dup_Leads</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
         <flows>
+            <customErrorMessages>
+                <developerName>Lead_Should_Not_Convert</developerName>
+            </customErrorMessages>
             <textTemplates>
-                <name>Account_Name_KYC</name>
-            </textTemplates>
-            <textTemplates>
-                <name>Person_Account_Name_KYC</name>
+                <name>Error_Message</name>
             </textTemplates>
         </flows>
-        <fullName>PartyProfile_Create_KYC_when_Account_Create</fullName>
+        <fullName>Lead_Cant_Convert_When_Account_Has_Responsible_RM</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Lead_Change_Lead_Referral_Status</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Lead_Change_Lead_Status_To_Expired</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Lead_Fill_in_Fields_for_Converted_Account</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Lead_Lead_Development_Notes</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Lead_Update_Lead_Owner_Team</fullName>
     </flowDefinitions>
     <flowDefinitions>
         <flows>
@@ -20705,16 +20986,24 @@
         <fullName>Personnel_Unique_User</fullName>
     </flowDefinitions>
     <flowDefinitions>
-        <flows/>
-        <fullName>Repeat_Reminder</fullName>
-    </flowDefinitions>
-    <flowDefinitions>
         <flows>
             <choices>
                 <name>OrderAsc</name>
             </choices>
             <choices>
                 <name>OrderDesc</name>
+            </choices>
+            <choices>
+                <name>Range1</name>
+            </choices>
+            <choices>
+                <name>Range2</name>
+            </choices>
+            <choices>
+                <name>Range3</name>
+            </choices>
+            <choices>
+                <name>Range4</name>
             </choices>
             <choices>
                 <name>Rule1</name>
@@ -20728,6 +21017,74 @@
             <choices>
                 <name>Rule4</name>
             </choices>
+            <screens>
+                <fields>
+                    <inputParameters>
+                        <name>cb_hideCheckboxColumn</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>cb_isRequired</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>cb_navigateNextOnSave</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>cb_showPagination</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>cb_showRowNumbers</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>cb_singleRowSelection</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>cb_suppressBottomBar</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>columnFields</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>columnFilters</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>columnWidths</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>hideCheckboxColumn</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>objectName</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>recordsPerPage</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>showRowNumbers</name>
+                        <value/>
+                    </inputParameters>
+                    <name>Call_Back_DataTable</name>
+                </fields>
+                <name>Call_Back_Screen</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>ConfirmText</name>
+                </fields>
+                <name>Confirm</name>
+            </screens>
             <screens>
                 <fields>
                     <name>Confirm_Text</name>
@@ -20782,6 +21139,9 @@
                     </inputParameters>
                     <name>ResetRule_Section1_Column2</name>
                 </fields>
+                <fields>
+                    <name>Reset_Rule_Text</name>
+                </fields>
                 <name>ResetRule</name>
             </screens>
             <screens>
@@ -20835,10 +21195,6 @@
                         <value/>
                     </inputParameters>
                     <inputParameters>
-                        <name>showPagination</name>
-                        <value/>
-                    </inputParameters>
-                    <inputParameters>
                         <name>showRecordCount</name>
                         <value/>
                     </inputParameters>
@@ -20850,12 +21206,78 @@
                 </fields>
                 <name>Select_RM_DataTable</name>
             </screens>
+            <screens>
+                <fields>
+                    <name>Range_Text</name>
+                </fields>
+                <fields>
+                    <name>SeletedRange_Section1</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value/>
+                    </inputParameters>
+                    <name>SeletedRange_Section1_Column1</name>
+                </fields>
+                <fields>
+                    <name>UniqueRange1</name>
+                </fields>
+                <fields>
+                    <name>UniqueRange2</name>
+                </fields>
+                <fields>
+                    <name>UniqueRange3</name>
+                </fields>
+                <fields>
+                    <name>UniqueRange4</name>
+                </fields>
+                <name>SeletedRange</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>equlas0</name>
+                </fields>
+                <name>count_equlas_0</name>
+            </screens>
         </flows>
         <fullName>Staging_Lead_Distribute_Staging_Lead</fullName>
     </flowDefinitions>
     <flowDefinitions>
         <flows/>
+        <fullName>Staging_Lead_Duplicate_Exclusion</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Staging_Lead_Repeat_Reminder</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
         <fullName>Survey_Result_Item_Check_If_It_Is_a_Recommended_Product</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <textTemplates>
+                <name>EmailTemplate</name>
+            </textTemplates>
+        </flows>
+        <fullName>Task_Send_Notification_Email_to_Assigned_User</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <customErrorMessages>
+                <developerName>Not_Allowed_to_Modify_Tags</developerName>
+            </customErrorMessages>
+        </flows>
+        <fullName>Topic_Assignment_Forbid_User_to_Assign_Account_Tags</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <textTemplates>
+                <name>Email</name>
+            </textTemplates>
+        </flows>
+        <fullName>User_Auto_Create_Personnel_When_Creating_User</fullName>
     </flowDefinitions>
     <quickActions>
         <label><!-- 記錄通話 --></label>
@@ -20946,6 +21368,19 @@
         <name>SendEmail</name>
     </quickActions>
     <reportTypes>
+        <description><!-- Campaign Upload --></description>
+        <label><!-- Campaign Upload --></label>
+        <name>Campaign_Upload</name>
+        <sections>
+            <label><!-- Campaigns --></label>
+            <name>Campaigns</name>
+        </sections>
+        <sections>
+            <label><!-- 名單上傳 --></label>
+            <name>名單上傳</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
         <description><!-- Clients --></description>
         <label><!-- Clients --></label>
         <name>Clients</name>
@@ -20988,6 +21423,19 @@
         <sections>
             <label><!-- Households --></label>
             <name>Households</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- User with Staging Lead --></description>
+        <label><!-- User with Staging Lead --></label>
+        <name>User_with_Staging_Lead</name>
+        <sections>
+            <label><!-- Users --></label>
+            <name>Users</name>
+        </sections>
+        <sections>
+            <label><!-- 名單上傳 --></label>
+            <name>名單上傳</name>
         </sections>
     </reportTypes>
     <reportTypes>

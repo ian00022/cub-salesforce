@@ -3,6 +3,6 @@
     <fullName>X1st_Call_Date__c</fullName>
     <label>初次電訪日期</label>
     <required>false</required>
-    <trackFeedHistory>false</trackFeedHistory>
+    <trackFeedHistory>true</trackFeedHistory>
     <type>Date</type>
 </CustomField>

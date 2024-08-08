@@ -237,10 +237,10 @@
         <label>722_Div2_Sec3</label>
     </customValue>
     <customValue>
-        <fullName>604_ICC_Team2</fullName>
+        <fullName>725_Div3_Sec1</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>604_ICC_Team2</label>
+        <label>725_Div3_Sec1</label>
     </customValue>
     <customValue>
         <fullName>725_Div3_Sec2</fullName>
@@ -471,10 +471,10 @@
         <label>604_ICC_Team1</label>
     </customValue>
     <customValue>
-        <fullName>725_Div3_Sec1</fullName>
+        <fullName>604_ICC_Team2</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>725_Div3_Sec1</label>
+        <label>604_ICC_Team2</label>
     </customValue>
     <masterLabel>科別</masterLabel>
     <sorted>false</sorted>

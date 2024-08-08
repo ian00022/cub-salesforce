@@ -268,7 +268,7 @@
         <customTabListAdditionalFields>LEAD.COMPANY</customTabListAdditionalFields>
         <customTabListAdditionalFields>LEAD.PHONE</customTabListAdditionalFields>
         <excludedStandardButtons>OpenListInQuip</excludedStandardButtons>
-        <excludedStandardButtons>MassAssignRecordLabel</excludedStandardButtons>
+        <excludedStandardButtons>NewFromDocument</excludedStandardButtons>
         <excludedStandardButtons>IntelligenceView</excludedStandardButtons>
         <excludedStandardButtons>Accept</excludedStandardButtons>
         <excludedStandardButtons>ChangeStatus</excludedStandardButtons>
@@ -281,7 +281,7 @@
         <excludedStandardButtons>SendListEmailAction</excludedStandardButtons>
         <excludedStandardButtons>PrintableListView</excludedStandardButtons>
         <excludedStandardButtons>MassAddToActionableList</excludedStandardButtons>
-        <excludedStandardButtons>NewFromDocument</excludedStandardButtons>
+        <excludedStandardButtons>MassAssignRecordLabel</excludedStandardButtons>
         <lookupDialogsAdditionalFields>FULL_NAME</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>LEAD.COMPANY</lookupDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>FULL_NAME</lookupPhoneDialogsAdditionalFields>

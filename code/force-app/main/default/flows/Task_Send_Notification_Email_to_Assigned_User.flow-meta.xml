@@ -80,7 +80,7 @@
         <recordTriggerType>Create</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Obsolete</status>
+    <status>Draft</status>
     <textTemplates>
         <name>EmailTemplate</name>
         <isViewedAsPlainText>false</isViewedAsPlainText>

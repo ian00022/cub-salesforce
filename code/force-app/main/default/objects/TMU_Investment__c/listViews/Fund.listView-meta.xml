@@ -8,7 +8,7 @@
     <columns>Present_Value__c</columns>
     <columns>Account_Date_Opened__c</columns>
     <columns>Account_Date_Closed__c</columns>
-    <filterScope>Mine</filterScope>
+    <filterScope>Everything</filterScope>
     <filters>
         <field>Type__c</field>
         <operation>equals</operation>

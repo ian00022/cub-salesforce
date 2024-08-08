@@ -5,6 +5,8 @@
     <description>Specifies the type of the shareholder.</description>
     <label>Shareholder Type</label>
     <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
     <type>MultiselectPicklist</type>
     <valueSet>

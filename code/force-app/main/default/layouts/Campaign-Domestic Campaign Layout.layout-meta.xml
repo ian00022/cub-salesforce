@@ -255,7 +255,6 @@
         <fields>LEAD.COMPANY</fields>
         <fields>CORE.USERS.ALIAS</fields>
         <fields>LEAD.STATUS</fields>
-        <fields>Distribution_Status__c</fields>
         <relatedList>Lead.Related_Campaign__c</relatedList>
     </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>

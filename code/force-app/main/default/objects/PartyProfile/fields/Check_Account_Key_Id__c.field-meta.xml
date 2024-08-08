@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_Account_Key_Id__c</fullName>
+    <formula>if( Account.Account_Key_Id__c =  Account_Key_Id_KYC__c ,false,true)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>檢查帳戶客戶識別碼</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

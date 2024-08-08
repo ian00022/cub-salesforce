@@ -7,10 +7,6 @@
         <label>Account Information</label>
         <layoutColumns>
             <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Check_KYC__c</field>
-            </layoutItems>
-            <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>Account_Key_Id_Auto__c</field>
             </layoutItems>
@@ -21,14 +17,6 @@
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>Account_Unit_Difference__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>Account_Key_Formula__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>CUB_External_Id__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>

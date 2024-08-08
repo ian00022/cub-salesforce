@@ -16,7 +16,7 @@
     </duplicateRuleFilter>
     <duplicateRuleMatchRules>
         <matchRuleSObjectType>Lead</matchRuleSObjectType>
-        <matchingRule>Standard_Lead_Match_Rule_v1_0</matchingRule>
+        <matchingRule>Lead_Domestic_Match</matchingRule>
         <objectMapping xsi:nil="true"/>
     </duplicateRuleMatchRules>
     <isActive>false</isActive>

@@ -25,6 +25,16 @@
                 <default>false</default>
                 <label>CreditLens</label>
             </value>
+            <value>
+                <fullName>TEJ</fullName>
+                <default>false</default>
+                <label>TEJ</label>
+            </value>
+            <value>
+                <fullName>Bancs</fullName>
+                <default>false</default>
+                <label>Bancs</label>
+            </value>
         </valueSetDefinition>
     </valueSet>
 </CustomField>

@@ -129,7 +129,7 @@
     <actionOverrides>
         <actionName>View</actionName>
         <comment>Action override created by Lightning App Builder during activation.</comment>
-        <content>Record_Page</content>
+        <content>Account_Plan_Record_Page</content>
         <formFactor>Large</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
         <type>Flexipage</type>
@@ -164,6 +164,6 @@
         <type>AutoNumber</type>
     </nameField>
     <searchLayouts></searchLayouts>
-    <sharingModel>ReadWrite</sharingModel>
+    <sharingModel>Private</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
