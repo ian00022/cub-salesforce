@@ -5,41 +5,6 @@
     <description>Contact data for an institution or a business account</description>
     <label>Business</label>
     <picklistValues>
-        <picklist>BuyerAttributes</picklist>
-        <values>
-            <fullName>BusinessUser</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Buyer</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Champion</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>DecisionMaker</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Detractor</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Evaluator</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>ExecutiveSponsor</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>TechnicalExpert</fullName>
-            <default>false</default>
-        </values>
-    </picklistValues>
-    <picklistValues>
         <picklist>FinServ__CommunicationPreferences__c</picklist>
         <values>
             <fullName>Balance Activities%3AEmail</fullName>
@@ -1487,10 +1452,6 @@
         </values>
         <values>
             <fullName>Other</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Web</fullName>
             <default>false</default>
         </values>
     </picklistValues>
@@ -4567,10 +4528,6 @@
         <picklist>LeadSource</picklist>
         <values>
             <fullName>Other</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Web</fullName>
             <default>false</default>
         </values>
     </picklistValues>

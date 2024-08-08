@@ -110,7 +110,7 @@
             <label>Yes</label>
         </rules>
     </decisions>
-    <description>查重欄位不可為空</description>
+    <description>調整entry criteria</description>
     <environments>Default</environments>
     <interviewLabel>Lead: Alert for Dup Leads {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Lead: Alert for Dup Leads</label>
@@ -199,6 +199,7 @@
                 <elementReference>$Record.Id</elementReference>
             </value>
         </filters>
+<<<<<<< HEAD
         <filters>
             <field>Customer_Id__c</field>
             <operator>IsNull</operator>
@@ -206,6 +207,8 @@
                 <booleanValue>false</booleanValue>
             </value>
         </filters>
+=======
+>>>>>>> dev-ibm
         <getFirstRecordOnly>false</getFirstRecordOnly>
         <object>Lead</object>
         <storeOutputAutomatically>true</storeOutputAutomatically>
@@ -241,6 +244,7 @@
                 <elementReference>$Record.Customer_Data_Country__c</elementReference>
             </value>
         </filters>
+<<<<<<< HEAD
         <filters>
             <field>Company</field>
             <operator>IsNull</operator>
@@ -248,6 +252,8 @@
                 <booleanValue>false</booleanValue>
             </value>
         </filters>
+=======
+>>>>>>> dev-ibm
         <getFirstRecordOnly>false</getFirstRecordOnly>
         <object>Lead</object>
         <storeOutputAutomatically>true</storeOutputAutomatically>

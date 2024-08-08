@@ -342,11 +342,6 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>IsPortalSelfRegistered</field>
-            <table>User</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
             <field>FederationIdentifier</field>
             <table>User</table>
         </columns>
@@ -378,11 +373,6 @@
         <columns>
             <checkedByDefault>false</checkedByDefault>
             <field>IsProfilePhotoActive</field>
-            <table>User</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>Individual</field>
             <table>User</table>
         </columns>
         <columns>

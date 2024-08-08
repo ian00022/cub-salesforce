@@ -125,8 +125,8 @@
     </dashboardGridLayout>
     <dashboardType>SpecifiedUser</dashboardType>
     <isGridLayout>true</isGridLayout>
-    <owner>cub_scratch3@gmail.com</owner>
-    <runningUser>cub_scratch3@gmail.com</runningUser>
+    <owner>ianpychen@cub</owner>
+    <runningUser>ianpychen@cub</runningUser>
     <textColor>#000000</textColor>
     <title>FTP 1M</title>
     <titleColor>#000000</titleColor>

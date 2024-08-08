@@ -8,7 +8,7 @@
     <columns>Market_Value_Assessment__c</columns>
     <columns>Transaction_Date__c</columns>
     <columns>Maturity_Date__c</columns>
-    <filterScope>Mine</filterScope>
+    <filterScope>Everything</filterScope>
     <filters>
         <field>Type__c</field>
         <operation>equals</operation>
