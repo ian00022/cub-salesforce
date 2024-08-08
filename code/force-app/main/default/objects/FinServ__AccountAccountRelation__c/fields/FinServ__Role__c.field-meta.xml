@@ -16,6 +16,8 @@
     <referenceTo>FinServ__ReciprocalRole__c</referenceTo>
     <relationshipName>AccountReciprocalRole</relationshipName>
     <required>true</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Lookup</type>
 </CustomField>

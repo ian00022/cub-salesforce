@@ -280,46 +280,10 @@
                 <identifier>RecordBusiness_Structure_cField</identifier>
             </fieldInstance>
         </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.Has_Relationship__c</fieldItem>
-                <identifier>RecordHas_Relationship__cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.Check_KYC__c</fieldItem>
-                <identifier>RecordCheck_KYC__cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldItem>Record.Data_From_Non_SF__c</fieldItem>
-                <identifier>RecordData_From_Non_SF__cField</identifier>
-            </fieldInstance>
-        </itemInstances>
         <name>Facet-c687375b-152f-47e3-90d0-e7d65b8522d6</name>
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>required</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.CurrencyIsoCode</fieldItem>
-                <identifier>RecordCurrencyIsoCodeField</identifier>
-            </fieldInstance>
-        </itemInstances>
         <itemInstances>
             <fieldInstance>
                 <fieldInstanceProperties>
@@ -338,16 +302,6 @@
                 </fieldInstanceProperties>
                 <fieldItem>Record.RecordTypeId</fieldItem>
                 <identifier>RecordRecordTypeIdField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.ParentId</fieldItem>
-                <identifier>RecordParentIdField</identifier>
             </fieldInstance>
         </itemInstances>
         <itemInstances>
@@ -477,17 +431,7 @@
                     <value>none</value>
                 </fieldInstanceProperties>
                 <fieldItem>Record.Has_Relationship__c</fieldItem>
-                <identifier>RecordHas_Relationship_cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.Prior_PreOccupy_RM__c</fieldItem>
-                <identifier>RecordPrior_PreOccupy_RM_cField2</identifier>
+                <identifier>RecordHas_Relationship__cField</identifier>
             </fieldInstance>
         </itemInstances>
         <name>Facet-096213bd-7367-48bd-a9b9-9ea1ad60c496</name>
@@ -960,6 +904,16 @@
                 <identifier>RecordLast_Data_Source_cField</identifier>
             </fieldInstance>
         </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Data_From_Non_SF__c</fieldItem>
+                <identifier>RecordData_From_Non_SF__cField</identifier>
+            </fieldInstance>
+        </itemInstances>
         <name>Facet-ec268aa2-357d-408e-9398-6847752a9161</name>
         <type>Facet</type>
     </flexiPageRegions>
@@ -1346,6 +1300,16 @@
                 <identifier>RecordLastModifiedByIdField</identifier>
             </fieldInstance>
         </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>required</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.CurrencyIsoCode</fieldItem>
+                <identifier>RecordCurrencyIsoCodeField</identifier>
+            </fieldInstance>
+        </itemInstances>
         <name>Facet-b4c29a98-ba5e-4712-ab9c-8f3f5c63e439</name>
         <type>Facet</type>
     </flexiPageRegions>
@@ -1371,58 +1335,6 @@
             </componentInstance>
         </itemInstances>
         <name>Facet-fa41d708-5bc0-410e-b9b8-5c98334ddc60</name>
-        <type>Facet</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.FinServ__ReferredByUser__c</fieldItem>
-                <identifier>RecordFinServ_ReferredByUser_cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <name>Facet-8de18509-2da4-4c22-8205-25e238fbd347</name>
-        <type>Facet</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.FinServ__ReferredByContact__c</fieldItem>
-                <identifier>RecordFinServ_ReferredByContact_cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <name>Facet-b81c8725-6b3b-4b73-a1e7-545da4f53538</name>
-        <type>Facet</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>body</name>
-                    <value>Facet-8de18509-2da4-4c22-8205-25e238fbd347</value>
-                </componentInstanceProperties>
-                <componentName>flexipage:column</componentName>
-                <identifier>flexipage_column23</identifier>
-            </componentInstance>
-        </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>body</name>
-                    <value>Facet-b81c8725-6b3b-4b73-a1e7-545da4f53538</value>
-                </componentInstanceProperties>
-                <componentName>flexipage:column</componentName>
-                <identifier>flexipage_column24</identifier>
-            </componentInstance>
-        </itemInstances>
-        <name>Facet-4103661d-f749-435b-b5ce-35f15007a92f</name>
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
@@ -1629,24 +1541,6 @@
                 </componentInstanceProperties>
                 <componentName>flexipage:fieldSection</componentName>
                 <identifier>flexipage_fieldSection13</identifier>
-            </componentInstance>
-        </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>columns</name>
-                    <value>Facet-4103661d-f749-435b-b5ce-35f15007a92f</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>horizontalAlignment</name>
-                    <value>false</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>label</name>
-                    <value>Referral Information</value>
-                </componentInstanceProperties>
-                <componentName>flexipage:fieldSection</componentName>
-                <identifier>flexipage_fieldSection12</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -3594,6 +3488,13 @@
                 </componentInstanceProperties>
                 <componentName>flexipage:tab</componentName>
                 <identifier>flexipage_tab</identifier>
+                <visibilityRule>
+                    <criteria>
+                        <leftValue>{!$User.Profile.Name}</leftValue>
+                        <operator>CONTAINS</operator>
+                        <rightValue>System Administrator</rightValue>
+                    </criteria>
+                </visibilityRule>
             </componentInstance>
         </itemInstances>
         <itemInstances>

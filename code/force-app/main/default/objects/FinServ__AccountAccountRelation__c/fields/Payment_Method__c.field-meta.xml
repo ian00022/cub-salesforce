@@ -4,6 +4,8 @@
     <inlineHelpText>若選擇「其他」，請先填寫「其他結帳方式說明」欄位</inlineHelpText>
     <label>結帳方式</label>
     <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Picklist</type>
     <valueSet>

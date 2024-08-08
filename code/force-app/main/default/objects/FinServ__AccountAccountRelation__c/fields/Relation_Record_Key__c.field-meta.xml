@@ -19,6 +19,7 @@ IF(RecordType.DeveloperName = &quot;Affiliate&quot;,
 , &quot;&quot;)</formula>
     <label>關係Key值</label>
     <required>false</required>
+    <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Text</type>
     <unique>false</unique>

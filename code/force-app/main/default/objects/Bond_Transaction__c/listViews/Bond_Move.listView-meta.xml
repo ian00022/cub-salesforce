@@ -10,11 +10,12 @@
     <columns>Bond_Face_Value__c</columns>
     <columns>Transaction_Amount__c</columns>
     <columns>Remarks__c</columns>
-    <filterScope>Mine</filterScope>
+    <filterScope>Everything</filterScope>
     <filters>
         <field>Type__c</field>
         <operation>equals</operation>
         <value>移券</value>
     </filters>
     <label>自營債-移券明細</label>
+    <sharedTo></sharedTo>
 </ListView>

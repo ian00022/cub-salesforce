@@ -3,7 +3,7 @@
     <fullName>Referral_Status__c</fullName>
     <label>商機轉介狀態</label>
     <required>false</required>
-    <trackFeedHistory>false</trackFeedHistory>
+    <trackFeedHistory>true</trackFeedHistory>
     <type>Picklist</type>
     <valueSet>
         <restricted>true</restricted>
