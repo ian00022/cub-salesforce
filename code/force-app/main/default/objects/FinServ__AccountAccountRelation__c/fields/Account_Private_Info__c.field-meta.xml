@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Private_Info__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>客戶非公開資訊</label>
+    <referenceTo>Account_Private_Info__c</referenceTo>
+    <relationshipLabel>Account Account Relations</relationshipLabel>
+    <relationshipName>Account_Account_Relations</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

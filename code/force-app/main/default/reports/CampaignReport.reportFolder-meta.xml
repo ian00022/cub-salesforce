@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ReportFolder xmlns="http://soap.sforce.com/2006/04/metadata">
-    <name>行銷活動報表</name>
+    <folderShares>
+        <accessLevel>Manage</accessLevel>
+        <sharedTo>OP_Senior_VP</sharedTo>
+        <sharedToType>RoleAndSubordinatesInternal</sharedToType>
+    </folderShares>
+    <folderShares>
+        <accessLevel>Manage</accessLevel>
+        <sharedTo>OP_Senior_VP_OS</sharedTo>
+        <sharedToType>RoleAndSubordinatesInternal</sharedToType>
+    </folderShares>
+    <name>總行單位報表</name>
 </ReportFolder>

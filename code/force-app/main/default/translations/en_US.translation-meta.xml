@@ -1789,6 +1789,27 @@
         <name>FinServ__Wizard_Step_Relationship_Group_Details</name>
     </customLabels>
     <customLabels>
+        <label><!-- 首次填寫經營計劃 - 工作描述 --></label>
+        <name>FirstAccountPlanDescription</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- 首次填寫經營計劃 - 工作主題 --></label>
+        <name>FirstAccountPlanSubject</name>
+    </customLabels>
+    <customLabels>
+        <label>Hi,
+
+You&apos;re occupy account has expired and is now released.
+Click the link below to view the detailed information.
+
+Thank you!!</label>
+        <name>OccupyAccount_Released</name>
+    </customLabels>
+    <customLabels>
+        <label>occupy account has expired and is now released</label>
+        <name>Released_Notification</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Cancel --></label>
         <name>ers_CancelButton</name>
     </customLabels>
@@ -18577,8 +18598,48 @@
         <name>omnistudio__wizItemLabelMissingError</name>
     </customLabels>
     <customTabs>
+        <label><!-- OmniStudio DataPacks --></label>
+        <name>omnistudio__DataPacks</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- OmniStudio DataRaptors --></label>
+        <name>omnistudio__DataRaptor</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Document Template Designer --></label>
+        <name>omnistudio__DocumentTemplate</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- OmniStudio FlexCards --></label>
+        <name>omnistudio__FlexCards</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- OmniStudio Integration Procedures --></label>
+        <name>omnistudio__IntegrationProcedureHome</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- OmniScripts --></label>
+        <name>omnistudio__OmniScriptHome</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- OmniScript Workbench --></label>
+        <name>omnistudio__OmniScriptWorkbench</name>
+    </customTabs>
+    <customTabs>
         <label><!-- Financial Market --></label>
         <name>Tab</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- OmniStudio DocuSign Setup --></label>
+        <name>omnistudio__VlocityDocuSignSetup</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Clients --></label>
+        <name>omnistudio__WMClients</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Home --></label>
+        <name>omnistudio__WMToday</name>
     </customTabs>
     <flowDefinitions>
         <flows/>
@@ -18595,6 +18656,10 @@
     <flowDefinitions>
         <flows/>
         <fullName>AAR_Update_Lead_Owner_Team</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Account_Change_Key_Value</fullName>
     </flowDefinitions>
     <flowDefinitions>
         <flows>
@@ -18669,6 +18734,12 @@
             </screens>
             <screens>
                 <fields>
+                    <name>OccupyAccountText</name>
+                </fields>
+                <name>OccupyAccount</name>
+            </screens>
+            <screens>
+                <fields>
                     <name>Copy_1_of_Cannot_Occupy</name>
                 </fields>
                 <name>OccupySuccess</name>
@@ -18719,6 +18790,10 @@
             </screens>
         </flows>
         <fullName>Account_Plan_Submit_for_Approval</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Account_Private_Info_Create_Account_Private_Info_When_Account_Created</fullName>
     </flowDefinitions>
     <flowDefinitions>
         <flows>
@@ -18800,6 +18875,10 @@
     </flowDefinitions>
     <flowDefinitions>
         <flows/>
+        <fullName>Account_Update_Account_Key_when_Id_Changed</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
         <fullName>Account_Update_Fields_When_ResRM_Is_Blank</fullName>
     </flowDefinitions>
     <flowDefinitions>
@@ -18877,8 +18956,411 @@
         <fullName>Campaign_Distribute_Lead</fullName>
     </flowDefinitions>
     <flowDefinitions>
-        <flows/>
-        <fullName>Lead_Alert_for_Dup_Leads</fullName>
+        <flows>
+            <screens>
+                <fields>
+                    <inputParameters>
+                        <name>displayMode</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>iconSize</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>includeIcons</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>inputMode</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>masterLabel</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>navOnSelect</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>numberOfColumns</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>required</name>
+                        <value/>
+                    </inputParameters>
+                    <name>FieldSelectionMethod</name>
+                </fields>
+                <fields>
+                    <name>qcHeader</name>
+                </fields>
+                <name>Field_Selection_Method_Screen</name>
+            </screens>
+            <screens>
+                <fields>
+                    <inputParameters>
+                        <name>cb_hideClearSelectionButton</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>cb_isDisplayHeader</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>cb_matchCaseOnFilters</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>cb_navigateNextOnSave</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>cb_singleRowSelection</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>cb_suppressBottomBar</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>columnFields</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>columnFilters</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>columnLabels</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>columnWidths</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>columnWraps</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>hideClearSelectionButton</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>isDisplayHeader</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>objectName</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>singleRowSelection</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>tableIcon</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>tableLabel</name>
+                        <value/>
+                    </inputParameters>
+                    <name>ConfigTable_select</name>
+                </fields>
+                <name>Select_Config_Record</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>List_of_Field_Names</name>
+                </fields>
+                <fields>
+                    <name>Object</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>allOptionsStringFormat</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>label</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>max</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>min</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>selectedLabel</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>size</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>sourceLabel</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>useWhichObjectKeyForData</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>useWhichObjectKeyForSort</name>
+                        <value/>
+                    </inputParameters>
+                    <name>SelectFields</name>
+                </fields>
+                <name>Select_Fields</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>FinishMessage_0</name>
+                </fields>
+                <name>Wizard_Exit</name>
+            </screens>
+            <screens>
+                <fields>
+                    <inputParameters>
+                        <name>label</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>messageToggleActive</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>messageToggleInactive</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>value</name>
+                        <value/>
+                    </inputParameters>
+                    <name>AttributeToggle</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>actionMode</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>alignment</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>buttons</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>orientation</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>showLines</name>
+                        <value/>
+                    </inputParameters>
+                    <name>ConfigButtonCreate</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>actionMode</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>alignment</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>buttons</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>orientation</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>showLines</name>
+                        <value/>
+                    </inputParameters>
+                    <name>ConfigButtonSave</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>cb_hideClearSelectionButton</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>cb_isDisplayHeader</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>cb_navigateNextOnSave</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>cb_singleRowSelection</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>cb_suppressBottomBar</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>columnFields</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>columnFilters</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>columnLabels</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>columnWidths</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>columnWraps</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>hideClearSelectionButton</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>isDisplayHeader</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>objectName</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>singleRowSelection</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>tableIcon</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>tableLabel</name>
+                        <value/>
+                    </inputParameters>
+                    <name>ConfigTable_saveas</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>label</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>messageToggleActive</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>messageToggleInactive</name>
+                        <value/>
+                    </inputParameters>
+                    <name>ConfigToggle</name>
+                </fields>
+                <fields>
+                    <name>Configuration_Record_Name</name>
+                </fields>
+                <fields>
+                    <name>DuplicateNameErrorMessage</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>actionMode</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>alignment</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>buttons</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>orientation</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>showLines</name>
+                        <value/>
+                    </inputParameters>
+                    <name>NoLoadConfig</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>actionMode</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>alignment</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>buttons</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>orientation</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>showLines</name>
+                        <value/>
+                    </inputParameters>
+                    <name>SaveAttributes</name>
+                </fields>
+                <fields>
+                    <name>Special_Cell_Attributes</name>
+                </fields>
+                <fields>
+                    <name>Special_Other_Attributes</name>
+                </fields>
+                <fields>
+                    <name>Special_Type_Attributes</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>cb_isUserDefinedObject</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>hideCheckboxColumn</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>isConfigMode</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>isUserDefinedObject</name>
+                        <value/>
+                    </inputParameters>
+                    <name>WizardTable</name>
+                </fields>
+                <fields>
+                    <name>debug</name>
+                </fields>
+                <name>Wizard_Screen</name>
+            </screens>
+        </flows>
+        <fullName>Datatable_Configuration_Wizard5</fullName>
     </flowDefinitions>
     <flowDefinitions>
         <flows>
@@ -18905,6 +19387,44 @@
     </flowDefinitions>
     <flowDefinitions>
         <flows/>
+        <fullName>Lead_Alert_for_Dup_Leads</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <customErrorMessages>
+                <developerName>Lead_Should_Not_Convert</developerName>
+            </customErrorMessages>
+            <textTemplates>
+                <name>Error_Message</name>
+            </textTemplates>
+        </flows>
+        <fullName>Lead_Cant_Convert_When_Account_Has_Responsible_RM</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Lead_Change_Lead_Referral_Status</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Lead_Change_Lead_Status_To_Expired</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <textTemplates>
+                <name>Notify_Body</name>
+            </textTemplates>
+            <textTemplates>
+                <name>Notify_Title</name>
+            </textTemplates>
+        </flows>
+        <fullName>Lead_Due_Alert</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Lead_Fill_in_Fields_for_Converted_Account</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
         <fullName>Lead_Lead_Development_Notes</fullName>
     </flowDefinitions>
     <flowDefinitions>
@@ -18918,6 +19438,22 @@
             </customErrorMessages>
         </flows>
         <fullName>Personnel_Unique_User</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Personnel_Update_Owner_To_The_Referred_Employee</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Product_PriceBookEntryGeneration</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Product_PriceBookEntryGeneration_Domestic</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Product_PriceBookEntryGeneration_overseas</fullName>
     </flowDefinitions>
     <flowDefinitions>
         <flows>
@@ -19213,6 +19749,94 @@
         </flows>
         <fullName>User_Auto_Create_Personnel_When_Creating_User</fullName>
     </flowDefinitions>
+    <quickActions>
+        <label><!-- 記錄通話 --></label>
+        <name>LogACall</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- LogACall --></label>
+        <name>LogACall</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- 記錄通話 --></label>
+        <name>LogACallAdvisor</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- 記錄通話 --></label>
+        <name>LogACallClientAssociate</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewAccount --></label>
+        <name>NewAccount</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Business Lead &amp; Referral --></label>
+        <name>NewBusinessLeadReferral</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewCase --></label>
+        <name>NewCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewContact --></label>
+        <name>NewContact</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- 新增事件 --></label>
+        <name>NewEvent</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewEvent --></label>
+        <name>NewEvent</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- 新增事件 --></label>
+        <name>NewEventAdvisor</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- 新增事件 --></label>
+        <name>NewEventClientAssociate</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewGroup --></label>
+        <name>NewGroup</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewLead --></label>
+        <name>NewLead</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Lead &amp; Referral --></label>
+        <name>NewLeadReferral</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewNote --></label>
+        <name>NewNote</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewOpportunity --></label>
+        <name>NewOpportunity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- 新增工作 --></label>
+        <name>NewTask</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewTask --></label>
+        <name>NewTask</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- 新增工作 --></label>
+        <name>NewTaskAdvisor</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- 新增工作 --></label>
+        <name>NewTaskClientAssociate</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- SendEmail --></label>
+        <name>SendEmail</name>
+    </quickActions>
     <reportTypes>
         <description><!-- Campaign Upload --></description>
         <label><!-- Campaign Upload --></label>
@@ -19224,6 +19848,40 @@
         <sections>
             <label><!-- 名單上傳 --></label>
             <name>名單上傳</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Clients --></description>
+        <label><!-- Clients --></label>
+        <name>Clients</name>
+        <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
+            <label><!-- Clients --></label>
+            <name>Clients</name>
+        </sections>
+        <sections>
+            <label><!-- 帳戶 --></label>
+            <name>帳戶</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Clients - Dashboards --></description>
+        <label><!-- Clients - Dashboards --></label>
+        <name>Clients_Dashboards</name>
+        <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
+            <label><!-- Clients --></label>
+            <name>Clients</name>
+        </sections>
+        <sections>
+            <label><!-- 帳戶 --></label>
+            <name>帳戶</name>
         </sections>
     </reportTypes>
     <reportTypes>
@@ -19240,8 +19898,108 @@
         <label><!-- User with Staging Lead --></label>
         <name>User_with_Staging_Lead</name>
         <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
+            <label><!-- Households --></label>
+            <name>Households</name>
+        </sections>
+        <sections>
+            <label><!-- 帳戶 --></label>
+            <name>帳戶</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Households - Dashboards --></description>
+        <label><!-- Households - Dashboards --></label>
+        <name>Households_Dashboards</name>
+        <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
+            <label><!-- Households --></label>
+            <name>Households</name>
+        </sections>
+        <sections>
+            <label><!-- 帳戶 --></label>
+            <name>帳戶</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- User with Staging Lead --></description>
+        <label><!-- User with Staging Lead --></label>
+        <name>User_with_Staging_Lead</name>
+        <sections>
             <label><!-- Users --></label>
             <name>Users</name>
+        </sections>
+        <sections>
+            <label><!-- 名單上傳 --></label>
+            <name>名單上傳</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- 協調流程執行記錄 Spring &apos;24 --></description>
+        <label><!-- 協調流程執行記錄 Spring &apos;24 --></label>
+        <name>flow_orchestration_log_ootb_crt_two_four_eight</name>
+        <sections>
+            <label><!-- 協調流程執行記錄 --></label>
+            <name>協調流程執行記錄</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Orchestration Runs --></description>
+        <label><!-- Orchestration Runs --></label>
+        <name>flow_orchestration_run_crt</name>
+        <sections>
+            <label><!-- Orchestration Runs --></label>
+            <name>Orchestration Runs</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- 協調流程執行 Spring &apos;24 --></description>
+        <label><!-- 協調流程執行 Spring &apos;24 --></label>
+        <name>flow_orchestration_run_ootb_crt_two_four_eight</name>
+        <sections>
+            <label><!-- 協調流程執行 --></label>
+            <name>協調流程執行</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- 協調流程階段執行 Spring &apos;24 --></description>
+        <label><!-- 協調流程階段執行 Spring &apos;24 --></label>
+        <name>flow_orchestration_stage_run_ootb_crt_two_four_eight</name>
+        <sections>
+            <label><!-- 協調流程階段執行 --></label>
+            <name>協調流程階段執行</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- 協調流程步驟執行 Spring &apos;24 --></description>
+        <label><!-- 協調流程步驟執行 Spring &apos;24 --></label>
+        <name>flow_orchestration_step_run_ootb_crt_two_four_eight</name>
+        <sections>
+            <label><!-- 協調流程步驟執行 --></label>
+            <name>協調流程步驟執行</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- 協調流程工作項目 Spring &apos;24 --></description>
+        <label><!-- 協調流程工作項目 Spring &apos;24 --></label>
+        <name>flow_orchestration_work_item_ootb_crt_two_four_eight</name>
+        <sections>
+            <columns>
+                <label><!-- 已指派User --></label>
+                <name>已指派User</name>
+            </columns>
+            <columns>
+                <label><!-- 已指派群組或佇列 --></label>
+                <name>已指派群組或佇列</name>
+            </columns>
+            <label><!-- 協調流程工作執行 --></label>
+            <name>協調流程工作執行</name>
         </sections>
         <sections>
             <label><!-- 名單上傳 --></label>

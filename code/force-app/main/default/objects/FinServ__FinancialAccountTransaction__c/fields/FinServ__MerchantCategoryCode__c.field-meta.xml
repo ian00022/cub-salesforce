@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FinServ__MerchantCategoryCode__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Merchant category code.</description>
+    <externalId>false</externalId>
+    <label>Merchant Category Code (MCCode)</label>
+    <length>10</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

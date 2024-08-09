@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FinServ__StartDate__c</fullName>
+    <defaultValue>today()</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Start date when the organizational entity or person assumed this role.</description>
+    <label>Start Date</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

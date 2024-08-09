@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>Rejected_Reason__c</name>
+    <picklistValues>
+        <masterLabel>利率因素暫無申辦意願</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>已有主力往來銀行暫無申辦意願</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>暫無需求</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>額度因素暫無申辦意願</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

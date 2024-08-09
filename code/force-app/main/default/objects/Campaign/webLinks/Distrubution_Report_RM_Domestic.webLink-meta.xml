@@ -16,5 +16,5 @@
     <protected>false</protected>
     <showsLocation>false</showsLocation>
     <showsStatus>false</showsStatus>
-    <url>/lightning/r/Report/00OH3000000QSvoMAG/view?queryScope=userFolders&amp;fv0={!Campaign.Id}</url>
+    <url>/lightning/r/Report/00OH3000000QZj9MAG/view?queryScope=userFolders&amp;fv0={!Campaign.Id}</url>
 </WebLink>

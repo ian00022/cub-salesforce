@@ -13,6 +13,7 @@
     <columns>Related_Campaign__c</columns>
     <columns>Reallocated__c</columns>
     <columns>Suggest_Disp_Branch__c</columns>
+    <columns>Campaign_No__c</columns>
     <filterScope>Everything</filterScope>
     <label>All</label>
 </ListView>

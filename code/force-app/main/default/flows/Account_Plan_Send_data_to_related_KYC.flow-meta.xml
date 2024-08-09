@@ -208,10 +208,11 @@
         </rules>
     </decisions>
     <description>Syncs the result from Account Plan to KYC after the Account Plan has been approved.
-Added latest Account Plan on KYC</description>
+Added latest Account Plan on KYC
+Updates Account&apos;s Has Approved Account Plan field to true</description>
     <environments>Default</environments>
     <interviewLabel>Account Plan: Send data to related KYC {!$Flow.CurrentDateTime}</interviewLabel>
-    <label>Account Plan: Send data to related KYC</label>
+    <label>Account Plan: Send data to related KYC and Update Related Account</label>
     <processMetadataValues>
         <name>BuilderType</name>
         <value>
@@ -257,7 +258,31 @@ Added latest Account Plan on KYC</description>
         <label>Update Party Profile</label>
         <locationX>50</locationX>
         <locationY>647</locationY>
+        <connector>
+            <targetReference>Update_Related_Account</targetReference>
+        </connector>
         <inputReference>Get_Party_Profile</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Related_Account</name>
+        <label>Update Related Account</label>
+        <locationX>50</locationX>
+        <locationY>755</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Has_Approved_Account_Plan__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Has_Approved_Account_Plan__c</field>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record.Account__r</inputReference>
     </recordUpdates>
     <start>
         <locationX>56</locationX>

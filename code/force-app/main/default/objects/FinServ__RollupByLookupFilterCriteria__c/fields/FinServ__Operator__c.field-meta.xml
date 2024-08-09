@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FinServ__Operator__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Operator</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>greater than</fullName>
+                <default>false</default>
+                <label>greater than</label>
+            </value>
+            <value>
+                <fullName>equals</fullName>
+                <default>false</default>
+                <label>equals</label>
+            </value>
+            <value>
+                <fullName>greater than or equal to</fullName>
+                <default>false</default>
+                <label>greater than or equal to</label>
+            </value>
+            <value>
+                <fullName>contains</fullName>
+                <default>false</default>
+                <label>contains</label>
+            </value>
+            <value>
+                <fullName>not equal to</fullName>
+                <default>false</default>
+                <label>not equal to</label>
+            </value>
+            <value>
+                <fullName>less than</fullName>
+                <default>false</default>
+                <label>less than</label>
+            </value>
+            <value>
+                <fullName>less than or equal to</fullName>
+                <default>false</default>
+                <label>less than or equal to</label>
+            </value>
+            <value>
+                <fullName>not contains</fullName>
+                <default>false</default>
+                <label>not contains</label>
+            </value>
+            <value>
+                <fullName>not like</fullName>
+                <default>false</default>
+                <label>not like</label>
+            </value>
+            <value>
+                <fullName>starts with</fullName>
+                <default>false</default>
+                <label>starts with</label>
+            </value>
+            <value>
+                <fullName>ends with</fullName>
+                <default>false</default>
+                <label>ends with</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

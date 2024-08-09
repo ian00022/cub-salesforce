@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Interest_Rate_OBU</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Interest Rate OBU</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>OBU_BU_Head_OS</roleAndSubordinatesInternal>
+        </sharedTo>
+        <criteriaItems>
+            <field>Country__c</field>
+            <operation>equals</operation>
+            <value>Taiwan</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Interest_Rate_Overseas_Management</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Interest Rate 國管</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>OP_Senior_VP_OS</roleAndSubordinatesInternal>
+        </sharedTo>
+        <criteriaItems>
+            <field>Country__c</field>
+            <operation>notEqual</operation>
+            <value>Taiwan</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Interest_Rate_TW</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Interest Rate TW</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Cheif_Of_Channel</roleAndSubordinatesInternal>
+        </sharedTo>
+        <criteriaItems>
+            <field>Country__c</field>
+            <operation>equals</operation>
+            <value>Taiwan</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Interest_Rate_VN</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Interest Rate VN</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>VN_BU_Head_OS</roleAndSubordinatesInternal>
+        </sharedTo>
+        <criteriaItems>
+            <field>Country__c</field>
+            <operation>equals</operation>
+            <value>Vientiane</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+</SharingRules>

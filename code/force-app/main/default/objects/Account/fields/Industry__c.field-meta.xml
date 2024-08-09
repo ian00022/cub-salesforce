@@ -11,9 +11,9 @@
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
-                <fullName>礦業及土石採取業</fullName>
+                <fullName>010111</fullName>
                 <default>false</default>
-                <label>礦業及土石採取業</label>
+                <label>稻作栽培業</label>
             </value>
             <value>
                 <fullName>製造業</fullName>

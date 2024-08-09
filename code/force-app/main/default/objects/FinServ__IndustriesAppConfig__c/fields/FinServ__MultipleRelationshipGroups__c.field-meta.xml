@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FinServ__MultipleRelationshipGroups__c</fullName>
+    <defaultValue>true</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Enables a contact to be a member or related member of multiple relationship groups.</description>
+    <label>Multiple Relationship Groups</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

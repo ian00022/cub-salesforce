@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
     <brand>
-        <headerColor>#0070D2</headerColor>
-        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+        <headerColor>#009F40</headerColor>
+        <logo>images1</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>true</shouldOverrideOrgTheme>
     </brand>
     <formFactors>Small</formFactors>
     <formFactors>Large</formFactors>
@@ -14,11 +16,57 @@
     <navType>Standard</navType>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Debt_Capital_Market_Record_Page</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Debt_Capital_Market__c</pageOrSobjectType>
+        <content>Account_Person_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.Person</recordType>
         <type>Flexipage</type>
-        <profile>CUB Domestic RM Manager</profile>
+        <profile>Outsource User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Person_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.Person</recordType>
+        <type>Flexipage</type>
+        <profile>Outsource User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Company_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.Company</recordType>
+        <type>Flexipage</type>
+        <profile>Outsource User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Company_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.Company</recordType>
+        <type>Flexipage</type>
+        <profile>Outsource User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Group_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.Group</recordType>
+        <type>Flexipage</type>
+        <profile>Outsource User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Group_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.Group</recordType>
+        <type>Flexipage</type>
+        <profile>Outsource User</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
@@ -518,6 +566,15 @@
         <type>Flexipage</type>
         <profile>CUB Domestic RM Manager</profile>
     </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Debt_Capital_Market_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Debt_Capital_Market__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>CUB Domestic RM Manager</profile>
+    </profileActionOverrides>
+    <tabs>standard-Campaign</tabs>
     <tabs>standard-Lead</tabs>
     <tabs>Tab</tabs>
     <tabs>standard-Account</tabs>

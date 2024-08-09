@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FinServ__LengthOfEmployment__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>If(ISBLANK(FinServ__EndDate__c),If(And(Month(TODAY())&gt;= month(FinServ__StartDate__c), Day(TODAY()) &gt;= Day(FinServ__StartDate__c)),
+Year(TODAY())- Year(FinServ__StartDate__c) +
+(Month(TODAY())-Month(FinServ__StartDate__c))/12,
+if(And(month(TODAY())&lt; month(FinServ__StartDate__c), Day(TODAY())&gt;= Day(FinServ__StartDate__c)),
+Year(TODAY())-Year(FinServ__StartDate__c)-1 +
+(12 - Month(FinServ__StartDate__c)+month(TODAY()))/12,
+if(And( month(TODAY())&lt; month(FinServ__StartDate__c), Day(TODAY())&lt; Day(FinServ__StartDate__c)),
+(Year(TODAY())-Year(FinServ__StartDate__c)-1) + 
+((12 - Month(FinServ__StartDate__c)+month(TODAY())-1))/12,
+if(And( month(TODAY())= month(FinServ__StartDate__c), Day(TODAY())&lt; Day(FinServ__StartDate__c)),
+(Year(TODAY())- Year(FinServ__StartDate__c)-1) + (11/12),
+(Year(TODAY())- Year(FinServ__StartDate__c)) + 
+(Month(TODAY())-Month(FinServ__StartDate__c)-1)/12)))),If(And(Month(FinServ__EndDate__c)&gt;= month(FinServ__StartDate__c), Day(FinServ__EndDate__c) &gt;= Day(FinServ__StartDate__c)),
+Year(FinServ__EndDate__c)- Year(FinServ__StartDate__c) +
+(Month(FinServ__EndDate__c)-Month(FinServ__StartDate__c))/12,
+if(And(month(FinServ__EndDate__c)&lt; month(FinServ__StartDate__c), Day(FinServ__EndDate__c)&gt;= Day(FinServ__StartDate__c)),
+Year(FinServ__EndDate__c)-Year(FinServ__StartDate__c)-1 +
+(12 - Month(FinServ__StartDate__c)+month(FinServ__EndDate__c))/12,
+if(And( month(FinServ__EndDate__c)&lt; month(FinServ__StartDate__c), Day(FinServ__EndDate__c)&lt; Day(FinServ__StartDate__c)),
+(Year(FinServ__EndDate__c)-Year(FinServ__StartDate__c)-1) + 
+((12 - Month(FinServ__StartDate__c)+month(FinServ__EndDate__c)-1))/12,
+if(And( month(FinServ__EndDate__c)= month(FinServ__StartDate__c), Day(FinServ__EndDate__c)&lt; Day(FinServ__StartDate__c)),
+(Year(FinServ__EndDate__c)- Year(FinServ__StartDate__c)-1) + (11/12),
+(Year(FinServ__EndDate__c)- Year(FinServ__StartDate__c)) + 
+(Month(FinServ__EndDate__c)-Month(FinServ__StartDate__c)-1)/12)))))</formula>
+    <label>Length of Employment</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

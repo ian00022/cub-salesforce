@@ -122,7 +122,7 @@
             <label>Responsible RM</label>
         </rules>
     </decisions>
-    <description>修改邏輯：當經管RM更新後為空，將開發中RM為空且 Account Owner為Dummy user
+    <description>修改邏輯：Account owner 修改時，同步修改Account 所屬區部/科別
 Account 上三個 owner，若有經管 RM，則以此為主，若無經管 RM 但有開發中 RM，則以開發中 RM 為主</description>
     <environments>Default</environments>
     <interviewLabel>Account: {!$Flow.CurrentDateTime}</interviewLabel>
@@ -202,6 +202,18 @@ Account 上三個 owner，若有經管 RM，則以此為主，若無經管 RM �
         <inputAssignments>
             <field>Responsible_RM__c</field>
         </inputAssignments>
+        <inputAssignments>
+            <field>Team__c</field>
+            <value>
+                <elementReference>Copy_1_of_Get_Dummy_User.Team__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Unit__c</field>
+            <value>
+                <elementReference>Copy_1_of_Get_Dummy_User.Unit__c</elementReference>
+            </value>
+        </inputAssignments>
         <inputReference>$Record</inputReference>
     </recordUpdates>
     <recordUpdates>
@@ -215,6 +227,18 @@ Account 上三個 owner，若有經管 RM，則以此為主，若無經管 RM �
                 <elementReference>Get_Dummy_User.Id</elementReference>
             </value>
         </inputAssignments>
+        <inputAssignments>
+            <field>Team__c</field>
+            <value>
+                <elementReference>Get_Dummy_User.Team__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Unit__c</field>
+            <value>
+                <elementReference>Get_Dummy_User.Unit__c</elementReference>
+            </value>
+        </inputAssignments>
         <inputReference>$Record</inputReference>
     </recordUpdates>
     <recordUpdates>
@@ -226,6 +250,18 @@ Account 上三個 owner，若有經管 RM，則以此為主，若無經管 RM �
             <field>OwnerId</field>
             <value>
                 <elementReference>$Record.Responsible_RM__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Team__c</field>
+            <value>
+                <elementReference>$Record.Team__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Unit__c</field>
+            <value>
+                <elementReference>$Record.Unit__c</elementReference>
             </value>
         </inputAssignments>
         <inputReference>$Record</inputReference>
@@ -247,6 +283,18 @@ Account 上三個 owner，若有經管 RM，則以此為主，若無經管 RM �
                 <elementReference>$Record.Managed_RM__c</elementReference>
             </value>
         </inputAssignments>
+        <inputAssignments>
+            <field>Team__c</field>
+            <value>
+                <elementReference>$Record.Managed_RM__r.Team__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Unit__c</field>
+            <value>
+                <elementReference>$Record.Managed_RM__r.Unit__c</elementReference>
+            </value>
+        </inputAssignments>
         <inputReference>$Record</inputReference>
     </recordUpdates>
     <recordUpdates>
@@ -258,6 +306,18 @@ Account 上三個 owner，若有經管 RM，則以此為主，若無經管 RM �
             <field>Responsible_RM__c</field>
             <value>
                 <elementReference>$Record.Managed_RM__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Team__c</field>
+            <value>
+                <elementReference>$Record.Managed_RM__r.Team__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Unit__c</field>
+            <value>
+                <elementReference>$Record.Managed_RM__r.Unit__c</elementReference>
             </value>
         </inputAssignments>
         <inputReference>$Record</inputReference>

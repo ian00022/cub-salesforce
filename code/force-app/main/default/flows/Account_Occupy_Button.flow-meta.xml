@@ -121,12 +121,12 @@
                 </rightValue>
             </conditions>
             <connector>
-                <targetReference>Update_ResponsibleRM</targetReference>
+                <targetReference>OccupyAccount</targetReference>
             </connector>
             <label>Empty</label>
         </rules>
     </decisions>
-    <description>前一預佔者從比對 User ID 改為比對 Last Name (ID問題：RunningUser 15碼/ Get User 18碼)</description>
+    <description>Just Test</description>
     <environments>Default</environments>
     <interviewLabel>Account: Occupy Button {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Account: Occupy Button</label>
@@ -166,6 +166,13 @@
                 <elementReference>$User.Id</elementReference>
             </value>
         </filters>
+        <filters>
+            <field>Active__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
         <getFirstRecordOnly>true</getFirstRecordOnly>
         <object>Personnel__c</object>
         <storeOutputAutomatically>true</storeOutputAutomatically>
@@ -174,7 +181,7 @@
         <name>Update_ResponsibleRM</name>
         <label>Update ResponsibleRM</label>
         <locationX>50</locationX>
-        <locationY>782</locationY>
+        <locationY>890</locationY>
         <connector>
             <targetReference>OccupySuccess</targetReference>
         </connector>
@@ -276,10 +283,29 @@
         <showHeader>false</showHeader>
     </screens>
     <screens>
+        <name>OccupyAccount</name>
+        <label>OccupyAccount</label>
+        <locationX>50</locationX>
+        <locationY>782</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <connector>
+            <targetReference>Update_ResponsibleRM</targetReference>
+        </connector>
+        <fields>
+            <name>OccupyAccountText</name>
+            <fieldText>&lt;p&gt;若確定預佔此客戶請點選下一步&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>false</showHeader>
+    </screens>
+    <screens>
         <name>OccupySuccess</name>
         <label>OccupySuccess</label>
         <locationX>50</locationX>
-        <locationY>890</locationY>
+        <locationY>998</locationY>
         <allowBack>false</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>false</allowPause>

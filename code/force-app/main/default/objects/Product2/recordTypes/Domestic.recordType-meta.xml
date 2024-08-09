@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Domestic</fullName>
+    <active>true</active>
+    <description>CUB Domestic(TW) Product</description>
+    <label>國內</label>
+    <picklistValues>
+        <picklist>Family</picklist>
+        <values>
+            <fullName>TMU %28金交額度%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>企業理財 %28TMO輔銷%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>企業理財 %28轉介理專%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>授信-非貿融</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>法金轉介</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>聯貸</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>貿融</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>金流 %28CS輔銷%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>QuantityUnitOfMeasure</picklist>
+        <values>
+            <fullName>Each</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FinServ__Occupation__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Occupation</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Management</fullName>
+                <default>false</default>
+                <label>Management</label>
+            </value>
+            <value>
+                <fullName>Computer and Mathematical</fullName>
+                <default>false</default>
+                <label>Computer and Mathematical</label>
+            </value>
+            <value>
+                <fullName>Architecture and Engineering</fullName>
+                <default>false</default>
+                <label>Architecture and Engineering</label>
+            </value>
+            <value>
+                <fullName>Life, Physical, and Social Science</fullName>
+                <default>false</default>
+                <label>Life, Physical, and Social Science</label>
+            </value>
+            <value>
+                <fullName>Community and Social Service</fullName>
+                <default>false</default>
+                <label>Community and Social Service</label>
+            </value>
+            <value>
+                <fullName>Legal</fullName>
+                <default>false</default>
+                <label>Legal</label>
+            </value>
+            <value>
+                <fullName>Education, Training, and Library</fullName>
+                <default>false</default>
+                <label>Education, Training, and Library</label>
+            </value>
+            <value>
+                <fullName>Arts, Design, Entertainment, Sports, and Media</fullName>
+                <default>false</default>
+                <label>Arts, Design, Entertainment, Sports, and Media</label>
+            </value>
+            <value>
+                <fullName>Healthcare Practitioners and Technical</fullName>
+                <default>false</default>
+                <label>Healthcare Practitioners and Technical</label>
+            </value>
+            <value>
+                <fullName>Healthcare Support</fullName>
+                <default>false</default>
+                <label>Healthcare Support</label>
+            </value>
+            <value>
+                <fullName>Protective Service</fullName>
+                <default>false</default>
+                <label>Protective Service</label>
+            </value>
+            <value>
+                <fullName>Food Preparation and Serving</fullName>
+                <default>false</default>
+                <label>Food Preparation and Serving</label>
+            </value>
+            <value>
+                <fullName>Building and Grounds Cleaning/Maintennce</fullName>
+                <default>false</default>
+                <label>Building and Grounds Cleaning/Maintennce</label>
+            </value>
+            <value>
+                <fullName>Personal Care and Service</fullName>
+                <default>false</default>
+                <label>Personal Care and Service</label>
+            </value>
+            <value>
+                <fullName>Sales</fullName>
+                <default>false</default>
+                <label>Sales</label>
+            </value>
+            <value>
+                <fullName>Office Admin</fullName>
+                <default>false</default>
+                <label>Office Admin</label>
+            </value>
+            <value>
+                <fullName>Farming, Fishing, and Forestry</fullName>
+                <default>false</default>
+                <label>Farming, Fishing, and Forestry</label>
+            </value>
+            <value>
+                <fullName>Construction and Extraction</fullName>
+                <default>false</default>
+                <label>Construction and Extraction</label>
+            </value>
+            <value>
+                <fullName>Installation, Maintenance, and Repair</fullName>
+                <default>false</default>
+                <label>Installation, Maintenance, and Repair</label>
+            </value>
+            <value>
+                <fullName>Production</fullName>
+                <default>false</default>
+                <label>Production</label>
+            </value>
+            <value>
+                <fullName>Transportation and Material Moving</fullName>
+                <default>false</default>
+                <label>Transportation and Material Moving</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

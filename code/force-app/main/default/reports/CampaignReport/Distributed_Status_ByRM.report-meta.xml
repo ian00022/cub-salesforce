@@ -15,10 +15,10 @@
             <columnToColumn>false</columnToColumn>
             <isUnlocked>true</isUnlocked>
             <operator>equals</operator>
-            <value>701H30000004x8Q</value>
+            <value></value>
         </criteriaItems>
         <criteriaItems>
-            <column>User.SL_Dist_User__r$Dist_User_Country__c</column>
+            <column>User*User$Belong_Country__c</column>
             <columnToColumn>false</columnToColumn>
             <isUnlocked>true</isUnlocked>
             <operator>equals</operator>
@@ -29,12 +29,12 @@
     <format>Summary</format>
     <groupingsDown>
         <dateGranularity>Day</dateGranularity>
-        <field>User.SL_Dist_User__r$Dist_User_Division__c</field>
-        <sortOrder>Desc</sortOrder>
+        <field>User*User$Unit_Name__c</field>
+        <sortOrder>Asc</sortOrder>
     </groupingsDown>
     <groupingsDown>
         <dateGranularity>Day</dateGranularity>
-        <field>User.SL_Dist_User__r$Dist_User__c</field>
+        <field>User$Name</field>
         <sortOrder>Asc</sortOrder>
     </groupingsDown>
     <name>行銷名單分配狀況 - 各RM</name>

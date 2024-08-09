@@ -153,7 +153,7 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
-    <label>Industry</label>
+    <label>行業別</label>
     <nameField>
         <label>Industry Name</label>
         <trackHistory>false</trackHistory>

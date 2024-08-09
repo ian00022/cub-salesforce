@@ -26,12 +26,12 @@
             <label>Null</label>
         </rules>
     </decisions>
-    <description>修該 InverseFormula Key 的判斷 移除&apos;D&apos;</description>
+    <description>調整key值formula：record type以record type code做辨識</description>
     <environments>Default</environments>
     <formulas>
         <name>InverseFormula</name>
         <dataType>String</dataType>
-        <expression>{!$Record.RecordType.DeveloperName} &amp;
+        <expression>{!$Record.RecordType_Code__c} &amp;
 TEXT({!$Record.FinServ__RelatedAccount__r.Customer_Data_Country__c}) &amp;
 TEXT({!$Record.FinServ__RelatedAccount__r.Identification_Type__c})&amp;
 {!$Record.FinServ__RelatedAccount__r.Customer_ID__c} &amp;
@@ -172,14 +172,14 @@ IF(INCLUDES({!$Record.Affiliate_Code__c}, &quot;C&quot;), &quot;C&quot;, &quot;&
             <field>FinServ__InverseRelationship__c</field>
             <operator>EqualTo</operator>
             <value>
-                <stringValue>a00H3000001FtK5IAK</stringValue>
+                <stringValue>a00H3000001Fy6CIAS</stringValue>
             </value>
         </filters>
         <object>FinServ__AccountAccountRelation__c</object>
         <recordTriggerType>Create</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Active</status>
+    <status>Draft</status>
     <variables>
         <name>InverseRecordID</name>
         <dataType>String</dataType>

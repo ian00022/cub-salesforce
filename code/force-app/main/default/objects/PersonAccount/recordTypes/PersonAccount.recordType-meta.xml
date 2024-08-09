@@ -21,6 +21,34 @@
             <fullName>Other</fullName>
             <default>false</default>
         </values>
+        <values>
+            <fullName>Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public Relations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seminar - Internal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seminar - Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trade Show</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Word of mouth</fullName>
+            <default>false</default>
+        </values>
     </picklistValues>
     <picklistValues>
         <picklist>Account_Develop_Source__c</picklist>
@@ -113,6 +141,13 @@
         </values>
         <values>
             <fullName>12-籌備處或籌備公司</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CBC_Industry__c</picklist>
+        <values>
+            <fullName>030100</fullName>
             <default>false</default>
         </values>
     </picklistValues>
@@ -1995,7 +2030,7 @@
     <picklistValues>
         <picklist>Industry__c</picklist>
         <values>
-            <fullName>礦業及土石採取業</fullName>
+            <fullName>010111</fullName>
             <default>false</default>
         </values>
         <values>
@@ -5922,17 +5957,6 @@
         </values>
         <values>
             <fullName>ZW-Zimbabwe</fullName>
-            <default>false</default>
-        </values>
-    </picklistValues>
-    <picklistValues>
-        <picklist>Sub_Industry__c</picklist>
-        <values>
-            <fullName>林業</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>農%E3%80%81牧業</fullName>
             <default>false</default>
         </values>
     </picklistValues>

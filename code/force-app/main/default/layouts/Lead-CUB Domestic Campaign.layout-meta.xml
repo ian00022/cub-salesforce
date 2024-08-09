@@ -322,6 +322,10 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
+                <field>Role__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
                 <field>Suggest_Disp_Branch__c</field>
             </layoutItems>
             <layoutItems>
@@ -457,7 +461,7 @@
         <label>帳戶必要資訊 (若轉換至「新」帳戶，則轉換前需填寫)</label>
         <layoutColumns>
             <layoutItems>
-                <behavior>Edit</behavior>
+                <behavior>Readonly</behavior>
                 <field>Customer_Data_Country__c</field>
             </layoutItems>
         </layoutColumns>
@@ -528,7 +532,7 @@
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
     <summaryLayout>
-        <masterLabel>00hH30000018XW6</masterLabel>
+        <masterLabel>00hH3000001Avar</masterLabel>
         <sizeX>4</sizeX>
         <sizeY>0</sizeY>
         <summaryLayoutStyle>Default</summaryLayoutStyle>

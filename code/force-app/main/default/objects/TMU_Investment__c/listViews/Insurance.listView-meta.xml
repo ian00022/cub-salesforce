@@ -9,7 +9,7 @@
     <columns>Paid_Premium_TWD__c</columns>
     <columns>Policy_Effective_Date__c</columns>
     <columns>Policy_Maturity_Date__c</columns>
-    <filterScope>Everything</filterScope>
+    <filterScope>Mine</filterScope>
     <filters>
         <field>Type__c</field>
         <operation>equals</operation>

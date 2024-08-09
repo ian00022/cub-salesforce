@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FinServ__Rollups__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Roll-Ups</label>
+    <required>false</required>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>All</fullName>
+                <default>true</default>
+                <label>All</label>
+            </value>
+            <value>
+                <fullName>Tasks</fullName>
+                <default>false</default>
+                <label>Tasks</label>
+            </value>
+            <value>
+                <fullName>Events</fullName>
+                <default>false</default>
+                <label>Events</label>
+            </value>
+            <value>
+                <fullName>Financial Accounts</fullName>
+                <default>false</default>
+                <label>Financial Accounts</label>
+            </value>
+            <value>
+                <fullName>Assets and Liabilities</fullName>
+                <default>false</default>
+                <label>Assets and Liabilities</label>
+            </value>
+            <value>
+                <fullName>Financial Goals</fullName>
+                <default>false</default>
+                <label>Financial Goals</label>
+            </value>
+            <value>
+                <fullName>Referrals</fullName>
+                <default>false</default>
+                <label>Referrals</label>
+            </value>
+            <value>
+                <fullName>Cases</fullName>
+                <default>false</default>
+                <label>Cases</label>
+            </value>
+            <value>
+                <fullName>Opportunities</fullName>
+                <default>false</default>
+                <label>Opportunities</label>
+            </value>
+            <value>
+                <fullName>Insurance Policies</fullName>
+                <default>false</default>
+                <label>Insurance Policies</label>
+            </value>
+            <value>
+                <fullName>Claims</fullName>
+                <default>false</default>
+                <label>Claims</label>
+            </value>
+            <value>
+                <fullName>Insurance Policy Participants</fullName>
+                <default>false</default>
+                <label>Insurance Policy Participants</label>
+            </value>
+            <value>
+                <fullName>Claim Participants</fullName>
+                <default>false</default>
+                <label>Claim Participants</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

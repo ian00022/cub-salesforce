@@ -233,4 +233,5 @@
         <triggerType>RecordAfterSave</triggerType>
     </start>
     <status>Active</status>
+    <triggerOrder>1300</triggerOrder>
 </Flow>

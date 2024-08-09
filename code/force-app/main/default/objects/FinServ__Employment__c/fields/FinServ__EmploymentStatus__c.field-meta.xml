@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FinServ__EmploymentStatus__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Employment Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Employed</fullName>
+                <default>false</default>
+                <label>Employed</label>
+            </value>
+            <value>
+                <fullName>Self-Employed</fullName>
+                <default>false</default>
+                <label>Self-Employed</label>
+            </value>
+            <value>
+                <fullName>Home Maker</fullName>
+                <default>false</default>
+                <label>Home Maker</label>
+            </value>
+            <value>
+                <fullName>Retired</fullName>
+                <default>false</default>
+                <label>Retired</label>
+            </value>
+            <value>
+                <fullName>Student</fullName>
+                <default>false</default>
+                <label>Student</label>
+            </value>
+            <value>
+                <fullName>Unemployed with Income</fullName>
+                <default>false</default>
+                <label>Unemployed with Income</label>
+            </value>
+            <value>
+                <fullName>Unemployed without Income</fullName>
+                <default>false</default>
+                <label>Unemployed without Income</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

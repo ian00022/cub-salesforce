@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FinServ__ShowDetailedError__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Shows detailed error messages</description>
+    <inlineHelpText>Show a detailed error message when someone performs an action without having permission.</inlineHelpText>
+    <label>Show Detailed Error Messages</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

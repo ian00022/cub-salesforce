@@ -199,6 +199,13 @@
                 <elementReference>$Record.Id</elementReference>
             </value>
         </filters>
+        <filters>
+            <field>Customer_Id__c</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
         <getFirstRecordOnly>false</getFirstRecordOnly>
         <object>Lead</object>
         <storeOutputAutomatically>true</storeOutputAutomatically>
@@ -232,6 +239,13 @@
             <operator>EqualTo</operator>
             <value>
                 <elementReference>$Record.Customer_Data_Country__c</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>Company</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>false</booleanValue>
             </value>
         </filters>
         <getFirstRecordOnly>false</getFirstRecordOnly>

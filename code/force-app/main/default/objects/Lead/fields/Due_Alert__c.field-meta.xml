@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Due_Alert__c</fullName>
+    <formula>Related_Campaign__r.Campaign_End_Date__c - 10 = TODAY()</formula>
+    <label>到期提醒</label>
+    <type>Checkbox</type>
+</CustomField>

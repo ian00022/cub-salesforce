@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FinServ__RelatedContact__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Name of the person who is involved with the financial account.</description>
+    <label>Related Contact</label>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Financial Account Roles</relationshipLabel>
+    <relationshipName>FinancialAccountRoles</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

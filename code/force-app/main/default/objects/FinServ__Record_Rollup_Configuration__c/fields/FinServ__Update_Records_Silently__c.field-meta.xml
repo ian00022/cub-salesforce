@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FinServ__Update_Records_Silently__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Use silent updates when updating records with household id. Silent update does not update Last Modified By and Last Modified Date fields in the record.</description>
+    <inlineHelpText>To enable this feature, contact your account manager or Salesforce Customer Support.</inlineHelpText>
+    <label>Update Records Silently</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

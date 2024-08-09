@@ -335,4 +335,5 @@
         <isViewedAsPlainText>true</isViewedAsPlainText>
         <text>KYC-{!$Record.FirstName}{!$Record.LastName}</text>
     </textTemplates>
+    <triggerOrder>600</triggerOrder>
 </Flow>

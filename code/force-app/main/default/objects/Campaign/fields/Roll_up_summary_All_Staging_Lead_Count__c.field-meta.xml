@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Roll_up_summary_All_Staging_Lead_Count__c</fullName>
     <description>（客製項目用欄位）名單上傳匯總</description>
-    <label>名單上傳匯總</label>
+    <label>名單總數</label>
     <summaryFilterItems>
         <field>Staging_Lead__c.Lead_Invalid__c</field>
         <operation>notEqual</operation>

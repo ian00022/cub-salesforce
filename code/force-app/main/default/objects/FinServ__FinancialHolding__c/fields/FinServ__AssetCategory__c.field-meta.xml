@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FinServ__AssetCategory__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Subcategory of asset type.</description>
+    <label>Asset Category</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>U.S. Equity</fullName>
+                <default>false</default>
+                <label>U.S. Equity</label>
+            </value>
+            <value>
+                <fullName>Sector Equity</fullName>
+                <default>false</default>
+                <label>Sector Equity</label>
+            </value>
+            <value>
+                <fullName>Allocation</fullName>
+                <default>false</default>
+                <label>Allocation</label>
+            </value>
+            <value>
+                <fullName>International Equity</fullName>
+                <default>false</default>
+                <label>International Equity</label>
+            </value>
+            <value>
+                <fullName>Alternative</fullName>
+                <default>false</default>
+                <label>Alternative</label>
+            </value>
+            <value>
+                <fullName>Commodities</fullName>
+                <default>false</default>
+                <label>Commodities</label>
+            </value>
+            <value>
+                <fullName>Taxable Bond</fullName>
+                <default>false</default>
+                <label>Taxable Bond</label>
+            </value>
+            <value>
+                <fullName>Municipal Bond</fullName>
+                <default>false</default>
+                <label>Municipal Bond</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
